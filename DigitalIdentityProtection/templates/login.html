@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Sign in{% endblock %}
+{% block body %}
+<div class="login">
+  <section class="pitch" aria-label="About">
+    <div class="brand">
+      <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+      <div><b style="font-size:18px">Identity Shield</b></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <h1>One place to keep track of every account you own.</h1>
+      <p>Register your digital assets, choose who you trust, and get alerted when something looks wrong — before an unmanaged account becomes someone else's opportunity.</p>
+      <div class="ticks">
+        <div><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>We store account details only — never your passwords</div>
+        <div><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>Trusted contacts must be verified before they can act</div>
+        <div><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>Every access request is checked and logged</div>
+      </div>
+    </div>
+    <p class="small" style="margin:0">Academic prototype · Simulated data only · Not connected to any real service</p>
+  </section>
+
+  <main class="panel">
+    <form method="post" action="/login" class="form" id="login-form">
+      <div>
+        <h2 style="font-size:28px;font-weight:700">Sign in</h2>
+        <p class="muted" style="margin:6px 0 0">Welcome back. Use your registered email.</p>
+      </div>
+      {% if error %}<div class="flash err" role="alert">{{ error }}</div>{% endif %}
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" value="{{ email }}" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" style="min-height:48px;font-size:15px">Sign in</button>
+      <div class="notice info">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>
+        <span>Passwords are stored as argon2 hashes. 5 wrong attempts lock the account for 5 minutes.</span>
+      </div>
+
+      <div class="demo-list">
+        <b>Demo accounts</b> <span class="muted">All users share the password <span class="mono">Demo@1234</span>. Click one to fill the form.</span>
+        {% for u in demo_users %}
+        <button type="button" data-email="{{ u.email }}" data-pw="Demo@1234">{{ u.full_name }} · <span class="mono">{{ u.email }}</span></button>
+        {% endfor %}
+        <button type="button" data-email="admin@example.com" data-pw="Admin@1234">Administrator · <span class="mono">admin@example.com</span> / <span class="mono">Admin@1234</span></button>
+      </div>
+    </form>
+  </main>
+</div>
+<script>
+  document.querySelectorAll('.demo-list button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.getElementById('email').value = b.dataset.email;
+      document.getElementById('password').value = b.dataset.pw;
+      document.getElementById('password').focus();
+    });
+  });
+</script>
+{% endblock %}

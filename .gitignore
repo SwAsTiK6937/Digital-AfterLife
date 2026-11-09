@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.db.bak
+.secret_key
+.env

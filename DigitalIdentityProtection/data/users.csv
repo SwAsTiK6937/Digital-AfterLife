@@ -1,0 +1,101 @@
+user_id,full_name,age,city,state,preferred_language,occupation_category,digital_literacy_level,account_security_awareness,created_at
+U0001,Manjunath Gowda,33,Bengaluru,Karnataka,Kannada,Teacher,Medium,High,2025-02-27
+U0002,Priya Sharma,44,Bhopal,Madhya Pradesh,English,Sales & Marketing,Medium,Low,2024-11-21
+U0003,Ananya Verma,30,Varanasi,Uttar Pradesh,Hindi,Skilled Trades,Medium,Medium,2024-03-16
+U0004,Parth Patel,37,Surat,Gujarat,English,IT Professional,High,High,2025-11-18
+U0005,Anjali Jacob,47,Kochi,Kerala,English,Healthcare Worker,Low,Low,2024-05-06
+U0006,Sneha Lobo,39,Mangaluru,Karnataka,English,Finance Professional,Medium,Medium,2024-12-25
+U0007,Revathi Balasubramanian,33,Chennai,Tamil Nadu,English,Healthcare Worker,Medium,Medium,2025-03-16
+U0008,Shweta Pereira,41,Bengaluru,Karnataka,Kannada,Business Owner,Medium,High,2024-07-23
+U0009,Aiti Rymbai,36,Shillong,Meghalaya,English,Teacher,Medium,Low,2024-11-23
+U0010,Nayan Gogoi,19,Guwahati,Assam,Assamese,IT Professional,High,High,2025-08-06
+U0011,Pooja Rawat,55,Lucknow,Uttar Pradesh,Hindi,Business Owner,Low,Low,2025-12-09
+U0012,Pallavi Sharma,33,Jodhpur,Rajasthan,Hindi,Freelancer,Medium,Medium,2025-02-15
+U0013,Saurabh Pandey,34,Faridabad,Haryana,English,Sales & Marketing,High,High,2025-09-25
+U0014,Sasmita Nayak,41,Bhubaneswar,Odisha,Odia,Business Owner,Medium,Low,2024-06-13
+U0015,Zarine Qureshi,39,Nashik,Maharashtra,Marathi,Healthcare Worker,Medium,Low,2024-06-20
+U0016,Sreya Chakraborty,29,Siliguri,West Bengal,Bengali,IT Professional,High,High,2024-06-15
+U0017,Ankit Verma,36,Indore,Madhya Pradesh,Hindi,IT Professional,High,Medium,2024-12-28
+U0018,Mandeep Chawla,38,Chandigarh,Chandigarh,English,Business Owner,Medium,Medium,2024-11-23
+U0019,Sayali Joshi,73,Mumbai,Maharashtra,Marathi,Teacher,Medium,High,2025-10-21
+U0020,Janvi Mehta,28,Mumbai,Maharashtra,Marathi,Teacher,High,Medium,2025-12-20
+U0021,Rhea Ansari,21,Bhopal,Madhya Pradesh,English,IT Professional,High,High,2025-01-25
+U0022,Aditya Sinha,38,New Delhi,Delhi,Hindi,Finance Professional,Medium,Medium,2025-11-22
+U0023,Gokul Selvam,18,Madurai,Tamil Nadu,Tamil,Student,High,Medium,2024-11-03
+U0024,Anjali Pillai,25,Kochi,Kerala,English,IT Professional,High,Medium,2024-03-18
+U0025,Moumita Ghosh,29,Kolkata,West Bengal,English,Homemaker,Medium,Medium,2025-09-18
+U0026,Harsh Bisht,19,Kanpur,Uttar Pradesh,Hindi,Student,High,Medium,2024-04-30
+U0027,Nazia Mirza,25,Coimbatore,Tamil Nadu,English,Skilled Trades,Medium,High,2025-10-06
+U0028,Swati Chaturvedi,38,Patna,Bihar,Hindi,Sales & Marketing,Medium,Medium,2024-02-28
+U0029,Ankit Joshi,25,Mumbai,Maharashtra,English,Freelancer,High,High,2024-06-12
+U0030,Tanushree Mukherjee,18,Siliguri,West Bengal,English,Skilled Trades,Medium,Low,2024-07-02
+U0031,Aditya Dubey,35,New Delhi,Delhi,Hindi,Finance Professional,Medium,Medium,2024-05-03
+U0032,Keerthi Raju,25,Warangal,Telangana,Telugu,Healthcare Worker,High,Low,2024-06-22
+U0033,Ananya Tiwari,25,New Delhi,Delhi,English,Finance Professional,High,High,2024-01-22
+U0034,Bornali Gogoi,25,Guwahati,Assam,Assamese,Teacher,Medium,Medium,2024-08-31
+U0035,Shreyas Prabhu,44,Mysuru,Karnataka,English,Sales & Marketing,Medium,Medium,2025-12-31
+U0036,Glenda D'Souza,18,Mangaluru,Karnataka,English,Freelancer,High,Medium,2024-08-28
+U0037,Harsh Khanna,48,Udaipur,Rajasthan,English,Skilled Trades,Low,Low,2025-03-01
+U0038,Nagaraj Acharya,27,Mysuru,Karnataka,English,Government Employee,Medium,Medium,2025-01-02
+U0039,Shwetha Shenoy,41,Bengaluru,Karnataka,English,Finance Professional,Medium,Medium,2024-01-19
+U0040,Jaspreet Bedi,40,New Delhi,Delhi,English,Homemaker,Low,Low,2024-10-25
+U0041,Sourav Dutta,34,Kolkata,West Bengal,Bengali,Homemaker,Low,Low,2025-03-08
+U0042,Aditi Tiwari,21,Nagpur,Maharashtra,English,Skilled Trades,High,Medium,2025-07-12
+U0043,Krupa Desai,33,Nagpur,Maharashtra,Marathi,Business Owner,Low,Low,2024-07-04
+U0044,Kevin Mascarenhas,21,Ludhiana,Punjab,Punjabi,Student,High,High,2025-07-02
+U0045,Aarav Joshi,38,Pune,Maharashtra,Marathi,Freelancer,Medium,Medium,2025-11-15
+U0046,Priya Khanna,32,Faridabad,Haryana,Hindi,Sales & Marketing,Medium,Low,2025-11-28
+U0047,Arshdeep Gill,30,Faridabad,Haryana,Hindi,Skilled Trades,Low,Medium,2025-12-05
+U0048,Nisha Parikh,31,Nashik,Maharashtra,English,Teacher,Medium,Medium,2024-12-19
+U0049,Venkat Kondapalli,39,Warangal,Telangana,Telugu,Freelancer,Medium,High,2024-06-23
+U0050,Ananya Joshi,42,Bhopal,Madhya Pradesh,Hindi,Finance Professional,Medium,High,2024-03-29
+U0051,Shweta Gaonkar,29,Mangaluru,Karnataka,English,Teacher,Medium,Medium,2025-12-22
+U0052,Vikas Chaturvedi,46,Udaipur,Rajasthan,English,Finance Professional,Medium,Medium,2025-08-23
+U0053,Simran Bedi,31,Chandigarh,Chandigarh,English,Finance Professional,Medium,High,2025-01-15
+U0054,Komal Bhatia,34,Pune,Maharashtra,Marathi,Government Employee,Medium,Low,2024-07-28
+U0055,Keerthana Shanmugam,29,Coimbatore,Tamil Nadu,Tamil,Skilled Trades,Medium,Medium,2025-08-05
+U0056,Chaitanya Rao,45,Visakhapatnam,Andhra Pradesh,Telugu,Government Employee,Low,Medium,2024-08-05
+U0057,Krupa Gandhi,27,Pune,Maharashtra,English,Government Employee,Medium,Medium,2024-06-21
+U0058,Hetal Desai,28,Nagpur,Maharashtra,Marathi,Government Employee,Medium,Low,2025-06-29
+U0059,Gaurav Agarwal,32,Jaipur,Rajasthan,Hindi,Finance Professional,Low,Medium,2024-08-02
+U0060,Saurabh Rawat,50,Jaipur,Rajasthan,English,Freelancer,Medium,Medium,2024-02-12
+U0061,Sameer Wangchuk,22,Mumbai,Maharashtra,Marathi,Student,High,Medium,2025-12-31
+U0062,Shreyas Acharya,36,Mangaluru,Karnataka,English,IT Professional,High,High,2024-08-23
+U0063,Rohit Sardesai,35,Mangaluru,Karnataka,Hindi,Government Employee,High,Low,2024-11-29
+U0064,Manish Sharma,41,Kanpur,Uttar Pradesh,Hindi,Finance Professional,Medium,Medium,2024-07-05
+U0065,Meenakshi Sundaram,31,Coimbatore,Tamil Nadu,Tamil,Freelancer,High,Medium,2025-06-17
+U0066,Krupa Modi,21,Vadodara,Gujarat,Gujarati,Student,High,High,2024-02-16
+U0067,Aishwarya Rajendran,26,Madurai,Tamil Nadu,Tamil,Sales & Marketing,High,Medium,2025-11-21
+U0068,Aditi Chauhan,39,Bhopal,Madhya Pradesh,Hindi,Skilled Trades,Low,Low,2024-02-01
+U0069,Pavithra Kulkarni,44,Mangaluru,Karnataka,Kannada,Government Employee,Low,Low,2024-03-22
+U0070,Subhasis Nayak,38,Bhubaneswar,Odisha,English,Government Employee,Medium,Medium,2025-08-23
+U0071,Vivaan Rawat,37,Mumbai,Maharashtra,English,Freelancer,High,Medium,2024-06-07
+U0072,Vikas Rawat,20,Bhopal,Madhya Pradesh,English,Student,High,Medium,2024-06-23
+U0073,Prajakta Kale,24,Nagpur,Maharashtra,English,Freelancer,High,High,2025-03-04
+U0074,Lavanya Nalla,32,Visakhapatnam,Andhra Pradesh,Telugu,Business Owner,Medium,Low,2025-12-26
+U0075,Pratik Fernandes,27,Mangaluru,Karnataka,Hindi,Sales & Marketing,High,Medium,2025-02-26
+U0076,Nidhi Malhotra,45,Indore,Madhya Pradesh,English,Business Owner,Low,Low,2025-08-01
+U0077,Sharon Siddiqui,30,Hyderabad,Telangana,English,Sales & Marketing,Medium,Low,2025-11-10
+U0078,Ishaan Saxena,21,Pune,Maharashtra,Hindi,Student,High,Medium,2025-04-29
+U0079,Lavanya Chowdary,48,Vijayawada,Andhra Pradesh,English,Homemaker,Low,Low,2025-04-24
+U0080,Vivaan Verma,34,Mumbai,Maharashtra,Marathi,Freelancer,Medium,Medium,2024-05-09
+U0081,Joseph Ali,29,New Delhi,Delhi,English,Sales & Marketing,High,Low,2024-05-12
+U0082,Sayali More,25,Pune,Maharashtra,Marathi,Business Owner,Medium,Low,2025-06-01
+U0083,Nirav Vyas,24,Ahmedabad,Gujarat,Hindi,Student,High,Medium,2024-07-13
+U0084,Megha Chauhan,24,Varanasi,Uttar Pradesh,Hindi,Student,Medium,Low,2024-08-17
+U0085,Chaitanya Murthy,48,Visakhapatnam,Andhra Pradesh,Telugu,Homemaker,Low,Medium,2024-06-27
+U0086,Sreelakshmi Nair,22,Kozhikode,Kerala,Malayalam,IT Professional,High,High,2025-05-02
+U0087,Balaji Murugan,41,Chennai,Tamil Nadu,Tamil,Government Employee,Medium,Medium,2025-11-11
+U0088,Ravi Naidu,51,Warangal,Telangana,English,Skilled Trades,Low,Medium,2025-09-16
+U0089,Ananya Chaturvedi,52,Indore,Madhya Pradesh,Hindi,Healthcare Worker,Low,Low,2025-02-20
+U0090,Cyril Borkar,31,Mysuru,Karnataka,Kannada,Teacher,Medium,Medium,2025-11-17
+U0091,Sai Prasad,30,Warangal,Telangana,Telugu,IT Professional,High,High,2024-03-31
+U0092,Prakash Anand,41,Madurai,Tamil Nadu,English,Finance Professional,Medium,Medium,2025-07-18
+U0093,Sohini Das,43,Siliguri,West Bengal,Bengali,Government Employee,Medium,High,2024-03-18
+U0094,Nazia Fernandes,26,Patna,Bihar,English,Skilled Trades,Medium,Medium,2024-06-13
+U0095,Srinivas Varma,50,Hyderabad,Telangana,English,Business Owner,Medium,Medium,2024-09-12
+U0096,Rukhsar Fernandes,55,Kanpur,Uttar Pradesh,Hindi,Sales & Marketing,Medium,Medium,2025-11-03
+U0097,Gurpreet Virk,50,New Delhi,Delhi,Hindi,Sales & Marketing,Medium,Medium,2025-08-27
+U0098,Subhasis Mohanty,20,Bhubaneswar,Odisha,English,IT Professional,High,Medium,2024-08-22
+U0099,Zoya Ali,28,Vijayawada,Andhra Pradesh,Telugu,Skilled Trades,Medium,Medium,2025-04-17
+U0100,Ravi Shaikh,35,Surat,Gujarat,Hindi,Healthcare Worker,Medium,Medium,2025-01-27

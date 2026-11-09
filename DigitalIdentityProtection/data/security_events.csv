@@ -1,0 +1,421 @@
+event_id,user_id,asset_id,event_type,event_time,device_category,is_new_device,location_region,failed_attempt_count,is_suspicious,risk_level,recommended_action,related_request_id,data_origin
+E0001,U0061,A0196,Normal Activity,2026-01-01 09:04:45,Unknown,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0002,U0096,A0317,Normal Activity,2026-01-02 17:23:50,Desktop,No,"Kanpur, Uttar Pradesh",1,No,Low,Monitor,,SIMULATED
+E0003,U0021,A0063,Normal Activity,2026-01-03 08:47:25,Desktop,No,"Shillong, Meghalaya",1,No,Low,Monitor,,SIMULATED
+E0004,U0002,A0004,Normal Activity,2026-01-03 12:58:52,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0005,U0035,A0117,Normal Activity,2026-01-04 18:06:58,Mobile,No,"Mysuru, Karnataka",1,No,Low,Monitor,,SIMULATED
+E0006,U0011,A0033,Normal Activity,2026-01-05 11:10:25,Unknown,No,"Lucknow, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0007,U0020,A0060,Unusual Login,2026-01-06 02:35:02,Mobile,No,"Mumbai, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0008,U0064,A0208,Unusual Login,2026-01-09 14:07:42,Mobile,Yes,"Varanasi, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0009,U0062,A0198,Normal Activity,2026-01-09 19:59:56,Mobile,No,"Ludhiana, Punjab",0,No,Low,Monitor,,SIMULATED
+E0010,U0006,A0017,Normal Activity,2026-01-11 07:14:07,Mobile,No,"Mangaluru, Karnataka",1,No,Low,Monitor,,SIMULATED
+E0011,U0078,A0262,Normal Activity,2026-01-11 18:09:21,Mobile,No,"Pune, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0012,U0013,A0038,Normal Activity,2026-01-11 18:38:17,Desktop,No,"Faridabad, Haryana",0,No,Low,Monitor,,SIMULATED
+E0013,U0016,A0047,Unknown Device,2026-01-12 00:08:08,Desktop,Yes,"Nashik, Maharashtra",0,Yes,High,Verify User,,SIMULATED
+E0014,U0020,A0060,Normal Activity,2026-01-12 16:20:15,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0015,U0056,A0181,Unusual Login,2026-01-13 11:32:08,Mobile,Yes,"Shillong, Meghalaya",0,Yes,High,Verify User,,SIMULATED
+E0016,U0042,A0139,Normal Activity,2026-01-14 14:22:10,Mobile,Yes,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0017,U0058,A0187,Unknown Device,2026-01-15 06:21:30,Desktop,Yes,"Nagpur, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0018,U0073,A0246,Normal Activity,2026-01-15 22:40:51,Desktop,No,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0019,U0001,A0001,Unusual Login,2026-01-16 01:41:26,Mobile,No,"Visakhapatnam, Andhra Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0020,U0039,A0129,Normal Activity,2026-01-17 15:58:25,Unknown,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0021,U0060,A0192,Normal Activity,2026-01-17 18:21:44,Desktop,No,"Jaipur, Rajasthan",1,No,Low,Monitor,,SIMULATED
+E0022,U0010,A0027,Repeated Failed Login,2026-01-17 20:01:18,Desktop,Yes,"Kozhikode, Kerala",12,Yes,High,Block Demo Request,,SIMULATED
+E0023,U0019,A0058,Repeated Failed Login,2026-01-18 01:44:55,Mobile,No,"Mumbai, Maharashtra",8,Yes,High,Block Demo Request,,SIMULATED
+E0024,U0001,A0001,Normal Activity,2026-01-20 18:16:14,Mobile,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0025,U0088,A0296,Unusual Login,2026-01-21 13:43:29,Mobile,Yes,"Udaipur, Rajasthan",0,Yes,Medium,Verify User,,SIMULATED
+E0026,U0073,A0246,Unknown Device,2026-01-21 21:27:11,Mobile,Yes,"Indore, Madhya Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0027,U0067,A0221,Repeated Failed Login,2026-01-23 21:17:41,Desktop,Yes,"Nagpur, Maharashtra",3,Yes,High,Verify User,,SIMULATED
+E0028,U0003,A0008,Unknown Device,2026-01-23 23:16:57,Mobile,Yes,"New Delhi, Delhi",0,Yes,High,Verify User,,SIMULATED
+E0029,U0020,A0060,Normal Activity,2026-01-24 13:47:09,Tablet,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0030,U0076,A0255,Normal Activity,2026-01-24 14:31:52,Mobile,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0031,U0063,A0206,Normal Activity,2026-01-24 20:17:22,Mobile,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0032,U0090,A0303,Normal Activity,2026-01-25 10:45:10,Mobile,No,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0033,U0069,A0230,Unusual Login,2026-01-27 01:30:20,Mobile,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0034,U0044,A0143,Unusual Login,2026-01-29 15:25:24,Desktop,No,"Coimbatore, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0035,U0051,A0165,Normal Activity,2026-01-30 15:31:36,Mobile,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0036,U0053,A0174,Unknown Device,2026-01-31 01:05:34,Mobile,Yes,"Noida, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0037,U0019,A0058,Normal Activity,2026-01-31 16:32:52,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0038,U0024,A0077,Repeated Failed Login,2026-02-02 00:37:28,Desktop,Yes,"Kochi, Kerala",7,Yes,High,Verify User,,SIMULATED
+E0039,U0095,A0314,Normal Activity,2026-02-02 13:09:24,Mobile,No,"Hyderabad, Telangana",1,No,Low,Monitor,,SIMULATED
+E0040,U0015,A0044,Normal Activity,2026-02-02 16:15:59,Desktop,No,"Nashik, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0041,U0084,A0282,Normal Activity,2026-02-02 20:04:49,Desktop,No,"Varanasi, Uttar Pradesh",1,No,Low,Monitor,,SIMULATED
+E0042,U0056,A0181,Unknown Device,2026-02-03 09:44:55,Mobile,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0043,U0031,A0102,Normal Activity,2026-02-03 14:15:40,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0044,U0060,A0193,Unusual Login,2026-02-04 00:11:44,Mobile,No,"Ludhiana, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0045,U0056,A0181,Repeated Failed Login,2026-02-04 00:40:45,Desktop,Yes,"Ranchi, Jharkhand",11,Yes,High,Block Demo Request,,SIMULATED
+E0046,U0065,A0214,Unusual Login,2026-02-05 05:55:16,Mobile,Yes,"Amritsar, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0047,U0001,A0003,Normal Activity,2026-02-07 13:15:04,Mobile,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0048,U0085,A0286,Inactive Account Review,2026-02-07 16:44:52,Unknown,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0049,U0010,A0030,Normal Activity,2026-02-08 15:48:48,Desktop,No,"Guwahati, Assam",1,No,Low,Monitor,,SIMULATED
+E0050,U0032,A0104,Repeated Failed Login,2026-02-10 01:36:54,Mobile,No,"Varanasi, Uttar Pradesh",11,Yes,High,Block Demo Request,,SIMULATED
+E0051,U0081,A0270,Repeated Failed Login,2026-02-10 02:48:11,Mobile,Yes,"New Delhi, Delhi",6,Yes,Medium,Verify User,,SIMULATED
+E0052,U0075,A0251,Unknown Device,2026-02-11 02:57:36,Desktop,Yes,"Varanasi, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0053,U0072,A0241,Normal Activity,2026-02-11 19:59:17,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0054,U0083,A0281,Normal Activity,2026-02-12 11:34:35,Mobile,No,"Ahmedabad, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0055,U0051,A0167,Normal Activity,2026-02-12 15:56:09,Unknown,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0056,U0089,A0298,Unknown Device,2026-02-13 02:04:51,Desktop,Yes,"Bhubaneswar, Odisha",0,Yes,Medium,Verify User,,SIMULATED
+E0057,U0077,A0258,Unusual Login,2026-02-13 07:28:41,Mobile,No,"Ranchi, Jharkhand",0,Yes,High,Verify User,,SIMULATED
+E0058,U0027,A0088,Unknown Device,2026-02-13 10:47:48,Unknown,Yes,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0059,U0090,A0303,Normal Activity,2026-02-15 16:57:13,Mobile,No,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0060,U0061,A0196,Repeated Failed Login,2026-02-15 22:52:48,Mobile,Yes,"Chennai, Tamil Nadu",8,Yes,High,Block Demo Request,,SIMULATED
+E0061,U0079,A0266,Normal Activity,2026-02-16 14:18:34,Unknown,No,"Vijayawada, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0062,U0029,A0095,Normal Activity,2026-02-16 18:41:22,Desktop,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0063,U0050,A0163,Normal Activity,2026-02-18 15:09:25,Mobile,Yes,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0064,U0039,A0129,Unknown Device,2026-02-19 10:17:15,Desktop,Yes,"Bengaluru, Karnataka",1,Yes,Medium,Verify User,,SIMULATED
+E0065,U0072,A0241,Unusual Access Request,2026-02-20 04:40:47,Desktop,Yes,"Chennai, Tamil Nadu",0,Yes,High,Block Demo Request,R0046,SIMULATED
+E0066,U0061,A0196,Unusual Login,2026-02-20 06:18:00,Desktop,No,"Kolkata, West Bengal",0,Yes,Medium,Verify User,,SIMULATED
+E0067,U0004,A0010,Repeated Failed Login,2026-02-21 00:03:00,Desktop,Yes,"Noida, Uttar Pradesh",14,Yes,High,Block Demo Request,,SIMULATED
+E0068,U0060,A0192,Inactive Account Review,2026-02-22 04:44:56,Unknown,No,"Jaipur, Rajasthan",0,Yes,Medium,Verify User,,SIMULATED
+E0069,U0067,A0223,Normal Activity,2026-02-22 09:14:56,Tablet,No,"Madurai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0070,U0055,A0177,Unknown Device,2026-02-23 02:12:36,Mobile,Yes,"Amritsar, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0071,U0019,A0057,Repeated Failed Login,2026-02-24 03:36:02,Unknown,Yes,"Cuttack, Odisha",5,Yes,Medium,Verify User,,SIMULATED
+E0072,U0077,A0257,Unusual Login,2026-02-27 10:31:53,Desktop,Yes,"Hyderabad, Telangana",0,Yes,Medium,Verify User,,SIMULATED
+E0073,U0048,A0159,Normal Activity,2026-02-27 18:52:27,Mobile,No,"Nashik, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0074,U0024,A0076,Normal Activity,2026-02-28 15:31:03,Mobile,No,"Kochi, Kerala",0,No,Low,Monitor,,SIMULATED
+E0075,U0012,A0035,Normal Activity,2026-02-28 16:18:09,Mobile,No,"Jodhpur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0076,U0039,A0129,Unknown Device,2026-03-01 02:56:11,Desktop,Yes,"Kanpur, Uttar Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0077,U0057,A0185,Unknown Device,2026-03-02 04:44:06,Desktop,Yes,"Warangal, Telangana",0,Yes,High,Verify User,,SIMULATED
+E0078,U0019,A0059,Normal Activity,2026-03-04 22:41:45,Tablet,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0079,U0013,A0038,Unknown Device,2026-03-05 04:58:47,Desktop,Yes,"Faridabad, Haryana",2,Yes,Medium,Verify User,,SIMULATED
+E0080,U0065,A0212,Inactive Account Review,2026-03-05 06:10:46,Unknown,No,"Coimbatore, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0081,U0100,A0329,Normal Activity,2026-03-05 11:36:14,Desktop,No,"Surat, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0082,U0086,A0287,Normal Activity,2026-03-05 18:25:57,Mobile,No,"Kozhikode, Kerala",0,No,Low,Monitor,,SIMULATED
+E0083,U0061,A0195,Normal Activity,2026-03-05 19:33:39,Unknown,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0084,U0068,A0226,Repeated Failed Login,2026-03-07 10:50:06,Desktop,Yes,"Bhopal, Madhya Pradesh",3,Yes,Medium,Verify User,,SIMULATED
+E0085,U0087,A0293,Unknown Device,2026-03-07 17:11:04,Unknown,Yes,"Chennai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0086,U0053,A0174,Unusual Login,2026-03-07 23:43:29,Desktop,Yes,"Kanpur, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0087,U0057,A0184,Normal Activity,2026-03-08 10:53:20,Desktop,No,"Jodhpur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0088,U0029,A0093,Normal Activity,2026-03-08 12:14:08,Mobile,No,"Gurugram, Haryana",0,No,Low,Monitor,,SIMULATED
+E0089,U0041,A0133,Unusual Access Request,2026-03-08 18:53:32,Unknown,Yes,"Bhopal, Madhya Pradesh",0,Yes,High,Block Demo Request,R0062,SIMULATED
+E0090,U0057,A0184,Unknown Device,2026-03-09 03:24:27,Mobile,Yes,"Cuttack, Odisha",0,Yes,Medium,Verify User,,SIMULATED
+E0091,U0062,A0198,Normal Activity,2026-03-10 17:46:09,Desktop,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0092,U0031,A0102,Repeated Failed Login,2026-03-10 18:17:52,Mobile,Yes,"New Delhi, Delhi",13,Yes,High,Block Demo Request,,SIMULATED
+E0093,U0011,A0033,Inactive Account Review,2026-03-10 19:57:15,Unknown,No,"Lucknow, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0094,U0079,A0267,Unusual Login,2026-03-11 02:16:38,Mobile,No,"Vijayawada, Andhra Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0095,U0016,A0049,Normal Activity,2026-03-11 10:28:28,Desktop,No,"Siliguri, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0096,U0036,A0119,Unusual Login,2026-03-11 14:08:12,Tablet,No,"Kochi, Kerala",0,Yes,Medium,Verify User,,SIMULATED
+E0097,U0028,A0091,Normal Activity,2026-03-11 20:47:54,Mobile,No,"Patna, Bihar",0,No,Low,Monitor,,SIMULATED
+E0098,U0091,A0304,Unusual Login,2026-03-13 21:03:34,Desktop,No,"Madurai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0099,U0069,A0229,Normal Activity,2026-03-15 10:22:53,Mobile,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0100,U0096,A0317,Unknown Device,2026-03-16 01:43:45,Desktop,Yes,"Kanpur, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0101,U0076,A0254,Inactive Account Review,2026-03-16 22:12:52,Unknown,No,"Indore, Madhya Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0102,U0096,A0317,Normal Activity,2026-03-17 18:25:21,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0103,U0002,A0004,Normal Activity,2026-03-18 16:28:58,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0104,U0020,A0062,Unknown Device,2026-03-19 16:04:55,Unknown,Yes,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0105,U0007,A0021,Normal Activity,2026-03-20 15:47:46,Mobile,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0106,U0058,A0187,Unusual Login,2026-03-21 00:24:03,Desktop,No,"Nagpur, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0107,U0052,A0169,Normal Activity,2026-03-21 09:48:05,Mobile,No,"Udaipur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0108,U0026,A0082,Normal Activity,2026-03-22 23:36:51,Unknown,No,"Kanpur, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0109,U0086,A0287,Unusual Login,2026-03-23 23:17:58,Desktop,No,"Siliguri, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0110,U0007,A0021,Normal Activity,2026-03-24 14:38:26,Mobile,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0111,U0041,A0134,Repeated Failed Login,2026-03-25 00:30:12,Desktop,Yes,"Kolkata, West Bengal",4,Yes,High,Verify User,,SIMULATED
+E0112,U0054,A0176,Repeated Failed Login,2026-03-25 01:43:43,Desktop,Yes,"Pune, Maharashtra",4,Yes,Medium,Verify User,,SIMULATED
+E0113,U0006,A0017,Normal Activity,2026-03-25 17:08:47,Mobile,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0114,U0076,A0256,Normal Activity,2026-03-26 19:27:50,Desktop,No,"Indore, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0115,U0008,A0024,Repeated Failed Login,2026-03-27 03:50:02,Desktop,No,"Faridabad, Haryana",4,Yes,Medium,Verify User,,SIMULATED
+E0116,U0017,A0051,Unknown Device,2026-03-27 04:38:20,Unknown,Yes,"Indore, Madhya Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0117,U0059,A0189,Normal Activity,2026-03-27 11:38:07,Mobile,No,"Jaipur, Rajasthan",2,No,Low,Monitor,,SIMULATED
+E0118,U0042,A0138,Inactive Account Review,2026-03-27 14:03:12,Unknown,No,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0119,U0007,A0020,Normal Activity,2026-03-28 13:32:42,Desktop,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0120,U0082,A0275,Repeated Failed Login,2026-03-28 22:01:30,Desktop,Yes,"Pune, Maharashtra",9,Yes,High,Block Demo Request,,SIMULATED
+E0121,U0055,A0179,Normal Activity,2026-03-29 15:58:42,Mobile,No,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0122,U0041,A0133,Unusual Login,2026-03-30 14:09:16,Tablet,No,"Surat, Gujarat",0,Yes,High,Verify User,,SIMULATED
+E0123,U0033,A0110,Unknown Device,2026-03-30 16:16:56,Mobile,Yes,"New Delhi, Delhi",1,No,Low,Monitor,,SIMULATED
+E0124,U0087,A0293,Normal Activity,2026-04-02 11:06:55,Mobile,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0125,U0010,A0027,Unusual Login,2026-04-03 04:23:06,Mobile,Yes,"Guwahati, Assam",0,Yes,Medium,Verify User,,SIMULATED
+E0126,U0003,A0006,Unknown Device,2026-04-05 02:04:39,Unknown,Yes,"Faridabad, Haryana",0,Yes,Medium,Verify User,,SIMULATED
+E0127,U0038,A0126,Normal Activity,2026-04-05 16:47:22,Unknown,No,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0128,U0056,A0182,Inactive Account Review,2026-04-06 03:34:29,Unknown,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0129,U0086,A0288,Normal Activity,2026-04-06 16:13:09,Mobile,No,"Kozhikode, Kerala",0,No,Low,Monitor,,SIMULATED
+E0130,U0077,A0257,Normal Activity,2026-04-07 13:05:14,Mobile,No,"Lucknow, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0131,U0033,A0111,Normal Activity,2026-04-07 14:20:43,Desktop,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0132,U0013,A0037,Repeated Failed Login,2026-04-08 01:46:25,Mobile,No,"Faridabad, Haryana",7,Yes,Medium,Verify User,,SIMULATED
+E0133,U0099,A0326,Normal Activity,2026-04-08 13:42:30,Mobile,No,"Vijayawada, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0134,U0014,A0042,Repeated Failed Login,2026-04-08 20:15:08,Desktop,No,"Bhubaneswar, Odisha",8,Yes,High,Block Demo Request,,SIMULATED
+E0135,U0094,A0313,Normal Activity,2026-04-09 13:35:10,Mobile,No,"Patna, Bihar",0,No,Low,Monitor,,SIMULATED
+E0136,U0077,A0257,Unusual Login,2026-04-10 02:29:57,Mobile,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0137,U0001,A0003,Normal Activity,2026-04-11 17:46:39,Mobile,No,"Bengaluru, Karnataka",1,No,Low,Monitor,,SIMULATED
+E0138,U0034,A0114,Repeated Failed Login,2026-04-12 00:08:17,Mobile,No,"Ahmedabad, Gujarat",12,Yes,High,Block Demo Request,,SIMULATED
+E0139,U0041,A0134,Normal Activity,2026-04-13 15:28:55,Mobile,No,"Kolkata, West Bengal",2,No,Low,Monitor,,SIMULATED
+E0140,U0051,A0167,Normal Activity,2026-04-14 15:35:24,Mobile,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0141,U0009,A0025,Unusual Access Request,2026-04-15 20:29:31,Mobile,No,"Bengaluru, Karnataka",0,Yes,High,Block Demo Request,R0072,SIMULATED
+E0142,U0001,A0001,Unknown Device,2026-04-17 12:01:16,Desktop,Yes,"Panaji, Goa",0,Yes,Medium,Verify User,,SIMULATED
+E0143,U0007,A0022,Normal Activity,2026-04-17 15:17:53,Mobile,Yes,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0144,U0086,A0290,Repeated Failed Login,2026-04-17 21:11:57,Desktop,Yes,"New Delhi, Delhi",3,No,Low,Monitor,,SIMULATED
+E0145,U0041,A0134,Repeated Failed Login,2026-04-19 22:44:29,Desktop,Yes,"Kolkata, West Bengal",6,Yes,High,Verify User,,SIMULATED
+E0146,U0055,A0180,Repeated Failed Login,2026-04-20 02:51:17,Mobile,Yes,"Coimbatore, Tamil Nadu",6,Yes,Medium,Verify User,,SIMULATED
+E0147,U0067,A0221,Normal Activity,2026-04-20 13:20:52,Mobile,No,"Madurai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0148,U0042,A0135,Unusual Login,2026-04-21 04:00:11,Tablet,No,"Nagpur, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0149,U0044,A0146,Normal Activity,2026-04-21 17:20:23,Desktop,No,"Ludhiana, Punjab",0,No,Low,Monitor,,SIMULATED
+E0150,U0074,A0249,Unusual Access Request,2026-04-22 05:24:29,Desktop,Yes,"Vijayawada, Andhra Pradesh",0,Yes,Medium,Review Request,R0067,SIMULATED
+E0151,U0033,A0110,Normal Activity,2026-04-22 20:54:51,Desktop,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0152,U0006,A0018,Unusual Login,2026-04-23 00:35:47,Unknown,Yes,"Ahmedabad, Gujarat",0,Yes,High,Verify User,,SIMULATED
+E0153,U0006,A0016,Unusual Access Request,2026-04-23 01:20:24,Mobile,No,"Vijayawada, Andhra Pradesh",0,Yes,High,Block Demo Request,R0075,SIMULATED
+E0154,U0057,A0186,Unusual Login,2026-04-23 14:06:19,Mobile,Yes,"Madurai, Tamil Nadu",1,Yes,Medium,Verify User,,SIMULATED
+E0155,U0049,A0161,Normal Activity,2026-04-23 18:05:31,Desktop,No,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0156,U0003,A0006,Normal Activity,2026-04-23 20:50:34,Mobile,No,"Varanasi, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0157,U0056,A0181,Unknown Device,2026-04-24 00:21:51,Unknown,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0158,U0021,A0064,Unusual Login,2026-04-24 01:04:36,Desktop,Yes,"Amritsar, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0159,U0032,A0108,Normal Activity,2026-04-24 14:42:23,Unknown,No,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0160,U0080,A0268,Normal Activity,2026-04-24 17:04:42,Mobile,No,"Mumbai, Maharashtra",2,No,Low,Monitor,,SIMULATED
+E0161,U0012,A0034,Unusual Access Request,2026-04-25 11:02:26,Desktop,Yes,"Jodhpur, Rajasthan",0,Yes,High,Block Demo Request,R0003,SIMULATED
+E0162,U0081,A0271,Normal Activity,2026-04-25 11:06:17,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0163,U0055,A0179,Repeated Failed Login,2026-04-25 13:03:17,Mobile,No,"Coimbatore, Tamil Nadu",5,Yes,Medium,Verify User,,SIMULATED
+E0164,U0049,A0161,Normal Activity,2026-04-26 15:16:40,Mobile,No,"Warangal, Telangana",1,No,Low,Monitor,,SIMULATED
+E0165,U0100,A0328,Normal Activity,2026-04-26 18:46:06,Tablet,No,"Surat, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0166,U0030,A0096,Unusual Access Request,2026-04-27 23:43:54,Mobile,Yes,"Mysuru, Karnataka",0,Yes,High,Block Demo Request,R0011,SIMULATED
+E0167,U0084,A0282,Normal Activity,2026-04-28 17:09:40,Tablet,No,"Varanasi, Uttar Pradesh",2,No,Low,Monitor,,SIMULATED
+E0168,U0071,A0237,Repeated Failed Login,2026-04-30 05:43:50,Desktop,No,"Mumbai, Maharashtra",11,Yes,Medium,Verify User,,SIMULATED
+E0169,U0014,A0042,Unknown Device,2026-04-30 07:18:52,Desktop,Yes,"Kozhikode, Kerala",0,Yes,High,Verify User,,SIMULATED
+E0170,U0055,A0180,Repeated Failed Login,2026-05-01 02:26:44,Unknown,Yes,"Coimbatore, Tamil Nadu",10,Yes,High,Block Demo Request,,SIMULATED
+E0171,U0043,A0141,Normal Activity,2026-05-01 17:44:07,Desktop,No,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0172,U0005,A0013,Inactive Account Review,2026-05-02 00:55:53,Unknown,No,"Kochi, Kerala",0,Yes,Medium,Verify User,,SIMULATED
+E0173,U0027,A0088,Unknown Device,2026-05-02 13:31:19,Mobile,Yes,"Madurai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0174,U0045,A0150,Repeated Failed Login,2026-05-03 01:27:11,Mobile,Yes,"Thiruvananthapuram, Kerala",13,Yes,High,Block Demo Request,,SIMULATED
+E0175,U0024,A0077,Repeated Failed Login,2026-05-04 01:03:16,Unknown,Yes,"Kochi, Kerala",11,Yes,High,Block Demo Request,,SIMULATED
+E0176,U0005,A0015,Normal Activity,2026-05-04 07:12:04,Mobile,No,"Kochi, Kerala",0,No,Low,Monitor,,SIMULATED
+E0177,U0082,A0275,Normal Activity,2026-05-04 11:06:21,Desktop,No,"Pune, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0178,U0038,A0126,Unknown Device,2026-05-04 19:58:50,Mobile,Yes,"Mysuru, Karnataka",1,Yes,Medium,Verify User,,SIMULATED
+E0179,U0048,A0158,Normal Activity,2026-05-05 12:34:29,Mobile,No,"Nashik, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0180,U0093,A0311,Normal Activity,2026-05-05 17:04:26,Mobile,No,"Siliguri, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0181,U0051,A0167,Normal Activity,2026-05-06 18:27:06,Desktop,Yes,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0182,U0047,A0156,Unknown Device,2026-05-07 10:06:53,Unknown,Yes,"Thiruvananthapuram, Kerala",2,Yes,Medium,Verify User,,SIMULATED
+E0183,U0025,A0079,Unknown Device,2026-05-08 02:14:41,Unknown,Yes,"Kolkata, West Bengal",0,Yes,Medium,Verify User,,SIMULATED
+E0184,U0006,A0016,Unknown Device,2026-05-08 04:09:29,Mobile,Yes,"Mangaluru, Karnataka",0,Yes,High,Verify User,,SIMULATED
+E0185,U0047,A0154,Repeated Failed Login,2026-05-08 23:18:11,Mobile,Yes,"Warangal, Telangana",11,Yes,High,Block Demo Request,,SIMULATED
+E0186,U0046,A0152,Inactive Account Review,2026-05-09 16:06:33,Unknown,No,"Faridabad, Haryana",0,Yes,Medium,Verify User,,SIMULATED
+E0187,U0007,A0019,Normal Activity,2026-05-10 12:38:27,Desktop,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0188,U0004,A0011,Normal Activity,2026-05-11 17:27:52,Desktop,No,"Surat, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0189,U0025,A0079,Repeated Failed Login,2026-05-15 01:38:39,Mobile,No,"Dehradun, Uttarakhand",10,Yes,Medium,Verify User,,SIMULATED
+E0190,U0028,A0089,Unusual Access Request,2026-05-15 08:51:22,Desktop,Yes,"Gurugram, Haryana",0,Yes,High,Block Demo Request,R0048,SIMULATED
+E0191,U0094,A0312,Unusual Access Request,2026-05-16 05:31:57,Desktop,Yes,"Ludhiana, Punjab",0,Yes,High,Block Demo Request,R0027,SIMULATED
+E0192,U0082,A0275,Normal Activity,2026-05-18 14:38:14,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0193,U0078,A0264,Normal Activity,2026-05-18 16:17:56,Desktop,No,"Pune, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0194,U0022,A0067,Inactive Account Review,2026-05-19 02:16:54,Unknown,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0195,U0099,A0327,Unknown Device,2026-05-21 08:21:07,Mobile,Yes,"Vijayawada, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0196,U0038,A0126,Normal Activity,2026-05-23 14:42:05,Mobile,No,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0197,U0064,A0207,Normal Activity,2026-05-24 14:04:55,Mobile,No,"Kanpur, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0198,U0048,A0160,Unusual Access Request,2026-05-25 04:16:24,Mobile,No,"Hyderabad, Telangana",1,Yes,High,Block Demo Request,R0032,SIMULATED
+E0199,U0021,A0064,Normal Activity,2026-05-28 11:01:40,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0200,U0020,A0060,Unusual Access Request,2026-05-29 07:18:36,Mobile,Yes,"Mumbai, Maharashtra",0,Yes,High,Block Demo Request,R0047,SIMULATED
+E0201,U0082,A0275,Normal Activity,2026-05-29 11:34:42,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0202,U0086,A0290,Unusual Login,2026-05-29 11:57:35,Desktop,No,"Thiruvananthapuram, Kerala",0,No,Low,Monitor,,SIMULATED
+E0203,U0098,A0322,Normal Activity,2026-05-29 15:37:46,Mobile,No,"Bhubaneswar, Odisha",0,No,Low,Monitor,,SIMULATED
+E0204,U0060,A0192,Repeated Failed Login,2026-05-31 01:25:02,Mobile,No,"Jaipur, Rajasthan",4,Yes,Medium,Verify User,,SIMULATED
+E0205,U0001,A0001,Normal Activity,2026-05-31 18:23:42,Mobile,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0206,U0023,A0070,Normal Activity,2026-06-01 16:42:57,Mobile,No,"Madurai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0207,U0021,A0063,Unknown Device,2026-06-01 22:36:17,Unknown,Yes,"Bhopal, Madhya Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0208,U0004,A0010,Repeated Failed Login,2026-06-03 03:19:50,Unknown,Yes,"Surat, Gujarat",5,Yes,High,Verify User,,SIMULATED
+E0209,U0066,A0218,Normal Activity,2026-06-04 18:01:14,Mobile,No,"Vadodara, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0210,U0034,A0114,Normal Activity,2026-06-04 18:54:27,Mobile,No,"Guwahati, Assam",0,No,Low,Monitor,,SIMULATED
+E0211,U0097,A0320,Unusual Login,2026-06-05 16:10:59,Tablet,Yes,"Lucknow, Uttar Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0212,U0039,A0128,Normal Activity,2026-06-06 16:08:51,Desktop,No,"Bengaluru, Karnataka",2,No,Low,Monitor,,SIMULATED
+E0213,U0064,A0207,Unusual Login,2026-06-07 01:58:04,Unknown,Yes,"Kanpur, Uttar Pradesh",2,Yes,Medium,Verify User,,SIMULATED
+E0214,U0082,A0275,Normal Activity,2026-06-07 12:05:42,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0215,U0080,A0268,Unusual Access Request,2026-06-07 15:57:06,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,R0051,SIMULATED
+E0216,U0096,A0317,Unusual Login,2026-06-09 19:40:03,Mobile,Yes,"Ranchi, Jharkhand",0,Yes,High,Verify User,,SIMULATED
+E0217,U0004,A0012,Normal Activity,2026-06-10 17:11:21,Mobile,No,"Surat, Gujarat",0,No,Low,Monitor,,SIMULATED
+E0218,U0065,A0215,Repeated Failed Login,2026-06-11 11:43:29,Mobile,No,"Coimbatore, Tamil Nadu",3,Yes,Medium,Verify User,,SIMULATED
+E0219,U0067,A0221,Inactive Account Review,2026-06-11 16:37:13,Unknown,No,"Madurai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0220,U0047,A0155,Repeated Failed Login,2026-06-12 01:59:01,Mobile,Yes,"Faridabad, Haryana",7,Yes,Medium,Verify User,,SIMULATED
+E0221,U0042,A0138,Unusual Access Request,2026-06-12 02:18:29,Mobile,Yes,"Nashik, Maharashtra",0,Yes,High,Block Demo Request,R0074,SIMULATED
+E0222,U0030,A0096,Unknown Device,2026-06-13 02:36:25,Unknown,Yes,"Siliguri, West Bengal",0,Yes,High,Verify User,,SIMULATED
+E0223,U0047,A0155,Normal Activity,2026-06-14 12:32:26,Desktop,No,"Faridabad, Haryana",1,No,Low,Monitor,,SIMULATED
+E0224,U0045,A0150,Unusual Access Request,2026-06-14 14:04:18,Tablet,No,"Bengaluru, Karnataka",0,Yes,Medium,Review Request,R0033,SIMULATED
+E0225,U0059,A0189,Normal Activity,2026-06-16 14:16:38,Mobile,No,"Jaipur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0226,U0024,A0077,Normal Activity,2026-06-17 18:11:15,Mobile,No,"Kochi, Kerala",0,No,Low,Monitor,,SIMULATED
+E0227,U0024,A0077,Repeated Failed Login,2026-06-20 03:04:47,Mobile,Yes,"Kochi, Kerala",4,Yes,Medium,Verify User,,SIMULATED
+E0228,U0078,A0261,Repeated Failed Login,2026-06-20 07:18:47,Mobile,No,"Pune, Maharashtra",14,Yes,Medium,Verify User,,SIMULATED
+E0229,U0033,A0110,Unknown Device,2026-06-21 02:13:42,Desktop,Yes,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0230,U0053,A0172,Unknown Device,2026-06-21 04:20:42,Mobile,Yes,"Shillong, Meghalaya",0,Yes,High,Verify User,,SIMULATED
+E0231,U0028,A0090,Repeated Failed Login,2026-06-21 16:16:49,Mobile,No,"Patna, Bihar",7,Yes,Medium,Verify User,,SIMULATED
+E0232,U0017,A0052,Unusual Access Request,2026-06-22 12:28:20,Desktop,Yes,"Indore, Madhya Pradesh",0,Yes,High,Block Demo Request,R0059,SIMULATED
+E0233,U0057,A0184,Normal Activity,2026-06-22 16:55:12,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0234,U0065,A0214,Unusual Login,2026-06-23 18:49:04,Desktop,No,"Vadodara, Gujarat",0,Yes,Medium,Verify User,,SIMULATED
+E0235,U0059,A0191,Inactive Account Review,2026-06-23 23:03:43,Unknown,No,"Jaipur, Rajasthan",0,Yes,Medium,Verify User,,SIMULATED
+E0236,U0040,A0132,Normal Activity,2026-06-24 13:48:52,Desktop,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0237,U0026,A0082,Unusual Login,2026-06-25 00:27:46,Unknown,Yes,"Amritsar, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0238,U0099,A0326,Repeated Failed Login,2026-06-25 06:18:52,Desktop,Yes,"Vijayawada, Andhra Pradesh",15,Yes,High,Block Demo Request,,SIMULATED
+E0239,U0061,A0195,Normal Activity,2026-06-26 07:55:13,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0240,U0021,A0065,Normal Activity,2026-06-26 08:58:01,Mobile,No,"Bhopal, Madhya Pradesh",2,No,Low,Monitor,,SIMULATED
+E0241,U0082,A0275,Normal Activity,2026-06-26 15:34:01,Mobile,No,"Pune, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0242,U0007,A0021,Normal Activity,2026-06-27 23:52:40,Mobile,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0243,U0027,A0088,Normal Activity,2026-06-30 18:06:19,Mobile,No,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0244,U0056,A0182,Repeated Failed Login,2026-07-01 00:08:31,Mobile,No,"Mangaluru, Karnataka",5,Yes,Medium,Verify User,,SIMULATED
+E0245,U0018,A0056,Unusual Login,2026-07-01 03:26:27,Mobile,No,"Chandigarh, Chandigarh",0,Yes,Medium,Verify User,,SIMULATED
+E0246,U0062,A0201,Inactive Account Review,2026-07-02 11:31:19,Unknown,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0247,U0024,A0077,Unusual Login,2026-07-02 17:26:12,Desktop,Yes,"Mangaluru, Karnataka",0,Yes,High,Verify User,,SIMULATED
+E0248,U0002,A0005,Unusual Access Request,2026-07-02 18:02:48,Mobile,Yes,"Bhopal, Madhya Pradesh",0,Yes,Medium,Review Request,R0016,SIMULATED
+E0249,U0043,A0141,Inactive Account Review,2026-07-02 19:06:08,Unknown,No,"Nagpur, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0250,U0069,A0230,Normal Activity,2026-07-02 21:38:44,Tablet,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0251,U0021,A0065,Repeated Failed Login,2026-07-03 23:54:17,Desktop,No,"Bhopal, Madhya Pradesh",7,No,Low,Monitor,,SIMULATED
+E0252,U0014,A0042,Repeated Failed Login,2026-07-05 04:20:44,Desktop,Yes,"Bhubaneswar, Odisha",9,Yes,High,Block Demo Request,,SIMULATED
+E0253,U0016,A0050,Normal Activity,2026-07-05 13:18:05,Mobile,No,"Siliguri, West Bengal",1,No,Low,Monitor,,SIMULATED
+E0254,U0054,A0176,Normal Activity,2026-07-05 15:29:12,Tablet,No,"Bengaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0255,U0025,A0078,Unknown Device,2026-07-06 13:52:14,Desktop,Yes,"Kolkata, West Bengal",1,Yes,Medium,Verify User,,SIMULATED
+E0256,U0097,A0320,Normal Activity,2026-07-07 13:30:21,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0257,U0035,A0118,Unusual Login,2026-07-07 16:29:34,Mobile,No,"Mysuru, Karnataka",0,Yes,Medium,Verify User,,SIMULATED
+E0258,U0018,A0056,Normal Activity,2026-07-08 17:03:50,Mobile,No,"Chandigarh, Chandigarh",0,No,Low,Monitor,,SIMULATED
+E0259,U0001,A0003,Unusual Access Request,2026-07-09 02:59:18,Mobile,Yes,"Bengaluru, Karnataka",0,Yes,High,Block Demo Request,R0065,SIMULATED
+E0260,U0056,A0182,Inactive Account Review,2026-07-09 06:21:28,Unknown,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0261,U0029,A0093,Repeated Failed Login,2026-07-09 07:52:21,Mobile,Yes,"Guwahati, Assam",10,Yes,High,Block Demo Request,,SIMULATED
+E0262,U0056,A0183,Repeated Failed Login,2026-07-09 11:12:11,Mobile,No,"Visakhapatnam, Andhra Pradesh",12,Yes,Medium,Verify User,,SIMULATED
+E0263,U0006,A0017,Unusual Access Request,2026-07-10 21:19:21,Mobile,Yes,"Vadodara, Gujarat",0,Yes,High,Block Demo Request,R0049,SIMULATED
+E0264,U0097,A0320,Repeated Failed Login,2026-07-11 03:35:26,Desktop,Yes,"Amritsar, Punjab",12,Yes,High,Block Demo Request,,SIMULATED
+E0265,U0066,A0217,Normal Activity,2026-07-12 14:04:41,Mobile,No,"Vadodara, Gujarat",2,No,Low,Monitor,,SIMULATED
+E0266,U0093,A0311,Normal Activity,2026-07-13 11:12:18,Desktop,No,"Siliguri, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0267,U0095,A0315,Repeated Failed Login,2026-07-14 03:45:11,Tablet,Yes,"Warangal, Telangana",13,Yes,High,Block Demo Request,,SIMULATED
+E0268,U0002,A0004,Normal Activity,2026-07-14 21:25:44,Desktop,Yes,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0269,U0014,A0043,Repeated Failed Login,2026-07-15 01:49:07,Tablet,No,"Bengaluru, Karnataka",5,Yes,High,Verify User,,SIMULATED
+E0270,U0076,A0255,Unknown Device,2026-07-17 01:12:46,Mobile,Yes,"Warangal, Telangana",0,Yes,High,Verify User,,SIMULATED
+E0271,U0071,A0236,Unknown Device,2026-07-17 03:19:22,Mobile,Yes,"Ludhiana, Punjab",0,Yes,High,Verify User,,SIMULATED
+E0272,U0086,A0290,Normal Activity,2026-07-19 18:35:49,Mobile,No,"Kozhikode, Kerala",0,No,Low,Monitor,,SIMULATED
+E0273,U0046,A0151,Unknown Device,2026-07-21 04:12:32,Mobile,Yes,"Faridabad, Haryana",0,Yes,High,Verify User,,SIMULATED
+E0274,U0094,A0313,Normal Activity,2026-07-21 20:45:30,Mobile,No,"Patna, Bihar",0,No,Low,Monitor,,SIMULATED
+E0275,U0038,A0126,Normal Activity,2026-07-22 14:20:03,Mobile,No,"Mysuru, Karnataka",2,No,Low,Monitor,,SIMULATED
+E0276,U0053,A0172,Normal Activity,2026-07-23 11:48:46,Mobile,No,"Chandigarh, Chandigarh",0,No,Low,Monitor,,SIMULATED
+E0277,U0097,A0319,Normal Activity,2026-07-23 19:26:57,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0278,U0088,A0296,Normal Activity,2026-07-24 13:55:40,Unknown,Yes,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0279,U0088,A0296,Repeated Failed Login,2026-07-25 02:45:24,Desktop,Yes,"Warangal, Telangana",5,Yes,Medium,Verify User,,SIMULATED
+E0280,U0002,A0004,Normal Activity,2026-07-25 13:07:14,Mobile,Yes,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0281,U0050,A0164,Repeated Failed Login,2026-07-26 04:53:50,Mobile,No,"Dehradun, Uttarakhand",10,Yes,High,Block Demo Request,,SIMULATED
+E0282,U0053,A0174,Unusual Login,2026-07-27 01:49:14,Mobile,No,"Thiruvananthapuram, Kerala",2,Yes,Medium,Verify User,,SIMULATED
+E0283,U0061,A0195,Inactive Account Review,2026-07-27 05:07:00,Unknown,No,"Mumbai, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0284,U0019,A0057,Inactive Account Review,2026-07-29 12:16:14,Unknown,No,"Mumbai, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0285,U0062,A0201,Inactive Account Review,2026-08-01 05:35:19,Unknown,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0286,U0029,A0095,Unusual Login,2026-08-01 21:54:07,Desktop,Yes,"Udaipur, Rajasthan",0,Yes,High,Verify User,,SIMULATED
+E0287,U0048,A0159,Normal Activity,2026-08-02 11:01:23,Mobile,No,"Nashik, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0288,U0013,A0040,Unusual Login,2026-08-03 00:57:46,Unknown,Yes,"Ahmedabad, Gujarat",0,Yes,Medium,Verify User,,SIMULATED
+E0289,U0077,A0260,Inactive Account Review,2026-08-03 09:32:51,Unknown,No,"Hyderabad, Telangana",0,Yes,Medium,Verify User,,SIMULATED
+E0290,U0082,A0275,Unusual Login,2026-08-05 02:20:28,Mobile,No,"Coimbatore, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0291,U0051,A0168,Unknown Device,2026-08-07 02:21:08,Desktop,Yes,"Cuttack, Odisha",0,Yes,Medium,Verify User,,SIMULATED
+E0292,U0094,A0312,Unusual Access Request,2026-08-07 09:51:38,Mobile,No,"Siliguri, West Bengal",0,Yes,Medium,Review Request,R0071,SIMULATED
+E0293,U0037,A0123,Normal Activity,2026-08-07 13:45:05,Desktop,No,"Udaipur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0294,U0079,A0267,Normal Activity,2026-08-07 14:32:05,Mobile,No,"Vijayawada, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0295,U0031,A0100,Normal Activity,2026-08-07 23:50:52,Tablet,Yes,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0296,U0025,A0078,Unknown Device,2026-08-09 01:21:46,Mobile,Yes,"Kolkata, West Bengal",0,Yes,Medium,Verify User,,SIMULATED
+E0297,U0062,A0202,Unknown Device,2026-08-09 01:54:33,Mobile,Yes,"Mangaluru, Karnataka",2,Yes,Medium,Verify User,,SIMULATED
+E0298,U0032,A0104,Normal Activity,2026-08-09 14:14:32,Desktop,No,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0299,U0057,A0184,Normal Activity,2026-08-10 21:19:06,Desktop,No,"Pune, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0300,U0047,A0156,Inactive Account Review,2026-08-11 02:35:23,Unknown,No,"Faridabad, Haryana",0,No,Low,Monitor,,SIMULATED
+E0301,U0090,A0300,Repeated Failed Login,2026-08-11 05:06:45,Mobile,No,"Mysuru, Karnataka",13,Yes,Medium,Verify User,,SIMULATED
+E0302,U0092,A0307,Unusual Login,2026-08-11 21:35:12,Desktop,Yes,"Mangaluru, Karnataka",0,Yes,Medium,Verify User,,SIMULATED
+E0303,U0056,A0182,Inactive Account Review,2026-08-12 04:56:41,Unknown,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0304,U0016,A0047,Normal Activity,2026-08-12 07:12:07,Mobile,No,"Siliguri, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0305,U0023,A0072,Unusual Login,2026-08-13 01:16:39,Desktop,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0306,U0062,A0202,Unusual Login,2026-08-13 01:29:27,Mobile,No,"Warangal, Telangana",0,Yes,Medium,Verify User,,SIMULATED
+E0307,U0013,A0040,Normal Activity,2026-08-14 14:43:46,Desktop,No,"Faridabad, Haryana",1,No,Low,Monitor,,SIMULATED
+E0308,U0078,A0265,Normal Activity,2026-08-14 15:45:49,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0309,U0090,A0301,Repeated Failed Login,2026-08-18 14:20:52,Mobile,No,"Udaipur, Rajasthan",12,Yes,Medium,Verify User,,SIMULATED
+E0310,U0086,A0289,Unusual Access Request,2026-08-19 00:56:19,Mobile,No,"Kozhikode, Kerala",0,Yes,Medium,Review Request,R0037,SIMULATED
+E0311,U0055,A0177,Normal Activity,2026-08-19 10:17:22,Unknown,No,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0312,U0074,A0248,Normal Activity,2026-08-19 17:41:58,Desktop,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0313,U0093,A0310,Unusual Login,2026-08-20 14:11:47,Mobile,No,"Siliguri, West Bengal",1,No,Low,Monitor,,SIMULATED
+E0314,U0005,A0015,Normal Activity,2026-08-21 08:47:23,Mobile,No,"Kochi, Kerala",0,No,Low,Monitor,,SIMULATED
+E0315,U0054,A0176,Repeated Failed Login,2026-08-21 15:49:30,Mobile,No,"Pune, Maharashtra",14,Yes,High,Block Demo Request,,SIMULATED
+E0316,U0061,A0194,Normal Activity,2026-08-22 16:49:51,Mobile,No,"Mumbai, Maharashtra",2,No,Low,Monitor,,SIMULATED
+E0317,U0050,A0164,Repeated Failed Login,2026-08-22 17:18:12,Tablet,No,"Bhopal, Madhya Pradesh",4,Yes,Medium,Verify User,,SIMULATED
+E0318,U0065,A0211,Repeated Failed Login,2026-08-23 02:45:30,Unknown,Yes,"Coimbatore, Tamil Nadu",10,Yes,High,Block Demo Request,,SIMULATED
+E0319,U0029,A0095,Unusual Login,2026-08-23 07:18:47,Mobile,No,"Mumbai, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0320,U0041,A0134,Unusual Login,2026-08-23 20:52:28,Mobile,No,"Ranchi, Jharkhand",0,Yes,Medium,Verify User,,SIMULATED
+E0321,U0086,A0288,Unknown Device,2026-08-25 01:23:21,Desktop,Yes,"Thiruvananthapuram, Kerala",0,Yes,Medium,Verify User,,SIMULATED
+E0322,U0062,A0200,Unusual Access Request,2026-08-25 07:02:52,Mobile,No,"Mangaluru, Karnataka",0,Yes,Medium,Review Request,R0061,SIMULATED
+E0323,U0005,A0015,Unusual Login,2026-08-25 09:51:41,Desktop,No,"Faridabad, Haryana",1,Yes,Medium,Verify User,,SIMULATED
+E0324,U0053,A0173,Inactive Account Review,2026-08-25 19:51:52,Unknown,No,"Chandigarh, Chandigarh",0,Yes,Medium,Verify User,,SIMULATED
+E0325,U0091,A0305,Normal Activity,2026-08-27 15:24:57,Desktop,No,"Warangal, Telangana",1,No,Low,Monitor,,SIMULATED
+E0326,U0047,A0155,Unusual Access Request,2026-08-28 04:05:42,Mobile,Yes,"Faridabad, Haryana",0,Yes,Medium,Review Request,R0012,SIMULATED
+E0327,U0060,A0193,Unusual Login,2026-08-28 11:14:36,Desktop,Yes,"Chennai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0328,U0066,A0219,Unknown Device,2026-08-28 21:50:06,Unknown,Yes,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0329,U0031,A0101,Normal Activity,2026-08-29 12:44:34,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0330,U0045,A0148,Inactive Account Review,2026-08-29 17:22:39,Unknown,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0331,U0053,A0172,Unusual Access Request,2026-08-30 04:41:45,Mobile,No,"Chandigarh, Chandigarh",1,Yes,Medium,Review Request,R0063,SIMULATED
+E0332,U0088,A0296,Unusual Access Request,2026-09-01 08:13:21,Unknown,Yes,"Warangal, Telangana",1,Yes,Medium,Review Request,R0045,SIMULATED
+E0333,U0017,A0051,Normal Activity,2026-09-01 09:00:46,Mobile,No,"Indore, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0334,U0045,A0149,Inactive Account Review,2026-09-02 14:45:50,Unknown,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0335,U0027,A0085,Normal Activity,2026-09-02 15:39:05,Mobile,No,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0336,U0005,A0014,Inactive Account Review,2026-09-03 00:54:19,Unknown,No,"Kochi, Kerala",0,Yes,Medium,Verify User,,SIMULATED
+E0337,U0075,A0253,Repeated Failed Login,2026-09-03 01:22:24,Desktop,No,"Mangaluru, Karnataka",4,Yes,Medium,Verify User,,SIMULATED
+E0338,U0005,A0015,Repeated Failed Login,2026-09-03 04:55:33,Tablet,Yes,"Kochi, Kerala",10,Yes,High,Block Demo Request,,SIMULATED
+E0339,U0027,A0087,Unusual Login,2026-09-03 17:01:54,Desktop,No,"Jaipur, Rajasthan",0,Yes,Medium,Verify User,,SIMULATED
+E0340,U0027,A0087,Repeated Failed Login,2026-09-04 01:07:50,Desktop,Yes,"Coimbatore, Tamil Nadu",3,Yes,Medium,Verify User,,SIMULATED
+E0341,U0019,A0058,Unknown Device,2026-09-05 00:33:20,Desktop,Yes,"Mumbai, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0342,U0096,A0317,Normal Activity,2026-09-06 17:40:48,Mobile,No,"Kanpur, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0343,U0008,A0023,Repeated Failed Login,2026-09-07 16:17:10,Mobile,No,"Kanpur, Uttar Pradesh",8,Yes,Medium,Verify User,,SIMULATED
+E0344,U0046,A0153,Unusual Login,2026-09-09 07:43:42,Desktop,Yes,"Varanasi, Uttar Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0345,U0076,A0255,Unknown Device,2026-09-09 14:12:50,Mobile,Yes,"Indore, Madhya Pradesh",1,Yes,Medium,Verify User,,SIMULATED
+E0346,U0081,A0270,Normal Activity,2026-09-09 17:52:16,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0347,U0004,A0009,Unusual Login,2026-09-10 02:16:39,Desktop,Yes,"Chennai, Tamil Nadu",0,Yes,High,Verify User,,SIMULATED
+E0348,U0084,A0282,Normal Activity,2026-09-10 13:30:17,Mobile,No,"Pune, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0349,U0003,A0008,Normal Activity,2026-09-11 15:58:35,Mobile,No,"Varanasi, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0350,U0091,A0304,Unusual Login,2026-09-12 04:21:37,Tablet,No,"Bhopal, Madhya Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0351,U0024,A0076,Unusual Login,2026-09-12 20:58:10,Mobile,Yes,"Surat, Gujarat",0,Yes,Medium,Verify User,,SIMULATED
+E0352,U0070,A0234,Normal Activity,2026-09-13 18:39:22,Mobile,No,"Bhubaneswar, Odisha",0,No,Low,Monitor,,SIMULATED
+E0353,U0055,A0180,Normal Activity,2026-09-13 19:46:05,Desktop,No,"Coimbatore, Tamil Nadu",1,No,Low,Monitor,,SIMULATED
+E0354,U0045,A0148,Unknown Device,2026-09-14 02:51:11,Tablet,Yes,"Pune, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0355,U0058,A0188,Inactive Account Review,2026-09-15 08:16:19,Unknown,No,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0356,U0045,A0149,Inactive Account Review,2026-09-15 15:24:56,Unknown,No,"Pune, Maharashtra",0,Yes,Medium,Verify User,,SIMULATED
+E0357,U0093,A0310,Repeated Failed Login,2026-09-15 21:30:54,Desktop,Yes,"Siliguri, West Bengal",5,No,Low,Monitor,,SIMULATED
+E0358,U0041,A0134,Unknown Device,2026-09-16 04:03:44,Mobile,Yes,"Kolkata, West Bengal",0,Yes,High,Verify User,,SIMULATED
+E0359,U0087,A0293,Unknown Device,2026-09-16 04:59:41,Mobile,Yes,"Vijayawada, Andhra Pradesh",1,Yes,Medium,Verify User,,SIMULATED
+E0360,U0005,A0015,Normal Activity,2026-09-16 19:17:47,Desktop,No,"Kochi, Kerala",1,No,Low,Monitor,,SIMULATED
+E0361,U0028,A0092,Unusual Access Request,2026-09-17 02:32:58,Mobile,No,"Madurai, Tamil Nadu",0,Yes,High,Block Demo Request,R0018,SIMULATED
+E0362,U0063,A0203,Unknown Device,2026-09-17 10:19:46,Desktop,Yes,"Mangaluru, Karnataka",0,Yes,Medium,Verify User,,SIMULATED
+E0363,U0017,A0053,Normal Activity,2026-09-17 14:47:14,Mobile,No,"Indore, Madhya Pradesh",0,No,Low,Monitor,,SIMULATED
+E0364,U0052,A0170,Unknown Device,2026-09-17 20:10:08,Unknown,Yes,"Ludhiana, Punjab",0,Yes,Medium,Verify User,,SIMULATED
+E0365,U0053,A0172,Normal Activity,2026-09-20 13:28:14,Desktop,No,"Chandigarh, Chandigarh",0,No,Low,Monitor,,SIMULATED
+E0366,U0002,A0005,Unusual Login,2026-09-22 02:39:46,Mobile,Yes,"Dehradun, Uttarakhand",1,Yes,High,Verify User,,SIMULATED
+E0367,U0027,A0086,Normal Activity,2026-09-23 16:35:35,Desktop,No,"Coimbatore, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0368,U0052,A0169,Normal Activity,2026-09-24 13:08:10,Mobile,No,"Udaipur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0369,U0006,A0018,Repeated Failed Login,2026-09-25 00:07:59,Unknown,Yes,"Thiruvananthapuram, Kerala",14,Yes,High,Block Demo Request,,SIMULATED
+E0370,U0017,A0051,Unknown Device,2026-09-25 00:08:00,Desktop,Yes,"Indore, Madhya Pradesh",0,Yes,High,Verify User,,SIMULATED
+E0371,U0086,A0288,Normal Activity,2026-09-25 18:28:19,Mobile,No,"Kozhikode, Kerala",0,No,Low,Monitor,,SIMULATED
+E0372,U0067,A0220,Normal Activity,2026-09-27 11:13:56,Mobile,No,"Madurai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0373,U0059,A0189,Normal Activity,2026-09-27 13:09:08,Mobile,No,"Jaipur, Rajasthan",0,No,Low,Monitor,,SIMULATED
+E0374,U0041,A0134,Repeated Failed Login,2026-09-28 01:49:04,Mobile,No,"Kolkata, West Bengal",7,Yes,High,Verify User,,SIMULATED
+E0375,U0023,A0074,Inactive Account Review,2026-09-28 21:42:47,Unknown,No,"Madurai, Tamil Nadu",0,Yes,Medium,Verify User,,SIMULATED
+E0376,U0035,A0117,Unknown Device,2026-09-29 01:52:09,Mobile,Yes,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0377,U0087,A0292,Normal Activity,2026-09-29 12:04:22,Mobile,No,"Chennai, Tamil Nadu",0,No,Low,Monitor,,SIMULATED
+E0378,U0015,A0046,Normal Activity,2026-09-29 13:35:02,Mobile,No,"Nashik, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0379,U0068,A0225,Repeated Failed Login,2026-09-30 06:48:23,Tablet,No,"Indore, Madhya Pradesh",7,Yes,Medium,Verify User,,SIMULATED
+E0380,U0028,A0090,Normal Activity,2026-10-04 14:20:52,Tablet,No,"Patna, Bihar",1,No,Low,Monitor,,SIMULATED
+E0381,U0058,A0187,Normal Activity,2026-10-04 20:03:35,Mobile,No,"Nagpur, Maharashtra",0,No,Low,Monitor,,SIMULATED
+E0382,U0003,A0008,Unknown Device,2026-10-06 02:01:25,Desktop,Yes,"Bengaluru, Karnataka",0,Yes,High,Verify User,,SIMULATED
+E0383,U0056,A0181,Unknown Device,2026-10-06 02:40:49,Mobile,Yes,"Visakhapatnam, Andhra Pradesh",0,Yes,Medium,Verify User,,SIMULATED
+E0384,U0069,A0228,Unusual Login,2026-10-07 00:04:21,Mobile,Yes,"Coimbatore, Tamil Nadu",0,Yes,High,Verify User,,SIMULATED
+E0385,U0055,A0179,Normal Activity,2026-10-07 14:16:26,Mobile,No,"Coimbatore, Tamil Nadu",1,No,Low,Monitor,,SIMULATED
+E0386,U0097,A0320,Normal Activity,2026-10-08 06:59:31,Mobile,No,"New Delhi, Delhi",0,No,Low,Monitor,,SIMULATED
+E0387,U0003,A0007,Normal Activity,2026-10-08 14:22:46,Desktop,No,"Varanasi, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0388,U0040,A0132,Unknown Device,2026-10-09 12:39:28,Desktop,Yes,"Faridabad, Haryana",0,Yes,Medium,Verify User,,SIMULATED
+E0389,U0023,A0073,Unknown Device,2026-10-10 00:06:11,Desktop,Yes,"Madurai, Tamil Nadu",1,Yes,Medium,Verify User,,SIMULATED
+E0390,U0062,A0201,Unknown Device,2026-10-10 00:20:25,Desktop,Yes,"Mangaluru, Karnataka",0,Yes,Medium,Verify User,,SIMULATED
+E0391,U0079,A0267,Unusual Access Request,2026-10-10 19:52:11,Mobile,No,"Vijayawada, Andhra Pradesh",0,Yes,High,Block Demo Request,R0069,SIMULATED
+E0392,U0063,A0204,Normal Activity,2026-10-11 16:32:21,Desktop,No,"Mangaluru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0393,U0091,A0305,Unknown Device,2026-10-12 05:22:48,Mobile,Yes,"Bengaluru, Karnataka",2,Yes,Medium,Verify User,,SIMULATED
+E0394,U0026,A0082,Normal Activity,2026-10-12 13:31:52,Desktop,No,"Kanpur, Uttar Pradesh",0,No,Low,Monitor,,SIMULATED
+E0395,U0017,A0051,Unknown Device,2026-10-13 07:21:10,Desktop,Yes,"Amritsar, Punjab",0,Yes,Medium,Verify User,,SIMULATED
+E0396,U0050,A0164,Unusual Access Request,2026-10-14 06:23:25,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,R0039,SIMULATED
+E0397,U0083,A0280,Unknown Device,2026-10-14 07:48:45,Mobile,Yes,"Ahmedabad, Gujarat",0,Yes,Medium,Verify User,,SIMULATED
+E0398,U0094,A0312,Repeated Failed Login,2026-10-17 01:10:09,Desktop,Yes,"Patna, Bihar",15,Yes,High,Block Demo Request,,SIMULATED
+E0399,U0032,A0104,Normal Activity,2026-10-18 18:48:05,Mobile,No,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0400,U0085,A0284,Normal Activity,2026-10-18 18:57:05,Desktop,No,"Visakhapatnam, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0401,U0022,A0067,Unusual Access Request,2026-10-18 22:07:22,Desktop,Yes,"Lucknow, Uttar Pradesh",2,Yes,High,Block Demo Request,R0019,SIMULATED
+E0402,U0013,A0038,Repeated Failed Login,2026-10-19 16:47:54,Unknown,Yes,"Faridabad, Haryana",9,Yes,High,Block Demo Request,,SIMULATED
+E0403,U0016,A0050,Unknown Device,2026-10-19 19:55:33,Mobile,Yes,"Bhubaneswar, Odisha",2,Yes,Medium,Verify User,,SIMULATED
+E0404,U0083,A0281,Repeated Failed Login,2026-10-20 02:21:53,Mobile,Yes,"Coimbatore, Tamil Nadu",5,Yes,High,Verify User,,SIMULATED
+E0405,U0002,A0004,Unusual Access Request,2026-10-20 15:24:29,Mobile,Yes,"Bengaluru, Karnataka",0,Yes,High,Block Demo Request,R0068,SIMULATED
+E0406,U0021,A0064,Unusual Access Request,2026-10-22 12:50:06,Mobile,No,"Bhopal, Madhya Pradesh",0,No,Low,Monitor,R0031,SIMULATED
+E0407,U0088,A0294,Unusual Access Request,2026-10-23 10:21:09,Desktop,Yes,"Pune, Maharashtra",0,Yes,High,Block Demo Request,R0029,SIMULATED
+E0408,U0014,A0043,Normal Activity,2026-10-23 21:41:41,Unknown,No,"Bhubaneswar, Odisha",0,No,Low,Monitor,,SIMULATED
+E0409,U0041,A0133,Normal Activity,2026-10-24 13:59:09,Mobile,No,"Kolkata, West Bengal",0,No,Low,Monitor,,SIMULATED
+E0410,U0022,A0067,Repeated Failed Login,2026-10-25 02:35:32,Unknown,Yes,"New Delhi, Delhi",4,Yes,Medium,Verify User,,SIMULATED
+E0411,U0088,A0296,Normal Activity,2026-10-25 17:11:30,Mobile,No,"Warangal, Telangana",0,No,Low,Monitor,,SIMULATED
+E0412,U0015,A0046,Normal Activity,2026-10-25 18:54:43,Mobile,No,"Nashik, Maharashtra",1,No,Low,Monitor,,SIMULATED
+E0413,U0094,A0313,Normal Activity,2026-10-26 15:27:53,Desktop,No,"Patna, Bihar",0,No,Low,Monitor,,SIMULATED
+E0414,U0079,A0267,Normal Activity,2026-10-27 18:43:30,Mobile,No,"Vijayawada, Andhra Pradesh",0,No,Low,Monitor,,SIMULATED
+E0415,U0021,A0064,Normal Activity,2026-10-27 22:58:39,Mobile,No,"Bhopal, Madhya Pradesh",1,No,Low,Monitor,,SIMULATED
+E0416,U0090,A0302,Repeated Failed Login,2026-10-28 01:11:49,Mobile,No,"Chandigarh, Chandigarh",14,Yes,High,Block Demo Request,,SIMULATED
+E0417,U0053,A0172,Normal Activity,2026-10-30 08:39:04,Mobile,No,"Chandigarh, Chandigarh",0,No,Low,Monitor,,SIMULATED
+E0418,U0035,A0118,Normal Activity,2026-10-30 18:54:59,Mobile,No,"Mysuru, Karnataka",0,No,Low,Monitor,,SIMULATED
+E0419,U0091,A0305,Unknown Device,2026-10-31 02:17:44,Mobile,Yes,"Warangal, Telangana",0,Yes,Medium,Verify User,,SIMULATED
+E0420,U0095,A0315,Normal Activity,2026-10-31 18:54:05,Mobile,No,"Hyderabad, Telangana",0,No,Low,Monitor,,SIMULATED

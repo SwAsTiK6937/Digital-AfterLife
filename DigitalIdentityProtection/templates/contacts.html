@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Trusted contacts{% endblock %}
+{% block content %}
+<header class="page-head">
+  <div>
+    <h1>Trusted contacts</h1>
+    <p class="sub">People who can help manage your accounts if you can't. Nobody gets any authority until they're verified.</p>
+  </div>
+  <a href="#add" class="btn btn-primary">+ Add trusted contact</a>
+</header>
+
+<section class="contact-grid" aria-label="Contacts">
+  {% for c in contacts %}
+  {% set pill = {'Verified': 'ok', 'Pending': 'medium'}.get(c.verification_status, 'grey') %}
+  <article class="contact">
+    <div class="head">
+      <span class="avatar" aria-hidden="true">{{ c.contact_name|initials }}</span>
+      <div class="who"><h2 style="font-size:16px">{{ c.contact_name }}</h2><span class="small muted">{{ c.relationship_category }} · added {{ c.added_on|fmt_date }}</span></div>
+      <span class="pill {{ pill }}">{{ c.verification_status }}</span>
+    </div>
+    <dl class="facts">
+      <dt>Email</dt><dd class="mono">{{ c.contact_email }}</dd>
+      <dt>Can do</dt><dd><b>{{ 'Nothing yet' if c.authorization_level == 'No Authorization' else c.authorization_level }}</b></dd>
+      <dt>Requests</dt><dd>{{ req_counts.get(c.contact_id, 0) }}</dd>
+    </dl>
+    <div class="actions">
+      {% if c.verification_status == 'Verified' %}
+      <form method="post" action="/contacts/{{ c.contact_id }}/authority" class="actions">
+        <label class="small muted" for="auth-{{ c.contact_id }}">Authority</label>
+        <select id="auth-{{ c.contact_id }}" name="authorization_level" class="compact">
+          {% for l in auth_levels %}<option {{ 'selected' if l == c.authorization_level }}>{{ l }}</option>{% endfor %}
+        </select>
+        <button type="submit" class="btn btn-secondary btn-sm">Save</button>
+      </form>
+      {% elif c.verification_status == 'Pending' %}
+      <form method="post" action="/contacts/{{ c.contact_id }}/send-verification" class="inline"><button class="btn btn-secondary btn-sm">Resend link</button></form>
+      <form method="post" action="/contacts/{{ c.contact_id }}/confirm" class="inline"><button class="btn btn-primary btn-sm" title="Demo shortcut">Simulate: contact verifies</button></form>
+      {% else %}
+      <form method="post" action="/contacts/{{ c.contact_id }}/send-verification" class="inline"><button class="btn btn-primary btn-sm">Send verification link</button></form>
+      {% endif %}
+      <form method="post" action="/contacts/{{ c.contact_id }}/delete" class="inline" onsubmit="return confirm('Remove {{ c.contact_name|e }}?')"><button class="btn btn-ghost btn-sm" aria-label="Remove {{ c.contact_name }}">Remove</button></form>
+    </div>
+  </article>
+  {% else %}
+  <p class="muted">No trusted contacts yet. Add someone you trust below.</p>
+  {% endfor %}
+</section>
+
+<div class="row">
+  <section class="card col-2" aria-labelledby="levels-h">
+    <h2 id="levels-h">How authority works</h2>
+    <div class="levels">
+      <div class="level"><span class="tag">LEVEL 0</span><b>No authorization</b><span class="small muted">Listed, but can't see or request anything. Every unverified contact stays here.</span></div>
+      <div class="level"><span class="tag">LEVEL 1</span><b>View metadata</b><span class="small muted">Can see which accounts you've registered. Never sees logins or account contents.</span></div>
+      <div class="level"><span class="tag">LEVEL 2</span><b>Submit requests</b><span class="small muted">Can flag suspicious activity or ask for an account review. Each request is still checked.</span></div>
+    </div>
+  </section>
+
+  <section class="card col-1" aria-labelledby="add-h" id="add">
+    <form method="post" action="/contacts" class="form">
+      <h2 id="add-h">Add a trusted contact</h2>
+      <div class="field"><label for="cname">Full name</label><input id="cname" name="contact_name" type="text" maxlength="60" required></div>
+      <div class="field"><label for="rel">Relationship</label>
+        <select id="rel" name="relationship_category">{% for r in relationships %}<option>{{ r }}</option>{% endfor %}</select></div>
+      <div class="field"><label for="cemail">Email (optional)</label>
+        <input id="cemail" name="contact_email" type="email" placeholder="name@example.com"></div>
+      <p class="small muted" style="margin:0">Demo rule: only reserved <span class="mono">@example.com</span> / <span class="mono">@example.org</span> addresses are accepted.</p>
+      <button type="submit" class="btn btn-primary btn-block">Add contact</button>
+    </form>
+  </section>
+</div>
+{% endblock %}

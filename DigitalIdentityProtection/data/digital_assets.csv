@@ -1,0 +1,330 @@
+asset_id,user_id,asset_category,platform_name,asset_label,importance_level,management_status,mfa_enabled,last_reviewed_days_ago,contains_sensitive_data
+A0001,U0001,Email,Work Email Service,Work email,High,Inactive,Yes,248,Yes
+A0002,U0001,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,32,Yes
+A0003,U0001,Shopping,Travel Booking Portal,Train & flight bookings,Low,Active,Yes,169,Unknown
+A0004,U0002,Email,Work Email Service,Work email,High,Under Review,Yes,5,Yes
+A0005,U0002,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Inactive,Yes,273,Yes
+A0006,U0003,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,109,Yes
+A0007,U0003,Shopping,E-commerce Marketplace,Online shopping,Low,Active,Unknown,154,No
+A0008,U0003,Subscription,Music Streaming Service,Music,Low,Active,No,59,Yes
+A0009,U0004,Email,Secondary Webmail Provider,Backup email,High,Under Review,No,13,Yes
+A0010,U0004,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,702,Yes
+A0011,U0004,Cloud Storage,Photo Backup Service,Photo backup,High,Active,Unknown,40,Yes
+A0012,U0004,Financial Service,Stock Broking App,Share trading,High,Inactive,Yes,503,Yes
+A0013,U0005,Email,Work Email Service,Work email,High,Unmanaged,No,1153,Yes
+A0014,U0005,Cloud Storage,Phone Backup Service,Phone backup,Medium,Unmanaged,No,538,Yes
+A0015,U0005,Financial Service,UPI Payment App,UPI payments,High,Active,Yes,87,Yes
+A0016,U0006,Email,Secondary Webmail Provider,Backup email,High,Inactive,Unknown,312,Yes
+A0017,U0006,Subscription,Online Learning Platform,Online courses,Medium,Inactive,No,700,No
+A0018,U0006,Subscription,Music Streaming Service,Music,Medium,Inactive,No,719,Yes
+A0019,U0007,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,73,Yes
+A0020,U0007,Social Media,Messaging App,Chat account,Medium,Inactive,No,720,Unknown
+A0021,U0007,Social Media,Professional Networking Site,Professional profile,Medium,Active,Yes,32,No
+A0022,U0007,Subscription,Gaming Network,Gaming account,Low,Active,No,14,Unknown
+A0023,U0008,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,660,Yes
+A0024,U0008,Shopping,E-commerce Marketplace,Online shopping,Medium,Inactive,Yes,488,Yes
+A0025,U0009,Email,Work Email Service,Work email,High,Unmanaged,No,541,Yes
+A0026,U0009,Cloud Storage,Cloud Drive Service,Document storage,Medium,Active,No,96,Yes
+A0027,U0010,Email,Generic Webmail Provider,Personal email,High,Inactive,Unknown,366,Yes
+A0028,U0010,Subscription,News Subscription,Digital newspaper,Medium,Active,No,140,No
+A0029,U0010,Social Media,Microblogging Platform,Public microblog,Medium,Active,Yes,113,No
+A0030,U0010,Financial Service,Insurance Portal,Insurance policies,High,Active,Yes,27,Yes
+A0031,U0010,Subscription,Gaming Network,Gaming account,Low,Active,No,112,No
+A0032,U0011,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,174,Yes
+A0033,U0011,Cloud Storage,Cloud Drive Service,Document storage,Medium,Inactive,No,710,Yes
+A0034,U0012,Email,Work Email Service,Work email,High,Inactive,Yes,507,Yes
+A0035,U0012,Shopping,Grocery Delivery App,Grocery orders,Low,Active,No,32,No
+A0036,U0012,Other,Utility Bill Portal,Electricity bill portal,Low,Active,Unknown,123,No
+A0037,U0013,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,40,Yes
+A0038,U0013,Social Media,Professional Networking Site,Professional profile,High,Active,Unknown,33,No
+A0039,U0013,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Unknown,459,Yes
+A0040,U0013,Financial Service,Net Banking Portal,Savings account portal,High,Under Review,Yes,9,Yes
+A0041,U0013,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Active,Yes,89,No
+A0042,U0014,Email,Work Email Service,Work email,High,Unmanaged,No,1006,Yes
+A0043,U0014,Social Media,Messaging App,Chat account,Medium,Unmanaged,Unknown,465,No
+A0044,U0015,Email,Generic Webmail Provider,Personal email,High,Active,No,19,Yes
+A0045,U0015,Social Media,Microblogging Platform,Public microblog,Low,Under Review,No,6,No
+A0046,U0015,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Active,No,157,Yes
+A0047,U0016,Email,Secondary Webmail Provider,Backup email,High,Inactive,No,207,Yes
+A0048,U0016,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Unknown,430,Yes
+A0049,U0016,Financial Service,UPI Payment App,UPI payments,High,Active,Yes,16,Yes
+A0050,U0016,Financial Service,Digital Wallet App,Mobile wallet,High,Inactive,Yes,450,Yes
+A0051,U0017,Email,Work Email Service,Work email,High,Inactive,No,304,Yes
+A0052,U0017,Social Media,Messaging App,Chat account,High,Active,Yes,114,No
+A0053,U0017,Other,Utility Bill Portal,Electricity bill portal,Medium,Active,Unknown,164,Yes
+A0054,U0017,Shopping,E-commerce Marketplace,Online shopping,Low,Unmanaged,No,774,No
+A0055,U0018,Email,Secondary Webmail Provider,Backup email,High,Under Review,No,5,Yes
+A0056,U0018,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Under Review,Unknown,28,Yes
+A0057,U0019,Email,Secondary Webmail Provider,Backup email,High,Inactive,Yes,595,Yes
+A0058,U0019,Cloud Storage,Photo Backup Service,Photo backup,Medium,Active,No,69,Yes
+A0059,U0019,Shopping,E-commerce Marketplace,Online shopping,Medium,Inactive,No,300,No
+A0060,U0020,Email,Work Email Service,Work email,High,Active,Yes,153,Yes
+A0061,U0020,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Active,Yes,84,Yes
+A0062,U0020,Other,Utility Bill Portal,Electricity bill portal,Medium,Active,Yes,15,No
+A0063,U0021,Email,Work Email Service,Work email,High,Active,No,47,Yes
+A0064,U0021,Financial Service,Stock Broking App,Share trading,High,Active,Yes,90,Yes
+A0065,U0021,Social Media,Professional Networking Site,Professional profile,Medium,Active,Yes,137,No
+A0066,U0022,Email,Generic Webmail Provider,Personal email,High,Active,Yes,12,Yes
+A0067,U0022,Social Media,Photo-Sharing Social App,Photo social profile,High,Inactive,Yes,422,Yes
+A0068,U0022,Subscription,Music Streaming Service,Music,Low,Inactive,No,687,Yes
+A0069,U0022,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Yes,1314,Yes
+A0070,U0023,Email,Work Email Service,Work email,High,Active,Yes,19,Yes
+A0071,U0023,Social Media,Microblogging Platform,Public microblog,High,Inactive,Yes,389,No
+A0072,U0023,Social Media,Messaging App,Chat account,Medium,Active,Yes,121,No
+A0073,U0023,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Active,No,59,Unknown
+A0074,U0023,Subscription,Online Learning Platform,Online courses,Low,Inactive,Unknown,323,Unknown
+A0075,U0024,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,117,Yes
+A0076,U0024,Cloud Storage,Phone Backup Service,Phone backup,Medium,Inactive,No,473,Yes
+A0077,U0024,Social Media,Messaging App,Chat account,High,Active,Unknown,91,No
+A0078,U0025,Email,Secondary Webmail Provider,Backup email,High,Active,No,128,Yes
+A0079,U0025,Shopping,E-commerce Marketplace,Online shopping,Medium,Active,No,20,No
+A0080,U0025,Cloud Storage,Photo Backup Service,Photo backup,High,Active,No,145,Yes
+A0081,U0025,Social Media,Microblogging Platform,Public microblog,Low,Active,Yes,26,Yes
+A0082,U0026,Email,Work Email Service,Work email,High,Active,Yes,159,Yes
+A0083,U0026,Subscription,Online Learning Platform,Online courses,Medium,Active,No,79,No
+A0084,U0026,Subscription,Music Streaming Service,Music,Low,Active,No,84,Yes
+A0085,U0027,Email,Work Email Service,Work email,High,Active,Yes,64,Yes
+A0086,U0027,Social Media,Microblogging Platform,Public microblog,Medium,Active,Unknown,167,Yes
+A0087,U0027,Shopping,Travel Booking Portal,Train & flight bookings,Low,Active,No,63,No
+A0088,U0027,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Inactive,No,628,Unknown
+A0089,U0028,Email,Generic Webmail Provider,Personal email,High,Active,No,178,Yes
+A0090,U0028,Social Media,Microblogging Platform,Public microblog,Low,Inactive,Yes,225,Yes
+A0091,U0028,Shopping,E-commerce Marketplace,Online shopping,Medium,Active,No,101,No
+A0092,U0028,Social Media,Photo-Sharing Social App,Photo social profile,High,Active,No,53,No
+A0093,U0029,Email,Generic Webmail Provider,Personal email,High,Active,Yes,142,Yes
+A0094,U0029,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Active,Yes,51,No
+A0095,U0029,Cloud Storage,Photo Backup Service,Photo backup,Medium,Active,No,118,Yes
+A0096,U0030,Email,Work Email Service,Work email,High,Unmanaged,No,740,Yes
+A0097,U0030,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Unknown,1368,Yes
+A0098,U0030,Financial Service,Stock Broking App,Share trading,High,Active,No,105,Yes
+A0099,U0030,Shopping,Travel Booking Portal,Train & flight bookings,Low,Active,Unknown,145,No
+A0100,U0031,Email,Work Email Service,Work email,High,Active,No,23,Yes
+A0101,U0031,Subscription,Music Streaming Service,Music,Medium,Active,No,53,No
+A0102,U0031,Shopping,Food Delivery App,Food orders,Medium,Inactive,Yes,318,No
+A0103,U0031,Social Media,Professional Networking Site,Professional profile,Medium,Active,Unknown,37,Yes
+A0104,U0032,Email,Work Email Service,Work email,High,Inactive,Yes,244,Yes
+A0105,U0032,Subscription,News Subscription,Digital newspaper,Low,Unmanaged,No,460,Unknown
+A0106,U0032,Subscription,Video Streaming Service,Movies & shows,Low,Inactive,No,489,No
+A0107,U0032,Cloud Storage,Phone Backup Service,Phone backup,High,Inactive,Yes,619,Yes
+A0108,U0032,Financial Service,Net Banking Portal,Savings account portal,High,Unmanaged,Unknown,1344,Yes
+A0109,U0033,Email,Generic Webmail Provider,Personal email,High,Active,Yes,55,Yes
+A0110,U0033,Shopping,Food Delivery App,Food orders,Low,Active,Yes,36,No
+A0111,U0033,Shopping,Travel Booking Portal,Train & flight bookings,Low,Active,Unknown,156,Yes
+A0112,U0033,Shopping,E-commerce Marketplace,Online shopping,Medium,Under Review,No,27,No
+A0113,U0034,Email,Work Email Service,Work email,High,Inactive,Yes,591,Yes
+A0114,U0034,Social Media,Video-Sharing Platform,Video channel,Medium,Active,Unknown,151,Unknown
+A0115,U0034,Social Media,Professional Networking Site,Professional profile,Medium,Inactive,Yes,302,No
+A0116,U0035,Email,Work Email Service,Work email,High,Active,Yes,110,Yes
+A0117,U0035,Financial Service,Insurance Portal,Insurance policies,High,Active,Yes,27,Yes
+A0118,U0035,Cloud Storage,Cloud Drive Service,Document storage,Medium,Under Review,Yes,10,Yes
+A0119,U0036,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,73,Yes
+A0120,U0036,Financial Service,UPI Payment App,UPI payments,High,Under Review,Unknown,0,Yes
+A0121,U0036,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Inactive,No,286,No
+A0122,U0037,Email,Generic Webmail Provider,Personal email,High,Unmanaged,No,519,Yes
+A0123,U0037,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Unmanaged,No,1293,Unknown
+A0124,U0038,Email,Work Email Service,Work email,High,Active,No,176,Yes
+A0125,U0038,Social Media,Microblogging Platform,Public microblog,Low,Unmanaged,Unknown,1194,Yes
+A0126,U0038,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,51,Yes
+A0127,U0038,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Unknown,616,Yes
+A0128,U0039,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,39,Yes
+A0129,U0039,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Inactive,No,199,No
+A0130,U0040,Email,Generic Webmail Provider,Personal email,High,Active,Yes,150,Yes
+A0131,U0040,Financial Service,Net Banking Portal,Savings account portal,High,Unmanaged,Unknown,721,Yes
+A0132,U0040,Shopping,Grocery Delivery App,Grocery orders,Low,Active,Yes,127,No
+A0133,U0041,Email,Work Email Service,Work email,High,Unmanaged,No,593,Yes
+A0134,U0041,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Unmanaged,Unknown,1015,Yes
+A0135,U0042,Email,Generic Webmail Provider,Personal email,High,Active,Unknown,47,Yes
+A0136,U0042,Financial Service,Stock Broking App,Share trading,High,Active,Yes,172,Yes
+A0137,U0042,Social Media,Professional Networking Site,Professional profile,Medium,Active,Unknown,43,No
+A0138,U0042,Shopping,E-commerce Marketplace,Online shopping,Medium,Inactive,Unknown,481,No
+A0139,U0042,Subscription,Online Learning Platform,Online courses,Low,Active,No,158,No
+A0140,U0043,Email,Generic Webmail Provider,Personal email,High,Active,Yes,141,Yes
+A0141,U0043,Social Media,Messaging App,Chat account,Low,Inactive,No,664,No
+A0142,U0043,Social Media,Microblogging Platform,Public microblog,Medium,Active,No,58,Yes
+A0143,U0044,Email,Generic Webmail Provider,Personal email,High,Active,Yes,61,Yes
+A0144,U0044,Cloud Storage,Phone Backup Service,Phone backup,High,Under Review,No,6,Yes
+A0145,U0044,Shopping,Food Delivery App,Food orders,Low,Active,No,82,No
+A0146,U0044,Subscription,Online Learning Platform,Online courses,Medium,Active,Yes,39,Yes
+A0147,U0045,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,85,Yes
+A0148,U0045,Cloud Storage,Photo Backup Service,Photo backup,Medium,Inactive,No,413,Yes
+A0149,U0045,Shopping,Travel Booking Portal,Train & flight bookings,Low,Unmanaged,No,1423,No
+A0150,U0045,Subscription,Music Streaming Service,Music,Medium,Active,No,52,Unknown
+A0151,U0046,Email,Secondary Webmail Provider,Backup email,High,Active,No,89,Yes
+A0152,U0046,Cloud Storage,Cloud Drive Service,Document storage,High,Inactive,Unknown,391,Yes
+A0153,U0046,Financial Service,UPI Payment App,UPI payments,High,Unmanaged,No,991,Yes
+A0154,U0047,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,469,Yes
+A0155,U0047,Cloud Storage,Cloud Drive Service,Document storage,High,Inactive,Yes,333,Yes
+A0156,U0047,Financial Service,UPI Payment App,UPI payments,High,Inactive,Yes,445,Yes
+A0157,U0048,Email,Secondary Webmail Provider,Backup email,High,Unmanaged,Yes,967,Yes
+A0158,U0048,Other,Utility Bill Portal,Electricity bill portal,Low,Active,Yes,79,No
+A0159,U0048,Cloud Storage,Cloud Drive Service,Document storage,High,Active,Yes,175,Yes
+A0160,U0048,Shopping,Food Delivery App,Food orders,Medium,Active,No,47,No
+A0161,U0049,Email,Generic Webmail Provider,Personal email,High,Active,Yes,110,Yes
+A0162,U0049,Shopping,Food Delivery App,Food orders,Low,Active,Yes,64,No
+A0163,U0050,Email,Work Email Service,Work email,High,Active,No,126,Yes
+A0164,U0050,Cloud Storage,Photo Backup Service,Photo backup,High,Active,Unknown,167,Yes
+A0165,U0051,Email,Secondary Webmail Provider,Backup email,High,Inactive,Yes,488,Yes
+A0166,U0051,Subscription,Gaming Network,Gaming account,Medium,Active,No,30,Yes
+A0167,U0051,Subscription,Music Streaming Service,Music,Low,Active,Yes,61,No
+A0168,U0051,Social Media,Video-Sharing Platform,Video channel,Medium,Active,Unknown,60,No
+A0169,U0052,Email,Secondary Webmail Provider,Backup email,High,Inactive,Yes,516,Yes
+A0170,U0052,Shopping,Grocery Delivery App,Grocery orders,Low,Active,No,99,No
+A0171,U0053,Email,Work Email Service,Work email,High,Active,Yes,176,Yes
+A0172,U0053,Social Media,Messaging App,Chat account,Medium,Inactive,Unknown,409,Yes
+A0173,U0053,Website/Domain,Domain Registrar,Personal domain,High,Unmanaged,No,389,No
+A0174,U0053,Social Media,Video-Sharing Platform,Video channel,Low,Active,Yes,58,No
+A0175,U0054,Email,Generic Webmail Provider,Personal email,High,Unmanaged,Yes,1407,Yes
+A0176,U0054,Shopping,Grocery Delivery App,Grocery orders,Medium,Active,No,116,No
+A0177,U0055,Email,Generic Webmail Provider,Personal email,High,Active,No,101,Yes
+A0178,U0055,Financial Service,Digital Wallet App,Mobile wallet,High,Unmanaged,Yes,641,Yes
+A0179,U0055,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Inactive,No,286,Unknown
+A0180,U0055,Social Media,Video-Sharing Platform,Video channel,Medium,Active,Unknown,76,Yes
+A0181,U0056,Email,Secondary Webmail Provider,Backup email,High,Under Review,No,17,Yes
+A0182,U0056,Cloud Storage,Photo Backup Service,Photo backup,Medium,Inactive,Yes,472,Yes
+A0183,U0056,Subscription,Video Streaming Service,Movies & shows,Low,Active,No,65,No
+A0184,U0057,Email,Secondary Webmail Provider,Backup email,High,Inactive,Yes,228,Yes
+A0185,U0057,Social Media,Microblogging Platform,Public microblog,Medium,Active,No,58,Yes
+A0186,U0057,Cloud Storage,Cloud Drive Service,Document storage,High,Active,Yes,110,Yes
+A0187,U0058,Email,Generic Webmail Provider,Personal email,High,Active,No,141,Yes
+A0188,U0058,Financial Service,Insurance Portal,Insurance policies,High,Unmanaged,Yes,1044,Yes
+A0189,U0059,Email,Work Email Service,Work email,High,Active,No,30,Yes
+A0190,U0059,Social Media,Photo-Sharing Social App,Photo social profile,Low,Unmanaged,No,1418,No
+A0191,U0059,Subscription,Gaming Network,Gaming account,Low,Unmanaged,No,513,No
+A0192,U0060,Email,Generic Webmail Provider,Personal email,High,Inactive,No,503,Yes
+A0193,U0060,Social Media,Video-Sharing Platform,Video channel,Low,Active,No,129,Yes
+A0194,U0061,Email,Secondary Webmail Provider,Backup email,High,Active,No,166,Yes
+A0195,U0061,Shopping,Food Delivery App,Food orders,Medium,Inactive,No,396,No
+A0196,U0061,Subscription,Music Streaming Service,Music,Low,Active,No,141,No
+A0197,U0061,Financial Service,UPI Payment App,UPI payments,High,Active,Yes,18,Yes
+A0198,U0062,Email,Generic Webmail Provider,Personal email,High,Active,Yes,85,Yes
+A0199,U0062,Social Media,Microblogging Platform,Public microblog,Medium,Unmanaged,Unknown,522,No
+A0200,U0062,Financial Service,UPI Payment App,UPI payments,High,Unmanaged,Yes,670,Yes
+A0201,U0062,Cloud Storage,Phone Backup Service,Phone backup,Medium,Inactive,Yes,349,Yes
+A0202,U0062,Website/Domain,Domain Registrar,Personal domain,High,Active,Yes,125,No
+A0203,U0063,Email,Generic Webmail Provider,Personal email,High,Active,No,45,Yes
+A0204,U0063,Shopping,E-commerce Marketplace,Online shopping,Low,Active,Unknown,155,No
+A0205,U0063,Email,Work Email Service,Work email,High,Inactive,No,518,Yes
+A0206,U0063,Cloud Storage,Photo Backup Service,Photo backup,High,Active,Yes,11,Yes
+A0207,U0064,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,57,Yes
+A0208,U0064,Financial Service,Net Banking Portal,Savings account portal,High,Active,Yes,97,Yes
+A0209,U0064,Financial Service,Digital Wallet App,Mobile wallet,High,Active,Yes,10,Yes
+A0210,U0064,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,12,Yes
+A0211,U0065,Email,Work Email Service,Work email,High,Active,Yes,2,Yes
+A0212,U0065,Email,Generic Webmail Provider,Personal email,High,Unmanaged,Unknown,930,Yes
+A0213,U0065,Cloud Storage,Phone Backup Service,Phone backup,Medium,Active,Yes,102,Yes
+A0214,U0065,Financial Service,Digital Wallet App,Mobile wallet,High,Inactive,Yes,344,Yes
+A0215,U0065,Shopping,E-commerce Marketplace,Online shopping,Low,Active,No,99,No
+A0216,U0066,Email,Secondary Webmail Provider,Backup email,High,Active,No,62,Yes
+A0217,U0066,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Active,Yes,73,Yes
+A0218,U0066,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,88,Unknown
+A0219,U0066,Subscription,Gaming Network,Gaming account,Low,Inactive,Yes,651,No
+A0220,U0067,Email,Generic Webmail Provider,Personal email,High,Active,Yes,46,Yes
+A0221,U0067,Social Media,Video-Sharing Platform,Video channel,High,Inactive,No,391,Unknown
+A0222,U0067,Shopping,Grocery Delivery App,Grocery orders,Low,Inactive,No,223,No
+A0223,U0067,Website/Domain,Portfolio Hosting Service,Portfolio site,Medium,Active,No,14,No
+A0224,U0067,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Inactive,Yes,395,Yes
+A0225,U0068,Email,Work Email Service,Work email,High,Active,Yes,72,Yes
+A0226,U0068,Social Media,Video-Sharing Platform,Video channel,Low,Active,No,39,No
+A0227,U0068,Shopping,Grocery Delivery App,Grocery orders,Medium,Active,No,122,No
+A0228,U0069,Email,Secondary Webmail Provider,Backup email,High,Active,No,125,Yes
+A0229,U0069,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Active,No,19,No
+A0230,U0069,Shopping,Food Delivery App,Food orders,Medium,Inactive,No,641,No
+A0231,U0070,Email,Generic Webmail Provider,Personal email,High,Active,Yes,22,Yes
+A0232,U0070,Website/Domain,Portfolio Hosting Service,Portfolio site,Medium,Active,Yes,44,Unknown
+A0233,U0070,Subscription,News Subscription,Digital newspaper,Low,Active,No,152,No
+A0234,U0070,Social Media,Microblogging Platform,Public microblog,Medium,Active,Unknown,134,No
+A0235,U0071,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,579,Yes
+A0236,U0071,Social Media,Messaging App,Chat account,Medium,Inactive,No,455,No
+A0237,U0071,Shopping,Grocery Delivery App,Grocery orders,Medium,Active,Unknown,137,No
+A0238,U0071,Shopping,Food Delivery App,Food orders,Medium,Inactive,Yes,654,Yes
+A0239,U0072,Email,Generic Webmail Provider,Personal email,High,Active,Yes,114,Yes
+A0240,U0072,Subscription,Video Streaming Service,Movies & shows,Low,Inactive,No,713,No
+A0241,U0072,Social Media,Microblogging Platform,Public microblog,Low,Active,Yes,71,Unknown
+A0242,U0072,Financial Service,Insurance Portal,Insurance policies,High,Active,Yes,159,Yes
+A0243,U0073,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,11,Yes
+A0244,U0073,Cloud Storage,Phone Backup Service,Phone backup,High,Active,Yes,142,Yes
+A0245,U0073,Social Media,Microblogging Platform,Public microblog,Medium,Unmanaged,No,855,Yes
+A0246,U0073,Social Media,Video-Sharing Platform,Video channel,Low,Active,No,25,No
+A0247,U0073,Other,Fitness Tracking App,Fitness data,Medium,Active,Yes,152,Yes
+A0248,U0074,Email,Generic Webmail Provider,Personal email,High,Inactive,No,452,Yes
+A0249,U0074,Financial Service,Mutual Fund Platform,Mutual fund investments,High,Active,Yes,146,Yes
+A0250,U0075,Email,Generic Webmail Provider,Personal email,High,Unmanaged,No,1127,Yes
+A0251,U0075,Subscription,News Subscription,Digital newspaper,Low,Inactive,Yes,643,No
+A0252,U0075,Shopping,Grocery Delivery App,Grocery orders,Low,Unmanaged,No,1499,Unknown
+A0253,U0075,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,77,Yes
+A0254,U0076,Email,Secondary Webmail Provider,Backup email,High,Unmanaged,No,1255,Yes
+A0255,U0076,Financial Service,UPI Payment App,UPI payments,High,Active,Yes,11,Yes
+A0256,U0076,Email,Generic Webmail Provider,Personal email,High,Active,Yes,101,Yes
+A0257,U0077,Email,Secondary Webmail Provider,Backup email,High,Active,No,64,Yes
+A0258,U0077,Shopping,Grocery Delivery App,Grocery orders,Medium,Active,No,79,Unknown
+A0259,U0077,Shopping,Travel Booking Portal,Train & flight bookings,Low,Unmanaged,No,863,Unknown
+A0260,U0077,Shopping,Food Delivery App,Food orders,Medium,Unmanaged,No,1489,Unknown
+A0261,U0078,Email,Generic Webmail Provider,Personal email,High,Active,Yes,169,Yes
+A0262,U0078,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,48,Yes
+A0263,U0078,Financial Service,Digital Wallet App,Mobile wallet,High,Active,No,91,Yes
+A0264,U0078,Shopping,Grocery Delivery App,Grocery orders,Low,Active,No,72,Yes
+A0265,U0078,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Active,No,110,No
+A0266,U0079,Email,Generic Webmail Provider,Personal email,High,Under Review,No,2,Yes
+A0267,U0079,Subscription,Video Streaming Service,Movies & shows,Low,Under Review,No,4,No
+A0268,U0080,Email,Secondary Webmail Provider,Backup email,High,Active,No,129,Yes
+A0269,U0080,Financial Service,Stock Broking App,Share trading,High,Under Review,Yes,2,Yes
+A0270,U0081,Email,Work Email Service,Work email,High,Inactive,Yes,717,Yes
+A0271,U0081,Subscription,News Subscription,Digital newspaper,Low,Active,No,162,Unknown
+A0272,U0081,Cloud Storage,Photo Backup Service,Photo backup,High,Unmanaged,Yes,1391,Yes
+A0273,U0081,Email,Generic Webmail Provider,Personal email,High,Unmanaged,No,1029,Yes
+A0274,U0082,Email,Work Email Service,Work email,High,Unmanaged,No,673,Yes
+A0275,U0082,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,52,Unknown
+A0276,U0082,Social Media,Photo-Sharing Social App,Photo social profile,Medium,Unmanaged,Unknown,791,No
+A0277,U0082,Shopping,Food Delivery App,Food orders,Low,Unmanaged,No,729,No
+A0278,U0083,Email,Work Email Service,Work email,High,Active,Unknown,54,Yes
+A0279,U0083,Shopping,E-commerce Marketplace,Online shopping,Low,Active,No,135,No
+A0280,U0083,Email,Secondary Webmail Provider,Backup email,High,Active,Unknown,161,Yes
+A0281,U0083,Cloud Storage,Photo Backup Service,Photo backup,High,Active,Unknown,18,Yes
+A0282,U0084,Email,Work Email Service,Work email,High,Inactive,Yes,216,Yes
+A0283,U0084,Shopping,Travel Booking Portal,Train & flight bookings,Medium,Unmanaged,No,1463,Yes
+A0284,U0085,Email,Work Email Service,Work email,High,Inactive,Yes,212,Yes
+A0285,U0085,Shopping,Food Delivery App,Food orders,Medium,Active,Yes,52,No
+A0286,U0085,Social Media,Video-Sharing Platform,Video channel,Medium,Inactive,No,708,No
+A0287,U0086,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,394,Yes
+A0288,U0086,Website/Domain,Blog Hosting Service,Personal blog,Medium,Under Review,Yes,6,No
+A0289,U0086,Subscription,Online Learning Platform,Online courses,Low,Active,No,114,Yes
+A0290,U0086,Financial Service,UPI Payment App,UPI payments,High,Inactive,Yes,544,Yes
+A0291,U0087,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,158,Yes
+A0292,U0087,Social Media,Microblogging Platform,Public microblog,Low,Active,No,44,No
+A0293,U0087,Cloud Storage,Photo Backup Service,Photo backup,Medium,Active,Yes,106,Yes
+A0294,U0088,Email,Secondary Webmail Provider,Backup email,High,Inactive,Unknown,678,Yes
+A0295,U0088,Shopping,Grocery Delivery App,Grocery orders,Medium,Unmanaged,No,1378,No
+A0296,U0088,Cloud Storage,Cloud Drive Service,Document storage,Medium,Active,No,100,Yes
+A0297,U0089,Email,Work Email Service,Work email,High,Unmanaged,No,1122,Yes
+A0298,U0089,Cloud Storage,Cloud Drive Service,Document storage,High,Active,Unknown,161,Yes
+A0299,U0089,Subscription,Gaming Network,Gaming account,Low,Active,Unknown,172,No
+A0300,U0090,Email,Work Email Service,Work email,High,Active,Yes,116,Yes
+A0301,U0090,Other,Utility Bill Portal,Electricity bill portal,High,Active,Unknown,9,No
+A0302,U0090,Social Media,Photo-Sharing Social App,Photo social profile,Low,Active,No,157,Yes
+A0303,U0090,Social Media,Professional Networking Site,Professional profile,Medium,Active,No,117,No
+A0304,U0091,Email,Secondary Webmail Provider,Backup email,High,Inactive,Yes,207,Yes
+A0305,U0091,Social Media,Video-Sharing Platform,Video channel,Low,Inactive,Yes,358,Unknown
+A0306,U0091,Email,Work Email Service,Work email,High,Under Review,No,24,Yes
+A0307,U0092,Email,Secondary Webmail Provider,Backup email,High,Active,Yes,119,Yes
+A0308,U0092,Shopping,Food Delivery App,Food orders,Medium,Under Review,No,16,No
+A0309,U0093,Email,Work Email Service,Work email,High,Active,Yes,173,Yes
+A0310,U0093,Email,Generic Webmail Provider,Personal email,High,Inactive,Yes,404,Yes
+A0311,U0093,Cloud Storage,Cloud Drive Service,Document storage,Medium,Active,Unknown,31,Yes
+A0312,U0094,Email,Work Email Service,Work email,High,Unmanaged,Yes,697,Yes
+A0313,U0094,Social Media,Messaging App,Chat account,High,Under Review,No,20,No
+A0314,U0095,Email,Work Email Service,Work email,High,Unmanaged,Unknown,443,Yes
+A0315,U0095,Subscription,Online Learning Platform,Online courses,Medium,Unmanaged,No,372,Unknown
+A0316,U0096,Email,Work Email Service,Work email,High,Unmanaged,No,1307,Yes
+A0317,U0096,Financial Service,Digital Wallet App,Mobile wallet,High,Active,Unknown,177,Yes
+A0318,U0097,Email,Secondary Webmail Provider,Backup email,High,Unmanaged,Yes,1060,Yes
+A0319,U0097,Social Media,Messaging App,Chat account,Low,Active,No,149,No
+A0320,U0097,Social Media,Photo-Sharing Social App,Photo social profile,High,Active,Yes,79,No
+A0321,U0097,Subscription,Video Streaming Service,Movies & shows,Low,Unmanaged,No,1030,No
+A0322,U0098,Email,Work Email Service,Work email,High,Active,No,149,Yes
+A0323,U0098,Subscription,Gaming Network,Gaming account,Low,Inactive,No,470,Yes
+A0324,U0098,Financial Service,Digital Wallet App,Mobile wallet,High,Inactive,Unknown,364,Yes
+A0325,U0099,Email,Generic Webmail Provider,Personal email,High,Active,Yes,161,Yes
+A0326,U0099,Social Media,Professional Networking Site,Professional profile,High,Inactive,Yes,394,Unknown
+A0327,U0099,Social Media,Video-Sharing Platform,Video channel,Low,Active,Yes,61,Yes
+A0328,U0100,Email,Generic Webmail Provider,Personal email,High,Active,Unknown,112,Yes
+A0329,U0100,Shopping,Food Delivery App,Food orders,Low,Active,Yes,178,No

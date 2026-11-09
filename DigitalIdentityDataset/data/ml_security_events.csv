@@ -1,0 +1,421 @@
+event_id,event_type,hour_of_day,is_night_time,day_of_week,device_category,is_new_device,location_matches_home,failed_attempt_count,asset_category,asset_importance,asset_management_status,asset_mfa_enabled,asset_last_reviewed_days_ago,user_age,user_digital_literacy,user_security_awareness,from_unregistered_requester,target_is_suspicious,target_risk_level
+E0001,Normal Activity,9,No,Thursday,Unknown,No,Yes,0,Subscription,Low,Active,No,141,22,High,Medium,No,No,Low
+E0002,Normal Activity,17,No,Friday,Desktop,No,Yes,1,Financial Service,High,Active,Unknown,177,55,Medium,Medium,No,No,Low
+E0003,Normal Activity,8,No,Saturday,Desktop,No,No,1,Email,High,Active,No,47,21,High,High,No,No,Low
+E0004,Normal Activity,12,No,Saturday,Mobile,No,Yes,0,Email,High,Under Review,Yes,5,44,Medium,Low,No,No,Low
+E0005,Normal Activity,18,No,Sunday,Mobile,No,Yes,1,Financial Service,High,Active,Yes,27,44,Medium,Medium,No,No,Low
+E0006,Normal Activity,11,No,Monday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,No,710,55,Low,Low,No,No,Low
+E0007,Unusual Login,2,Yes,Tuesday,Mobile,No,Yes,0,Email,High,Active,Yes,153,28,High,Medium,No,Yes,Medium
+E0008,Unusual Login,14,No,Friday,Mobile,Yes,No,0,Financial Service,High,Active,Yes,97,41,Medium,Medium,No,Yes,Medium
+E0009,Normal Activity,19,No,Friday,Mobile,No,No,0,Email,High,Active,Yes,85,36,High,High,No,No,Low
+E0010,Normal Activity,7,No,Sunday,Mobile,No,Yes,1,Subscription,Medium,Inactive,No,700,39,Medium,Medium,No,No,Low
+E0011,Normal Activity,18,No,Sunday,Mobile,No,Yes,1,Email,High,Active,Unknown,48,21,High,Medium,No,No,Low
+E0012,Normal Activity,18,No,Sunday,Desktop,No,Yes,0,Social Media,High,Active,Unknown,33,34,High,High,No,No,Low
+E0013,Unknown Device,0,Yes,Monday,Desktop,Yes,No,0,Email,High,Inactive,No,207,29,High,High,No,Yes,High
+E0014,Normal Activity,16,No,Monday,Mobile,No,Yes,0,Email,High,Active,Yes,153,28,High,Medium,No,No,Low
+E0015,Unusual Login,11,No,Tuesday,Mobile,Yes,No,0,Email,High,Under Review,No,17,45,Low,Medium,No,Yes,High
+E0016,Normal Activity,14,No,Wednesday,Mobile,Yes,Yes,0,Subscription,Low,Active,No,158,21,High,Medium,No,No,Low
+E0017,Unknown Device,6,No,Thursday,Desktop,Yes,Yes,0,Email,High,Active,No,141,28,Medium,Low,No,Yes,Medium
+E0018,Normal Activity,22,No,Thursday,Desktop,No,Yes,0,Social Media,Low,Active,No,25,24,High,High,No,No,Low
+E0019,Unusual Login,1,Yes,Friday,Mobile,No,No,0,Email,High,Inactive,Yes,248,33,Medium,High,No,Yes,Medium
+E0020,Normal Activity,15,No,Saturday,Unknown,No,Yes,0,Shopping,Medium,Inactive,No,199,41,Medium,Medium,No,No,Low
+E0021,Normal Activity,18,No,Saturday,Desktop,No,Yes,1,Email,High,Inactive,No,503,50,Medium,Medium,No,No,Low
+E0022,Repeated Failed Login,20,No,Saturday,Desktop,Yes,No,12,Email,High,Inactive,Unknown,366,19,High,High,No,Yes,High
+E0023,Repeated Failed Login,1,Yes,Sunday,Mobile,No,Yes,8,Cloud Storage,Medium,Active,No,69,73,Medium,High,No,Yes,High
+E0024,Normal Activity,18,No,Tuesday,Mobile,No,Yes,0,Email,High,Inactive,Yes,248,33,Medium,High,No,No,Low
+E0025,Unusual Login,13,No,Wednesday,Mobile,Yes,No,0,Cloud Storage,Medium,Active,No,100,51,Low,Medium,No,Yes,Medium
+E0026,Unknown Device,21,No,Wednesday,Mobile,Yes,No,0,Social Media,Low,Active,No,25,24,High,High,No,Yes,Medium
+E0027,Repeated Failed Login,21,No,Friday,Desktop,Yes,No,3,Social Media,High,Inactive,No,391,26,High,Medium,No,Yes,High
+E0028,Unknown Device,23,No,Friday,Mobile,Yes,No,0,Subscription,Low,Active,No,59,30,Medium,Medium,No,Yes,High
+E0029,Normal Activity,13,No,Saturday,Tablet,No,Yes,0,Email,High,Active,Yes,153,28,High,Medium,No,No,Low
+E0030,Normal Activity,14,No,Saturday,Mobile,No,No,0,Financial Service,High,Active,Yes,11,45,Low,Low,No,No,Low
+E0031,Normal Activity,20,No,Saturday,Mobile,No,Yes,0,Cloud Storage,High,Active,Yes,11,35,High,Low,No,No,Low
+E0032,Normal Activity,10,No,Sunday,Mobile,No,Yes,0,Social Media,Medium,Active,No,117,31,Medium,Medium,No,No,Low
+E0033,Unusual Login,1,Yes,Tuesday,Mobile,Yes,No,0,Shopping,Medium,Inactive,No,641,44,Low,Low,No,Yes,High
+E0034,Unusual Login,15,No,Thursday,Desktop,No,No,0,Email,High,Active,Yes,61,21,High,High,No,Yes,Medium
+E0035,Normal Activity,15,No,Friday,Mobile,No,Yes,0,Email,High,Inactive,Yes,488,29,Medium,Medium,No,No,Low
+E0036,Unknown Device,1,Yes,Saturday,Mobile,Yes,No,0,Social Media,Low,Active,Yes,58,31,Medium,High,No,Yes,Medium
+E0037,Normal Activity,16,No,Saturday,Mobile,No,Yes,0,Cloud Storage,Medium,Active,No,69,73,Medium,High,No,No,Low
+E0038,Repeated Failed Login,0,Yes,Monday,Desktop,Yes,Yes,7,Social Media,High,Active,Unknown,91,25,High,Medium,No,Yes,High
+E0039,Normal Activity,13,No,Monday,Mobile,No,Yes,1,Email,High,Unmanaged,Unknown,443,50,Medium,Medium,No,No,Low
+E0040,Normal Activity,16,No,Monday,Desktop,No,Yes,0,Email,High,Active,No,19,39,Medium,Low,No,No,Low
+E0041,Normal Activity,20,No,Monday,Desktop,No,Yes,1,Email,High,Inactive,Yes,216,24,Medium,Low,No,No,Low
+E0042,Unknown Device,9,No,Tuesday,Mobile,Yes,Yes,0,Email,High,Under Review,No,17,45,Low,Medium,No,Yes,Medium
+E0043,Normal Activity,14,No,Tuesday,Mobile,No,Yes,0,Shopping,Medium,Inactive,Yes,318,35,Medium,Medium,No,No,Low
+E0044,Unusual Login,0,Yes,Wednesday,Mobile,No,No,0,Social Media,Low,Active,No,129,50,Medium,Medium,No,Yes,High
+E0045,Repeated Failed Login,0,Yes,Wednesday,Desktop,Yes,No,11,Email,High,Under Review,No,17,45,Low,Medium,No,Yes,High
+E0046,Unusual Login,5,No,Thursday,Mobile,Yes,No,0,Financial Service,High,Inactive,Yes,344,31,High,Medium,No,Yes,High
+E0047,Normal Activity,13,No,Saturday,Mobile,No,Yes,0,Shopping,Low,Active,Yes,169,33,Medium,High,No,No,Low
+E0048,Inactive Account Review,16,No,Saturday,Unknown,No,Yes,0,Social Media,Medium,Inactive,No,708,48,Low,Medium,No,No,Low
+E0049,Normal Activity,15,No,Sunday,Desktop,No,Yes,1,Financial Service,High,Active,Yes,27,19,High,High,No,No,Low
+E0050,Repeated Failed Login,1,Yes,Tuesday,Mobile,No,No,11,Email,High,Inactive,Yes,244,25,High,Low,No,Yes,High
+E0051,Repeated Failed Login,2,Yes,Tuesday,Mobile,Yes,Yes,6,Email,High,Inactive,Yes,717,29,High,Low,No,Yes,Medium
+E0052,Unknown Device,2,Yes,Wednesday,Desktop,Yes,No,0,Subscription,Low,Inactive,Yes,643,27,High,Medium,No,Yes,Medium
+E0053,Normal Activity,19,No,Wednesday,Mobile,No,Yes,0,Social Media,Low,Active,Yes,71,20,High,Medium,No,No,Low
+E0054,Normal Activity,11,No,Thursday,Mobile,No,Yes,0,Cloud Storage,High,Active,Unknown,18,24,High,Medium,No,No,Low
+E0055,Normal Activity,15,No,Thursday,Unknown,No,Yes,0,Subscription,Low,Active,Yes,61,29,Medium,Medium,No,No,Low
+E0056,Unknown Device,2,Yes,Friday,Desktop,Yes,No,0,Cloud Storage,High,Active,Unknown,161,52,Low,Low,No,Yes,Medium
+E0057,Unusual Login,7,No,Friday,Mobile,No,No,0,Shopping,Medium,Active,No,79,30,Medium,Low,No,Yes,High
+E0058,Unknown Device,10,No,Friday,Unknown,Yes,Yes,0,Social Media,Medium,Inactive,No,628,25,Medium,High,No,No,Low
+E0059,Normal Activity,16,No,Sunday,Mobile,No,Yes,0,Social Media,Medium,Active,No,117,31,Medium,Medium,No,No,Low
+E0060,Repeated Failed Login,22,No,Sunday,Mobile,Yes,No,8,Subscription,Low,Active,No,141,22,High,Medium,No,Yes,High
+E0061,Normal Activity,14,No,Monday,Unknown,No,Yes,0,Email,High,Under Review,No,2,48,Low,Low,No,No,Low
+E0062,Normal Activity,18,No,Monday,Desktop,No,Yes,0,Cloud Storage,Medium,Active,No,118,25,High,High,No,No,Low
+E0063,Normal Activity,15,No,Wednesday,Mobile,Yes,Yes,0,Email,High,Active,No,126,42,Medium,High,No,No,Low
+E0064,Unknown Device,10,No,Thursday,Desktop,Yes,Yes,1,Shopping,Medium,Inactive,No,199,41,Medium,Medium,No,Yes,Medium
+E0065,Unusual Access Request,4,Yes,Friday,Desktop,Yes,No,0,Social Media,Low,Active,Yes,71,20,High,Medium,Yes,Yes,High
+E0066,Unusual Login,6,No,Friday,Desktop,No,No,0,Subscription,Low,Active,No,141,22,High,Medium,No,Yes,Medium
+E0067,Repeated Failed Login,0,Yes,Saturday,Desktop,Yes,No,14,Email,High,Inactive,Yes,702,37,High,High,No,Yes,High
+E0068,Inactive Account Review,4,Yes,Sunday,Unknown,No,Yes,0,Email,High,Inactive,No,503,50,Medium,Medium,No,Yes,Medium
+E0069,Normal Activity,9,No,Sunday,Tablet,No,Yes,0,Website/Domain,Medium,Active,No,14,26,High,Medium,No,No,Low
+E0070,Unknown Device,2,Yes,Monday,Mobile,Yes,No,0,Email,High,Active,No,101,29,Medium,Medium,No,Yes,High
+E0071,Repeated Failed Login,3,Yes,Tuesday,Unknown,Yes,No,5,Email,High,Inactive,Yes,595,73,Medium,High,No,Yes,Medium
+E0072,Unusual Login,10,No,Friday,Desktop,Yes,Yes,0,Email,High,Active,No,64,30,Medium,Low,No,Yes,Medium
+E0073,Normal Activity,18,No,Friday,Mobile,No,Yes,1,Cloud Storage,High,Active,Yes,175,31,Medium,Medium,No,No,Low
+E0074,Normal Activity,15,No,Saturday,Mobile,No,Yes,0,Cloud Storage,Medium,Inactive,No,473,25,High,Medium,No,No,Low
+E0075,Normal Activity,16,No,Saturday,Mobile,No,Yes,0,Shopping,Low,Active,No,32,33,Medium,Medium,No,No,Low
+E0076,Unknown Device,2,Yes,Sunday,Desktop,Yes,No,0,Shopping,Medium,Inactive,No,199,41,Medium,Medium,No,Yes,High
+E0077,Unknown Device,4,Yes,Monday,Desktop,Yes,No,0,Social Media,Medium,Active,No,58,27,Medium,Medium,No,Yes,High
+E0078,Normal Activity,22,No,Wednesday,Tablet,No,Yes,0,Shopping,Medium,Inactive,No,300,73,Medium,High,No,No,Low
+E0079,Unknown Device,4,Yes,Thursday,Desktop,Yes,Yes,2,Social Media,High,Active,Unknown,33,34,High,High,No,Yes,Medium
+E0080,Inactive Account Review,6,No,Thursday,Unknown,No,Yes,0,Email,High,Unmanaged,Unknown,930,31,High,Medium,No,Yes,Medium
+E0081,Normal Activity,11,No,Thursday,Desktop,No,Yes,0,Shopping,Low,Active,Yes,178,35,Medium,Medium,No,No,Low
+E0082,Normal Activity,18,No,Thursday,Mobile,No,Yes,0,Email,High,Inactive,Yes,394,22,High,High,No,No,Low
+E0083,Normal Activity,19,No,Thursday,Unknown,No,Yes,0,Shopping,Medium,Inactive,No,396,22,High,Medium,No,No,Low
+E0084,Repeated Failed Login,10,No,Saturday,Desktop,Yes,Yes,3,Social Media,Low,Active,No,39,39,Low,Low,No,Yes,Medium
+E0085,Unknown Device,17,No,Saturday,Unknown,Yes,Yes,0,Cloud Storage,Medium,Active,Yes,106,41,Medium,Medium,No,Yes,Medium
+E0086,Unusual Login,23,No,Saturday,Desktop,Yes,No,0,Social Media,Low,Active,Yes,58,31,Medium,High,No,Yes,Medium
+E0087,Normal Activity,10,No,Sunday,Desktop,No,No,0,Email,High,Inactive,Yes,228,27,Medium,Medium,No,No,Low
+E0088,Normal Activity,12,No,Sunday,Mobile,No,No,0,Email,High,Active,Yes,142,25,High,High,No,No,Low
+E0089,Unusual Access Request,18,No,Sunday,Unknown,Yes,No,0,Email,High,Unmanaged,No,593,34,Low,Low,No,Yes,High
+E0090,Unknown Device,3,Yes,Monday,Mobile,Yes,No,0,Email,High,Inactive,Yes,228,27,Medium,Medium,No,Yes,Medium
+E0091,Normal Activity,17,No,Tuesday,Desktop,No,Yes,0,Email,High,Active,Yes,85,36,High,High,No,No,Low
+E0092,Repeated Failed Login,18,No,Tuesday,Mobile,Yes,Yes,13,Shopping,Medium,Inactive,Yes,318,35,Medium,Medium,No,Yes,High
+E0093,Inactive Account Review,19,No,Tuesday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,No,710,55,Low,Low,No,Yes,Medium
+E0094,Unusual Login,2,Yes,Wednesday,Mobile,No,Yes,0,Subscription,Low,Under Review,No,4,48,Low,Low,No,Yes,Medium
+E0095,Normal Activity,10,No,Wednesday,Desktop,No,Yes,0,Financial Service,High,Active,Yes,16,29,High,High,No,No,Low
+E0096,Unusual Login,14,No,Wednesday,Tablet,No,No,0,Email,High,Active,Unknown,73,18,High,Medium,No,Yes,Medium
+E0097,Normal Activity,20,No,Wednesday,Mobile,No,Yes,0,Shopping,Medium,Active,No,101,38,Medium,Medium,No,No,Low
+E0098,Unusual Login,21,No,Friday,Desktop,No,No,0,Email,High,Inactive,Yes,207,30,High,High,No,Yes,Medium
+E0099,Normal Activity,10,No,Sunday,Mobile,No,Yes,0,Shopping,Medium,Active,No,19,44,Low,Low,No,No,Low
+E0100,Unknown Device,1,Yes,Monday,Desktop,Yes,Yes,0,Financial Service,High,Active,Unknown,177,55,Medium,Medium,No,Yes,Medium
+E0101,Inactive Account Review,22,No,Monday,Unknown,No,Yes,0,Email,High,Unmanaged,No,1255,45,Low,Low,No,Yes,Medium
+E0102,Normal Activity,18,No,Tuesday,Mobile,No,No,0,Financial Service,High,Active,Unknown,177,55,Medium,Medium,No,No,Low
+E0103,Normal Activity,16,No,Wednesday,Mobile,No,Yes,0,Email,High,Under Review,Yes,5,44,Medium,Low,No,No,Low
+E0104,Unknown Device,16,No,Thursday,Unknown,Yes,Yes,0,Other,Medium,Active,Yes,15,28,High,Medium,No,No,Low
+E0105,Normal Activity,15,No,Friday,Mobile,No,Yes,0,Social Media,Medium,Active,Yes,32,33,Medium,Medium,No,No,Low
+E0106,Unusual Login,0,Yes,Saturday,Desktop,No,Yes,0,Email,High,Active,No,141,28,Medium,Low,No,Yes,Medium
+E0107,Normal Activity,9,No,Saturday,Mobile,No,Yes,0,Email,High,Inactive,Yes,516,46,Medium,Medium,No,No,Low
+E0108,Normal Activity,23,No,Sunday,Unknown,No,Yes,0,Email,High,Active,Yes,159,19,High,Medium,No,No,Low
+E0109,Unusual Login,23,No,Monday,Desktop,No,No,0,Email,High,Inactive,Yes,394,22,High,High,No,No,Low
+E0110,Normal Activity,14,No,Tuesday,Mobile,No,Yes,0,Social Media,Medium,Active,Yes,32,33,Medium,Medium,No,No,Low
+E0111,Repeated Failed Login,0,Yes,Wednesday,Desktop,Yes,Yes,4,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,Yes,High
+E0112,Repeated Failed Login,1,Yes,Wednesday,Desktop,Yes,Yes,4,Shopping,Medium,Active,No,116,34,Medium,Low,No,Yes,Medium
+E0113,Normal Activity,17,No,Wednesday,Mobile,No,Yes,0,Subscription,Medium,Inactive,No,700,39,Medium,Medium,No,No,Low
+E0114,Normal Activity,19,No,Thursday,Desktop,No,Yes,0,Email,High,Active,Yes,101,45,Low,Low,No,No,Low
+E0115,Repeated Failed Login,3,Yes,Friday,Desktop,No,No,4,Shopping,Medium,Inactive,Yes,488,41,Medium,High,No,Yes,Medium
+E0116,Unknown Device,4,Yes,Friday,Unknown,Yes,Yes,0,Email,High,Inactive,No,304,36,High,Medium,No,Yes,Medium
+E0117,Normal Activity,11,No,Friday,Mobile,No,Yes,2,Email,High,Active,No,30,32,Low,Medium,No,No,Low
+E0118,Inactive Account Review,14,No,Friday,Unknown,No,Yes,0,Shopping,Medium,Inactive,Unknown,481,21,High,Medium,No,No,Low
+E0119,Normal Activity,13,No,Saturday,Desktop,No,Yes,0,Social Media,Medium,Inactive,No,720,33,Medium,Medium,No,No,Low
+E0120,Repeated Failed Login,22,No,Saturday,Desktop,Yes,Yes,9,Social Media,Medium,Active,No,52,25,Medium,Low,No,Yes,High
+E0121,Normal Activity,15,No,Sunday,Mobile,No,Yes,0,Shopping,Medium,Inactive,No,286,29,Medium,Medium,No,No,Low
+E0122,Unusual Login,14,No,Monday,Tablet,No,No,0,Email,High,Unmanaged,No,593,34,Low,Low,No,Yes,High
+E0123,Unknown Device,16,No,Monday,Mobile,Yes,Yes,1,Shopping,Low,Active,Yes,36,25,High,High,No,No,Low
+E0124,Normal Activity,11,No,Thursday,Mobile,No,Yes,0,Cloud Storage,Medium,Active,Yes,106,41,Medium,Medium,No,No,Low
+E0125,Unusual Login,4,Yes,Friday,Mobile,Yes,Yes,0,Email,High,Inactive,Unknown,366,19,High,High,No,Yes,Medium
+E0126,Unknown Device,2,Yes,Sunday,Unknown,Yes,No,0,Email,High,Active,Yes,109,30,Medium,Medium,No,Yes,Medium
+E0127,Normal Activity,16,No,Sunday,Unknown,No,Yes,0,Social Media,Medium,Active,No,51,27,Medium,Medium,No,No,Low
+E0128,Inactive Account Review,3,Yes,Monday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,Yes,472,45,Low,Medium,No,No,Low
+E0129,Normal Activity,16,No,Monday,Mobile,No,Yes,0,Website/Domain,Medium,Under Review,Yes,6,22,High,High,No,No,Low
+E0130,Normal Activity,13,No,Tuesday,Mobile,No,No,0,Email,High,Active,No,64,30,Medium,Low,No,No,Low
+E0131,Normal Activity,14,No,Tuesday,Desktop,No,Yes,0,Shopping,Low,Active,Unknown,156,25,High,High,No,No,Low
+E0132,Repeated Failed Login,1,Yes,Wednesday,Mobile,No,Yes,7,Email,High,Active,Yes,40,34,High,High,No,Yes,Medium
+E0133,Normal Activity,13,No,Wednesday,Mobile,No,Yes,0,Social Media,High,Inactive,Yes,394,28,Medium,Medium,No,No,Low
+E0134,Repeated Failed Login,20,No,Wednesday,Desktop,No,Yes,8,Email,High,Unmanaged,No,1006,41,Medium,Low,No,Yes,High
+E0135,Normal Activity,13,No,Thursday,Mobile,No,Yes,0,Social Media,High,Under Review,No,20,26,Medium,Medium,No,No,Low
+E0136,Unusual Login,2,Yes,Friday,Mobile,Yes,No,0,Email,High,Active,No,64,30,Medium,Low,No,Yes,High
+E0137,Normal Activity,17,No,Saturday,Mobile,No,Yes,1,Shopping,Low,Active,Yes,169,33,Medium,High,No,No,Low
+E0138,Repeated Failed Login,0,Yes,Sunday,Mobile,No,No,12,Social Media,Medium,Active,Unknown,151,25,Medium,Medium,No,Yes,High
+E0139,Normal Activity,15,No,Monday,Mobile,No,Yes,2,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,No,Low
+E0140,Normal Activity,15,No,Tuesday,Mobile,No,Yes,0,Subscription,Low,Active,Yes,61,29,Medium,Medium,No,No,Low
+E0141,Unusual Access Request,20,No,Wednesday,Mobile,No,No,0,Email,High,Unmanaged,No,541,36,Medium,Low,Yes,Yes,High
+E0142,Unknown Device,12,No,Friday,Desktop,Yes,No,0,Email,High,Inactive,Yes,248,33,Medium,High,No,Yes,Medium
+E0143,Normal Activity,15,No,Friday,Mobile,Yes,Yes,0,Subscription,Low,Active,No,14,33,Medium,Medium,No,No,Low
+E0144,Repeated Failed Login,21,No,Friday,Desktop,Yes,No,3,Financial Service,High,Inactive,Yes,544,22,High,High,No,No,Low
+E0145,Repeated Failed Login,22,No,Sunday,Desktop,Yes,Yes,6,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,Yes,High
+E0146,Repeated Failed Login,2,Yes,Monday,Mobile,Yes,Yes,6,Social Media,Medium,Active,Unknown,76,29,Medium,Medium,No,Yes,Medium
+E0147,Normal Activity,13,No,Monday,Mobile,No,Yes,0,Social Media,High,Inactive,No,391,26,High,Medium,No,No,Low
+E0148,Unusual Login,4,Yes,Tuesday,Tablet,No,Yes,0,Email,High,Active,Unknown,47,21,High,Medium,No,Yes,Medium
+E0149,Normal Activity,17,No,Tuesday,Desktop,No,Yes,0,Subscription,Medium,Active,Yes,39,21,High,High,No,No,Low
+E0150,Unusual Access Request,5,No,Wednesday,Desktop,Yes,No,0,Financial Service,High,Active,Yes,146,32,Medium,Low,No,Yes,Medium
+E0151,Normal Activity,20,No,Wednesday,Desktop,No,Yes,0,Shopping,Low,Active,Yes,36,25,High,High,No,No,Low
+E0152,Unusual Login,0,Yes,Thursday,Unknown,Yes,No,0,Subscription,Medium,Inactive,No,719,39,Medium,Medium,No,Yes,High
+E0153,Unusual Access Request,1,Yes,Thursday,Mobile,No,No,0,Email,High,Inactive,Unknown,312,39,Medium,Medium,No,Yes,High
+E0154,Unusual Login,14,No,Thursday,Mobile,Yes,No,1,Cloud Storage,High,Active,Yes,110,27,Medium,Medium,No,Yes,Medium
+E0155,Normal Activity,18,No,Thursday,Desktop,No,Yes,0,Email,High,Active,Yes,110,39,Medium,High,No,No,Low
+E0156,Normal Activity,20,No,Thursday,Mobile,No,Yes,0,Email,High,Active,Yes,109,30,Medium,Medium,No,No,Low
+E0157,Unknown Device,0,Yes,Friday,Unknown,Yes,Yes,0,Email,High,Under Review,No,17,45,Low,Medium,No,Yes,Medium
+E0158,Unusual Login,1,Yes,Friday,Desktop,Yes,No,0,Financial Service,High,Active,Yes,90,21,High,High,No,Yes,High
+E0159,Normal Activity,14,No,Friday,Unknown,No,Yes,0,Financial Service,High,Unmanaged,Unknown,1344,25,High,Low,No,No,Low
+E0160,Normal Activity,17,No,Friday,Mobile,No,Yes,2,Email,High,Active,No,129,34,Medium,Medium,No,No,Low
+E0161,Unusual Access Request,11,No,Saturday,Desktop,Yes,Yes,0,Email,High,Inactive,Yes,507,33,Medium,Medium,Yes,Yes,High
+E0162,Normal Activity,11,No,Saturday,Mobile,No,Yes,0,Subscription,Low,Active,No,162,29,High,Low,No,No,Low
+E0163,Repeated Failed Login,13,No,Saturday,Mobile,No,Yes,5,Shopping,Medium,Inactive,No,286,29,Medium,Medium,No,Yes,Medium
+E0164,Normal Activity,15,No,Sunday,Mobile,No,Yes,1,Email,High,Active,Yes,110,39,Medium,High,No,No,Low
+E0165,Normal Activity,18,No,Sunday,Tablet,No,Yes,0,Email,High,Active,Unknown,112,35,Medium,Medium,No,No,Low
+E0166,Unusual Access Request,23,No,Monday,Mobile,Yes,No,0,Email,High,Unmanaged,No,740,18,Medium,Low,No,Yes,High
+E0167,Normal Activity,17,No,Tuesday,Tablet,No,Yes,2,Email,High,Inactive,Yes,216,24,Medium,Low,No,No,Low
+E0168,Repeated Failed Login,5,No,Thursday,Desktop,No,Yes,11,Shopping,Medium,Active,Unknown,137,37,High,Medium,No,Yes,Medium
+E0169,Unknown Device,7,No,Thursday,Desktop,Yes,No,0,Email,High,Unmanaged,No,1006,41,Medium,Low,No,Yes,High
+E0170,Repeated Failed Login,2,Yes,Friday,Unknown,Yes,Yes,10,Social Media,Medium,Active,Unknown,76,29,Medium,Medium,No,Yes,High
+E0171,Normal Activity,17,No,Friday,Desktop,No,Yes,0,Social Media,Low,Inactive,No,664,33,Low,Low,No,No,Low
+E0172,Inactive Account Review,0,Yes,Saturday,Unknown,No,Yes,0,Email,High,Unmanaged,No,1153,47,Low,Low,No,Yes,Medium
+E0173,Unknown Device,13,No,Saturday,Mobile,Yes,No,0,Social Media,Medium,Inactive,No,628,25,Medium,High,No,Yes,Medium
+E0174,Repeated Failed Login,1,Yes,Sunday,Mobile,Yes,No,13,Subscription,Medium,Active,No,52,38,Medium,Medium,No,Yes,High
+E0175,Repeated Failed Login,1,Yes,Monday,Unknown,Yes,Yes,11,Social Media,High,Active,Unknown,91,25,High,Medium,No,Yes,High
+E0176,Normal Activity,7,No,Monday,Mobile,No,Yes,0,Financial Service,High,Active,Yes,87,47,Low,Low,No,No,Low
+E0177,Normal Activity,11,No,Monday,Desktop,No,Yes,1,Social Media,Medium,Active,No,52,25,Medium,Low,No,No,Low
+E0178,Unknown Device,19,No,Monday,Mobile,Yes,Yes,1,Social Media,Medium,Active,No,51,27,Medium,Medium,No,Yes,Medium
+E0179,Normal Activity,12,No,Tuesday,Mobile,No,Yes,0,Other,Low,Active,Yes,79,31,Medium,Medium,No,No,Low
+E0180,Normal Activity,17,No,Tuesday,Mobile,No,Yes,0,Cloud Storage,Medium,Active,Unknown,31,43,Medium,High,No,No,Low
+E0181,Normal Activity,18,No,Wednesday,Desktop,Yes,Yes,0,Subscription,Low,Active,Yes,61,29,Medium,Medium,No,No,Low
+E0182,Unknown Device,10,No,Thursday,Unknown,Yes,No,2,Financial Service,High,Inactive,Yes,445,30,Low,Medium,No,Yes,Medium
+E0183,Unknown Device,2,Yes,Friday,Unknown,Yes,Yes,0,Shopping,Medium,Active,No,20,29,Medium,Medium,No,Yes,Medium
+E0184,Unknown Device,4,Yes,Friday,Mobile,Yes,Yes,0,Email,High,Inactive,Unknown,312,39,Medium,Medium,No,Yes,High
+E0185,Repeated Failed Login,23,No,Friday,Mobile,Yes,No,11,Email,High,Inactive,Yes,469,30,Low,Medium,No,Yes,High
+E0186,Inactive Account Review,16,No,Saturday,Unknown,No,Yes,0,Cloud Storage,High,Inactive,Unknown,391,32,Medium,Low,No,Yes,Medium
+E0187,Normal Activity,12,No,Sunday,Desktop,No,Yes,0,Email,High,Active,Yes,73,33,Medium,Medium,No,No,Low
+E0188,Normal Activity,17,No,Monday,Desktop,No,Yes,0,Cloud Storage,High,Active,Unknown,40,37,High,High,No,No,Low
+E0189,Repeated Failed Login,1,Yes,Friday,Mobile,No,No,10,Shopping,Medium,Active,No,20,29,Medium,Medium,No,Yes,Medium
+E0190,Unusual Access Request,8,No,Friday,Desktop,Yes,No,0,Email,High,Active,No,178,38,Medium,Medium,No,Yes,High
+E0191,Unusual Access Request,5,No,Saturday,Desktop,Yes,No,0,Email,High,Unmanaged,Yes,697,26,Medium,Medium,No,Yes,High
+E0192,Normal Activity,14,No,Monday,Mobile,No,Yes,0,Social Media,Medium,Active,No,52,25,Medium,Low,No,No,Low
+E0193,Normal Activity,16,No,Monday,Desktop,No,Yes,1,Shopping,Low,Active,No,72,21,High,Medium,No,No,Low
+E0194,Inactive Account Review,2,Yes,Tuesday,Unknown,No,Yes,0,Social Media,High,Inactive,Yes,422,38,Medium,Medium,No,No,Low
+E0195,Unknown Device,8,No,Thursday,Mobile,Yes,Yes,0,Social Media,Low,Active,Yes,61,28,Medium,Medium,No,No,Low
+E0196,Normal Activity,14,No,Saturday,Mobile,No,Yes,0,Social Media,Medium,Active,No,51,27,Medium,Medium,No,No,Low
+E0197,Normal Activity,14,No,Sunday,Mobile,No,Yes,0,Email,High,Active,Unknown,57,41,Medium,Medium,No,No,Low
+E0198,Unusual Access Request,4,Yes,Monday,Mobile,No,No,1,Shopping,Medium,Active,No,47,31,Medium,Medium,Yes,Yes,High
+E0199,Normal Activity,11,No,Thursday,Mobile,No,Yes,0,Financial Service,High,Active,Yes,90,21,High,High,No,No,Low
+E0200,Unusual Access Request,7,No,Friday,Mobile,Yes,Yes,0,Email,High,Active,Yes,153,28,High,Medium,Yes,Yes,High
+E0201,Normal Activity,11,No,Friday,Mobile,No,Yes,0,Social Media,Medium,Active,No,52,25,Medium,Low,No,No,Low
+E0202,Unusual Login,11,No,Friday,Desktop,No,No,0,Financial Service,High,Inactive,Yes,544,22,High,High,No,No,Low
+E0203,Normal Activity,15,No,Friday,Mobile,No,Yes,0,Email,High,Active,No,149,20,High,Medium,No,No,Low
+E0204,Repeated Failed Login,1,Yes,Sunday,Mobile,No,Yes,4,Email,High,Inactive,No,503,50,Medium,Medium,No,Yes,Medium
+E0205,Normal Activity,18,No,Sunday,Mobile,No,Yes,0,Email,High,Inactive,Yes,248,33,Medium,High,No,No,Low
+E0206,Normal Activity,16,No,Monday,Mobile,No,Yes,0,Email,High,Active,Yes,19,18,High,Medium,No,No,Low
+E0207,Unknown Device,22,No,Monday,Unknown,Yes,Yes,0,Email,High,Active,No,47,21,High,High,No,Yes,Medium
+E0208,Repeated Failed Login,3,Yes,Wednesday,Unknown,Yes,Yes,5,Email,High,Inactive,Yes,702,37,High,High,No,Yes,High
+E0209,Normal Activity,18,No,Thursday,Mobile,No,Yes,0,Social Media,Medium,Active,No,88,21,High,High,No,No,Low
+E0210,Normal Activity,18,No,Thursday,Mobile,No,Yes,0,Social Media,Medium,Active,Unknown,151,25,Medium,Medium,No,No,Low
+E0211,Unusual Login,16,No,Friday,Tablet,Yes,No,0,Social Media,High,Active,Yes,79,50,Medium,Medium,No,Yes,Medium
+E0212,Normal Activity,16,No,Saturday,Desktop,No,Yes,2,Email,High,Active,Yes,39,41,Medium,Medium,No,No,Low
+E0213,Unusual Login,1,Yes,Sunday,Unknown,Yes,Yes,2,Email,High,Active,Unknown,57,41,Medium,Medium,No,Yes,Medium
+E0214,Normal Activity,12,No,Sunday,Mobile,No,Yes,0,Social Media,Medium,Active,No,52,25,Medium,Low,No,No,Low
+E0215,Unusual Access Request,15,No,Sunday,Mobile,No,Yes,0,Email,High,Active,No,129,34,Medium,Medium,No,No,Low
+E0216,Unusual Login,19,No,Tuesday,Mobile,Yes,No,0,Financial Service,High,Active,Unknown,177,55,Medium,Medium,No,Yes,High
+E0217,Normal Activity,17,No,Wednesday,Mobile,No,Yes,0,Financial Service,High,Inactive,Yes,503,37,High,High,No,No,Low
+E0218,Repeated Failed Login,11,No,Thursday,Mobile,No,Yes,3,Shopping,Low,Active,No,99,31,High,Medium,No,Yes,Medium
+E0219,Inactive Account Review,16,No,Thursday,Unknown,No,Yes,0,Social Media,High,Inactive,No,391,26,High,Medium,No,Yes,Medium
+E0220,Repeated Failed Login,1,Yes,Friday,Mobile,Yes,Yes,7,Cloud Storage,High,Inactive,Yes,333,30,Low,Medium,No,Yes,Medium
+E0221,Unusual Access Request,2,Yes,Friday,Mobile,Yes,No,0,Shopping,Medium,Inactive,Unknown,481,21,High,Medium,Yes,Yes,High
+E0222,Unknown Device,2,Yes,Saturday,Unknown,Yes,Yes,0,Email,High,Unmanaged,No,740,18,Medium,Low,No,Yes,High
+E0223,Normal Activity,12,No,Sunday,Desktop,No,Yes,1,Cloud Storage,High,Inactive,Yes,333,30,Low,Medium,No,No,Low
+E0224,Unusual Access Request,14,No,Sunday,Tablet,No,No,0,Subscription,Medium,Active,No,52,38,Medium,Medium,No,Yes,Medium
+E0225,Normal Activity,14,No,Tuesday,Mobile,No,Yes,0,Email,High,Active,No,30,32,Low,Medium,No,No,Low
+E0226,Normal Activity,18,No,Wednesday,Mobile,No,Yes,0,Social Media,High,Active,Unknown,91,25,High,Medium,No,No,Low
+E0227,Repeated Failed Login,3,Yes,Saturday,Mobile,Yes,Yes,4,Social Media,High,Active,Unknown,91,25,High,Medium,No,Yes,Medium
+E0228,Repeated Failed Login,7,No,Saturday,Mobile,No,Yes,14,Email,High,Active,Yes,169,21,High,Medium,No,Yes,Medium
+E0229,Unknown Device,2,Yes,Sunday,Desktop,Yes,Yes,0,Shopping,Low,Active,Yes,36,25,High,High,No,No,Low
+E0230,Unknown Device,4,Yes,Sunday,Mobile,Yes,No,0,Social Media,Medium,Inactive,Unknown,409,31,Medium,High,No,Yes,High
+E0231,Repeated Failed Login,16,No,Sunday,Mobile,No,Yes,7,Social Media,Low,Inactive,Yes,225,38,Medium,Medium,No,Yes,Medium
+E0232,Unusual Access Request,12,No,Monday,Desktop,Yes,Yes,0,Social Media,High,Active,Yes,114,36,High,Medium,No,Yes,High
+E0233,Normal Activity,16,No,Monday,Mobile,No,Yes,0,Email,High,Inactive,Yes,228,27,Medium,Medium,No,No,Low
+E0234,Unusual Login,18,No,Tuesday,Desktop,No,No,0,Financial Service,High,Inactive,Yes,344,31,High,Medium,No,Yes,Medium
+E0235,Inactive Account Review,23,No,Tuesday,Unknown,No,Yes,0,Subscription,Low,Unmanaged,No,513,32,Low,Medium,No,Yes,Medium
+E0236,Normal Activity,13,No,Wednesday,Desktop,No,Yes,0,Shopping,Low,Active,Yes,127,40,Low,Low,No,No,Low
+E0237,Unusual Login,0,Yes,Thursday,Unknown,Yes,No,0,Email,High,Active,Yes,159,19,High,Medium,No,Yes,High
+E0238,Repeated Failed Login,6,No,Thursday,Desktop,Yes,Yes,15,Social Media,High,Inactive,Yes,394,28,Medium,Medium,No,Yes,High
+E0239,Normal Activity,7,No,Friday,Mobile,No,Yes,0,Shopping,Medium,Inactive,No,396,22,High,Medium,No,No,Low
+E0240,Normal Activity,8,No,Friday,Mobile,No,Yes,2,Social Media,Medium,Active,Yes,137,21,High,High,No,No,Low
+E0241,Normal Activity,15,No,Friday,Mobile,No,Yes,1,Social Media,Medium,Active,No,52,25,Medium,Low,No,No,Low
+E0242,Normal Activity,23,No,Saturday,Mobile,No,Yes,0,Social Media,Medium,Active,Yes,32,33,Medium,Medium,No,No,Low
+E0243,Normal Activity,18,No,Tuesday,Mobile,No,Yes,0,Social Media,Medium,Inactive,No,628,25,Medium,High,No,No,Low
+E0244,Repeated Failed Login,0,Yes,Wednesday,Mobile,No,No,5,Cloud Storage,Medium,Inactive,Yes,472,45,Low,Medium,No,Yes,Medium
+E0245,Unusual Login,3,Yes,Wednesday,Mobile,No,Yes,0,Financial Service,High,Under Review,Unknown,28,38,Medium,Medium,No,Yes,Medium
+E0246,Inactive Account Review,11,No,Thursday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,Yes,349,36,High,High,No,No,Low
+E0247,Unusual Login,17,No,Thursday,Desktop,Yes,No,0,Social Media,High,Active,Unknown,91,25,High,Medium,No,Yes,High
+E0248,Unusual Access Request,18,No,Thursday,Mobile,Yes,Yes,0,Financial Service,High,Inactive,Yes,273,44,Medium,Low,No,Yes,Medium
+E0249,Inactive Account Review,19,No,Thursday,Unknown,No,Yes,0,Social Media,Low,Inactive,No,664,33,Low,Low,No,Yes,Medium
+E0250,Normal Activity,21,No,Thursday,Tablet,No,Yes,0,Shopping,Medium,Inactive,No,641,44,Low,Low,No,No,Low
+E0251,Repeated Failed Login,23,No,Friday,Desktop,No,Yes,7,Social Media,Medium,Active,Yes,137,21,High,High,No,No,Low
+E0252,Repeated Failed Login,4,Yes,Sunday,Desktop,Yes,Yes,9,Email,High,Unmanaged,No,1006,41,Medium,Low,No,Yes,High
+E0253,Normal Activity,13,No,Sunday,Mobile,No,Yes,1,Financial Service,High,Inactive,Yes,450,29,High,High,No,No,Low
+E0254,Normal Activity,15,No,Sunday,Tablet,No,No,0,Shopping,Medium,Active,No,116,34,Medium,Low,No,No,Low
+E0255,Unknown Device,13,No,Monday,Desktop,Yes,Yes,1,Email,High,Active,No,128,29,Medium,Medium,No,Yes,Medium
+E0256,Normal Activity,13,No,Tuesday,Mobile,No,Yes,0,Social Media,High,Active,Yes,79,50,Medium,Medium,No,No,Low
+E0257,Unusual Login,16,No,Tuesday,Mobile,No,Yes,0,Cloud Storage,Medium,Under Review,Yes,10,44,Medium,Medium,No,Yes,Medium
+E0258,Normal Activity,17,No,Wednesday,Mobile,No,Yes,0,Financial Service,High,Under Review,Unknown,28,38,Medium,Medium,No,No,Low
+E0259,Unusual Access Request,2,Yes,Thursday,Mobile,Yes,Yes,0,Shopping,Low,Active,Yes,169,33,Medium,High,Yes,Yes,High
+E0260,Inactive Account Review,6,No,Thursday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,Yes,472,45,Low,Medium,No,No,Low
+E0261,Repeated Failed Login,7,No,Thursday,Mobile,Yes,No,10,Email,High,Active,Yes,142,25,High,High,No,Yes,High
+E0262,Repeated Failed Login,11,No,Thursday,Mobile,No,Yes,12,Subscription,Low,Active,No,65,45,Low,Medium,No,Yes,Medium
+E0263,Unusual Access Request,21,No,Friday,Mobile,Yes,No,0,Subscription,Medium,Inactive,No,700,39,Medium,Medium,Yes,Yes,High
+E0264,Repeated Failed Login,3,Yes,Saturday,Desktop,Yes,No,12,Social Media,High,Active,Yes,79,50,Medium,Medium,No,Yes,High
+E0265,Normal Activity,14,No,Sunday,Mobile,No,Yes,2,Shopping,Medium,Active,Yes,73,21,High,High,No,No,Low
+E0266,Normal Activity,11,No,Monday,Desktop,No,Yes,0,Cloud Storage,Medium,Active,Unknown,31,43,Medium,High,No,No,Low
+E0267,Repeated Failed Login,3,Yes,Tuesday,Tablet,Yes,No,13,Subscription,Medium,Unmanaged,No,372,50,Medium,Medium,No,Yes,High
+E0268,Normal Activity,21,No,Tuesday,Desktop,Yes,Yes,0,Email,High,Under Review,Yes,5,44,Medium,Low,No,No,Low
+E0269,Repeated Failed Login,1,Yes,Wednesday,Tablet,No,No,5,Social Media,Medium,Unmanaged,Unknown,465,41,Medium,Low,No,Yes,High
+E0270,Unknown Device,1,Yes,Friday,Mobile,Yes,No,0,Financial Service,High,Active,Yes,11,45,Low,Low,No,Yes,High
+E0271,Unknown Device,3,Yes,Friday,Mobile,Yes,No,0,Social Media,Medium,Inactive,No,455,37,High,Medium,No,Yes,High
+E0272,Normal Activity,18,No,Sunday,Mobile,No,Yes,0,Financial Service,High,Inactive,Yes,544,22,High,High,No,No,Low
+E0273,Unknown Device,4,Yes,Tuesday,Mobile,Yes,Yes,0,Email,High,Active,No,89,32,Medium,Low,No,Yes,High
+E0274,Normal Activity,20,No,Tuesday,Mobile,No,Yes,0,Social Media,High,Under Review,No,20,26,Medium,Medium,No,No,Low
+E0275,Normal Activity,14,No,Wednesday,Mobile,No,Yes,2,Social Media,Medium,Active,No,51,27,Medium,Medium,No,No,Low
+E0276,Normal Activity,11,No,Thursday,Mobile,No,Yes,0,Social Media,Medium,Inactive,Unknown,409,31,Medium,High,No,No,Low
+E0277,Normal Activity,19,No,Thursday,Mobile,No,Yes,0,Social Media,Low,Active,No,149,50,Medium,Medium,No,No,Low
+E0278,Normal Activity,13,No,Friday,Unknown,Yes,Yes,0,Cloud Storage,Medium,Active,No,100,51,Low,Medium,No,No,Low
+E0279,Repeated Failed Login,2,Yes,Saturday,Desktop,Yes,Yes,5,Cloud Storage,Medium,Active,No,100,51,Low,Medium,No,Yes,Medium
+E0280,Normal Activity,13,No,Saturday,Mobile,Yes,Yes,0,Email,High,Under Review,Yes,5,44,Medium,Low,No,No,Low
+E0281,Repeated Failed Login,4,Yes,Sunday,Mobile,No,No,10,Cloud Storage,High,Active,Unknown,167,42,Medium,High,No,Yes,High
+E0282,Unusual Login,1,Yes,Monday,Mobile,No,No,2,Social Media,Low,Active,Yes,58,31,Medium,High,No,Yes,Medium
+E0283,Inactive Account Review,5,No,Monday,Unknown,No,Yes,0,Shopping,Medium,Inactive,No,396,22,High,Medium,No,Yes,Medium
+E0284,Inactive Account Review,12,No,Wednesday,Unknown,No,Yes,0,Email,High,Inactive,Yes,595,73,Medium,High,No,Yes,Medium
+E0285,Inactive Account Review,5,No,Saturday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,Yes,349,36,High,High,No,No,Low
+E0286,Unusual Login,21,No,Saturday,Desktop,Yes,No,0,Cloud Storage,Medium,Active,No,118,25,High,High,No,Yes,High
+E0287,Normal Activity,11,No,Sunday,Mobile,No,Yes,0,Cloud Storage,High,Active,Yes,175,31,Medium,Medium,No,No,Low
+E0288,Unusual Login,0,Yes,Monday,Unknown,Yes,No,0,Financial Service,High,Under Review,Yes,9,34,High,High,No,Yes,Medium
+E0289,Inactive Account Review,9,No,Monday,Unknown,No,Yes,0,Shopping,Medium,Unmanaged,No,1489,30,Medium,Low,No,Yes,Medium
+E0290,Unusual Login,2,Yes,Wednesday,Mobile,No,No,0,Social Media,Medium,Active,No,52,25,Medium,Low,No,Yes,Medium
+E0291,Unknown Device,2,Yes,Friday,Desktop,Yes,No,0,Social Media,Medium,Active,Unknown,60,29,Medium,Medium,No,Yes,Medium
+E0292,Unusual Access Request,9,No,Friday,Mobile,No,No,0,Email,High,Unmanaged,Yes,697,26,Medium,Medium,No,Yes,Medium
+E0293,Normal Activity,13,No,Friday,Desktop,No,Yes,0,Shopping,Medium,Unmanaged,No,1293,48,Low,Low,No,No,Low
+E0294,Normal Activity,14,No,Friday,Mobile,No,Yes,0,Subscription,Low,Under Review,No,4,48,Low,Low,No,No,Low
+E0295,Normal Activity,23,No,Friday,Tablet,Yes,Yes,0,Email,High,Active,No,23,35,Medium,Medium,No,No,Low
+E0296,Unknown Device,1,Yes,Sunday,Mobile,Yes,Yes,0,Email,High,Active,No,128,29,Medium,Medium,No,Yes,Medium
+E0297,Unknown Device,1,Yes,Sunday,Mobile,Yes,Yes,2,Website/Domain,High,Active,Yes,125,36,High,High,No,Yes,Medium
+E0298,Normal Activity,14,No,Sunday,Desktop,No,Yes,0,Email,High,Inactive,Yes,244,25,High,Low,No,No,Low
+E0299,Normal Activity,21,No,Monday,Desktop,No,Yes,1,Email,High,Inactive,Yes,228,27,Medium,Medium,No,No,Low
+E0300,Inactive Account Review,2,Yes,Tuesday,Unknown,No,Yes,0,Financial Service,High,Inactive,Yes,445,30,Low,Medium,No,No,Low
+E0301,Repeated Failed Login,5,No,Tuesday,Mobile,No,Yes,13,Email,High,Active,Yes,116,31,Medium,Medium,No,Yes,Medium
+E0302,Unusual Login,21,No,Tuesday,Desktop,Yes,No,0,Email,High,Active,Yes,119,41,Medium,Medium,No,Yes,Medium
+E0303,Inactive Account Review,4,Yes,Wednesday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,Yes,472,45,Low,Medium,No,No,Low
+E0304,Normal Activity,7,No,Wednesday,Mobile,No,Yes,0,Email,High,Inactive,No,207,29,High,High,No,No,Low
+E0305,Unusual Login,1,Yes,Thursday,Desktop,Yes,No,0,Social Media,Medium,Active,Yes,121,18,High,Medium,No,Yes,High
+E0306,Unusual Login,1,Yes,Thursday,Mobile,No,No,0,Website/Domain,High,Active,Yes,125,36,High,High,No,Yes,Medium
+E0307,Normal Activity,14,No,Friday,Desktop,No,Yes,1,Financial Service,High,Under Review,Yes,9,34,High,High,No,No,Low
+E0308,Normal Activity,15,No,Friday,Mobile,No,Yes,0,Social Media,Medium,Active,No,110,21,High,Medium,No,No,Low
+E0309,Repeated Failed Login,14,No,Tuesday,Mobile,No,No,12,Other,High,Active,Unknown,9,31,Medium,Medium,No,Yes,Medium
+E0310,Unusual Access Request,0,Yes,Wednesday,Mobile,No,Yes,0,Subscription,Low,Active,No,114,22,High,High,No,Yes,Medium
+E0311,Normal Activity,10,No,Wednesday,Unknown,No,Yes,0,Email,High,Active,No,101,29,Medium,Medium,No,No,Low
+E0312,Normal Activity,17,No,Wednesday,Desktop,No,Yes,0,Email,High,Inactive,No,452,32,Medium,Low,No,No,Low
+E0313,Unusual Login,14,No,Thursday,Mobile,No,Yes,1,Email,High,Inactive,Yes,404,43,Medium,High,No,No,Low
+E0314,Normal Activity,8,No,Friday,Mobile,No,Yes,0,Financial Service,High,Active,Yes,87,47,Low,Low,No,No,Low
+E0315,Repeated Failed Login,15,No,Friday,Mobile,No,Yes,14,Shopping,Medium,Active,No,116,34,Medium,Low,No,Yes,High
+E0316,Normal Activity,16,No,Saturday,Mobile,No,Yes,2,Email,High,Active,No,166,22,High,Medium,No,No,Low
+E0317,Repeated Failed Login,17,No,Saturday,Tablet,No,Yes,4,Cloud Storage,High,Active,Unknown,167,42,Medium,High,No,Yes,Medium
+E0318,Repeated Failed Login,2,Yes,Sunday,Unknown,Yes,Yes,10,Email,High,Active,Yes,2,31,High,Medium,No,Yes,High
+E0319,Unusual Login,7,No,Sunday,Mobile,No,Yes,0,Cloud Storage,Medium,Active,No,118,25,High,High,No,No,Low
+E0320,Unusual Login,20,No,Sunday,Mobile,No,No,0,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,Yes,Medium
+E0321,Unknown Device,1,Yes,Tuesday,Desktop,Yes,No,0,Website/Domain,Medium,Under Review,Yes,6,22,High,High,No,Yes,Medium
+E0322,Unusual Access Request,7,No,Tuesday,Mobile,No,Yes,0,Financial Service,High,Unmanaged,Yes,670,36,High,High,Yes,Yes,Medium
+E0323,Unusual Login,9,No,Tuesday,Desktop,No,No,1,Financial Service,High,Active,Yes,87,47,Low,Low,No,Yes,Medium
+E0324,Inactive Account Review,19,No,Tuesday,Unknown,No,Yes,0,Website/Domain,High,Unmanaged,No,389,31,Medium,High,No,Yes,Medium
+E0325,Normal Activity,15,No,Thursday,Desktop,No,Yes,1,Social Media,Low,Inactive,Yes,358,30,High,High,No,No,Low
+E0326,Unusual Access Request,4,Yes,Friday,Mobile,Yes,Yes,0,Cloud Storage,High,Inactive,Yes,333,30,Low,Medium,No,Yes,Medium
+E0327,Unusual Login,11,No,Friday,Desktop,Yes,No,0,Social Media,Low,Active,No,129,50,Medium,Medium,No,Yes,Medium
+E0328,Unknown Device,21,No,Friday,Unknown,Yes,No,0,Subscription,Low,Inactive,Yes,651,21,High,High,No,No,Low
+E0329,Normal Activity,12,No,Saturday,Mobile,No,Yes,0,Subscription,Medium,Active,No,53,35,Medium,Medium,No,No,Low
+E0330,Inactive Account Review,17,No,Saturday,Unknown,No,Yes,0,Cloud Storage,Medium,Inactive,No,413,38,Medium,Medium,No,No,Low
+E0331,Unusual Access Request,4,Yes,Sunday,Mobile,No,Yes,1,Social Media,Medium,Inactive,Unknown,409,31,Medium,High,No,Yes,Medium
+E0332,Unusual Access Request,8,No,Tuesday,Unknown,Yes,Yes,1,Cloud Storage,Medium,Active,No,100,51,Low,Medium,No,Yes,Medium
+E0333,Normal Activity,9,No,Tuesday,Mobile,No,Yes,0,Email,High,Inactive,No,304,36,High,Medium,No,No,Low
+E0334,Inactive Account Review,14,No,Wednesday,Unknown,No,Yes,0,Shopping,Low,Unmanaged,No,1423,38,Medium,Medium,No,No,Low
+E0335,Normal Activity,15,No,Wednesday,Mobile,No,Yes,0,Email,High,Active,Yes,64,25,Medium,High,No,No,Low
+E0336,Inactive Account Review,0,Yes,Thursday,Unknown,No,Yes,0,Cloud Storage,Medium,Unmanaged,No,538,47,Low,Low,No,Yes,Medium
+E0337,Repeated Failed Login,1,Yes,Thursday,Desktop,No,Yes,4,Social Media,Medium,Active,No,77,27,High,Medium,No,Yes,Medium
+E0338,Repeated Failed Login,4,Yes,Thursday,Tablet,Yes,Yes,10,Financial Service,High,Active,Yes,87,47,Low,Low,No,Yes,High
+E0339,Unusual Login,17,No,Thursday,Desktop,No,No,0,Shopping,Low,Active,No,63,25,Medium,High,No,Yes,Medium
+E0340,Repeated Failed Login,1,Yes,Friday,Desktop,Yes,Yes,3,Shopping,Low,Active,No,63,25,Medium,High,No,Yes,Medium
+E0341,Unknown Device,0,Yes,Saturday,Desktop,Yes,Yes,0,Cloud Storage,Medium,Active,No,69,73,Medium,High,No,Yes,Medium
+E0342,Normal Activity,17,No,Sunday,Mobile,No,Yes,0,Financial Service,High,Active,Unknown,177,55,Medium,Medium,No,No,Low
+E0343,Repeated Failed Login,16,No,Monday,Mobile,No,No,8,Email,High,Inactive,Yes,660,41,Medium,High,No,Yes,Medium
+E0344,Unusual Login,7,No,Wednesday,Desktop,Yes,No,0,Financial Service,High,Unmanaged,No,991,32,Medium,Low,No,Yes,High
+E0345,Unknown Device,14,No,Wednesday,Mobile,Yes,Yes,1,Financial Service,High,Active,Yes,11,45,Low,Low,No,Yes,Medium
+E0346,Normal Activity,17,No,Wednesday,Mobile,No,Yes,0,Email,High,Inactive,Yes,717,29,High,Low,No,No,Low
+E0347,Unusual Login,2,Yes,Thursday,Desktop,Yes,No,0,Email,High,Under Review,No,13,37,High,High,No,Yes,High
+E0348,Normal Activity,13,No,Thursday,Mobile,No,No,0,Email,High,Inactive,Yes,216,24,Medium,Low,No,No,Low
+E0349,Normal Activity,15,No,Friday,Mobile,No,Yes,0,Subscription,Low,Active,No,59,30,Medium,Medium,No,No,Low
+E0350,Unusual Login,4,Yes,Saturday,Tablet,No,No,0,Email,High,Inactive,Yes,207,30,High,High,No,Yes,Medium
+E0351,Unusual Login,20,No,Saturday,Mobile,Yes,No,0,Cloud Storage,Medium,Inactive,No,473,25,High,Medium,No,Yes,Medium
+E0352,Normal Activity,18,No,Sunday,Mobile,No,Yes,0,Social Media,Medium,Active,Unknown,134,38,Medium,Medium,No,No,Low
+E0353,Normal Activity,19,No,Sunday,Desktop,No,Yes,1,Social Media,Medium,Active,Unknown,76,29,Medium,Medium,No,No,Low
+E0354,Unknown Device,2,Yes,Monday,Tablet,Yes,Yes,0,Cloud Storage,Medium,Inactive,No,413,38,Medium,Medium,No,Yes,Medium
+E0355,Inactive Account Review,8,No,Tuesday,Unknown,No,Yes,0,Financial Service,High,Unmanaged,Yes,1044,28,Medium,Low,No,No,Low
+E0356,Inactive Account Review,15,No,Tuesday,Unknown,No,Yes,0,Shopping,Low,Unmanaged,No,1423,38,Medium,Medium,No,Yes,Medium
+E0357,Repeated Failed Login,21,No,Tuesday,Desktop,Yes,Yes,5,Email,High,Inactive,Yes,404,43,Medium,High,No,No,Low
+E0358,Unknown Device,4,Yes,Wednesday,Mobile,Yes,Yes,0,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,Yes,High
+E0359,Unknown Device,4,Yes,Wednesday,Mobile,Yes,No,1,Cloud Storage,Medium,Active,Yes,106,41,Medium,Medium,No,Yes,Medium
+E0360,Normal Activity,19,No,Wednesday,Desktop,No,Yes,1,Financial Service,High,Active,Yes,87,47,Low,Low,No,No,Low
+E0361,Unusual Access Request,2,Yes,Thursday,Mobile,No,No,0,Social Media,High,Active,No,53,38,Medium,Medium,No,Yes,High
+E0362,Unknown Device,10,No,Thursday,Desktop,Yes,Yes,0,Email,High,Active,No,45,35,High,Low,No,Yes,Medium
+E0363,Normal Activity,14,No,Thursday,Mobile,No,Yes,0,Other,Medium,Active,Unknown,164,36,High,Medium,No,No,Low
+E0364,Unknown Device,20,No,Thursday,Unknown,Yes,No,0,Shopping,Low,Active,No,99,46,Medium,Medium,No,Yes,Medium
+E0365,Normal Activity,13,No,Sunday,Desktop,No,Yes,0,Social Media,Medium,Inactive,Unknown,409,31,Medium,High,No,No,Low
+E0366,Unusual Login,2,Yes,Tuesday,Mobile,Yes,No,1,Financial Service,High,Inactive,Yes,273,44,Medium,Low,No,Yes,High
+E0367,Normal Activity,16,No,Wednesday,Desktop,No,Yes,0,Social Media,Medium,Active,Unknown,167,25,Medium,High,No,No,Low
+E0368,Normal Activity,13,No,Thursday,Mobile,No,Yes,0,Email,High,Inactive,Yes,516,46,Medium,Medium,No,No,Low
+E0369,Repeated Failed Login,0,Yes,Friday,Unknown,Yes,No,14,Subscription,Medium,Inactive,No,719,39,Medium,Medium,No,Yes,High
+E0370,Unknown Device,0,Yes,Friday,Desktop,Yes,Yes,0,Email,High,Inactive,No,304,36,High,Medium,No,Yes,High
+E0371,Normal Activity,18,No,Friday,Mobile,No,Yes,0,Website/Domain,Medium,Under Review,Yes,6,22,High,High,No,No,Low
+E0372,Normal Activity,11,No,Sunday,Mobile,No,Yes,0,Email,High,Active,Yes,46,26,High,Medium,No,No,Low
+E0373,Normal Activity,13,No,Sunday,Mobile,No,Yes,0,Email,High,Active,No,30,32,Low,Medium,No,No,Low
+E0374,Repeated Failed Login,1,Yes,Monday,Mobile,No,Yes,7,Financial Service,High,Unmanaged,Unknown,1015,34,Low,Low,No,Yes,High
+E0375,Inactive Account Review,21,No,Monday,Unknown,No,Yes,0,Subscription,Low,Inactive,Unknown,323,18,High,Medium,No,Yes,Medium
+E0376,Unknown Device,1,Yes,Tuesday,Mobile,Yes,Yes,0,Financial Service,High,Active,Yes,27,44,Medium,Medium,No,No,Low
+E0377,Normal Activity,12,No,Tuesday,Mobile,No,Yes,0,Social Media,Low,Active,No,44,41,Medium,Medium,No,No,Low
+E0378,Normal Activity,13,No,Tuesday,Mobile,No,Yes,0,Social Media,Medium,Active,No,157,39,Medium,Low,No,No,Low
+E0379,Repeated Failed Login,6,No,Wednesday,Tablet,No,No,7,Email,High,Active,Yes,72,39,Low,Low,No,Yes,Medium
+E0380,Normal Activity,14,No,Sunday,Tablet,No,Yes,1,Social Media,Low,Inactive,Yes,225,38,Medium,Medium,No,No,Low
+E0381,Normal Activity,20,No,Sunday,Mobile,No,Yes,0,Email,High,Active,No,141,28,Medium,Low,No,No,Low
+E0382,Unknown Device,2,Yes,Tuesday,Desktop,Yes,No,0,Subscription,Low,Active,No,59,30,Medium,Medium,No,Yes,High
+E0383,Unknown Device,2,Yes,Tuesday,Mobile,Yes,Yes,0,Email,High,Under Review,No,17,45,Low,Medium,No,Yes,Medium
+E0384,Unusual Login,0,Yes,Wednesday,Mobile,Yes,No,0,Email,High,Active,No,125,44,Low,Low,No,Yes,High
+E0385,Normal Activity,14,No,Wednesday,Mobile,No,Yes,1,Shopping,Medium,Inactive,No,286,29,Medium,Medium,No,No,Low
+E0386,Normal Activity,6,No,Thursday,Mobile,No,Yes,0,Social Media,High,Active,Yes,79,50,Medium,Medium,No,No,Low
+E0387,Normal Activity,14,No,Thursday,Desktop,No,Yes,0,Shopping,Low,Active,Unknown,154,30,Medium,Medium,No,No,Low
+E0388,Unknown Device,12,No,Friday,Desktop,Yes,No,0,Shopping,Low,Active,Yes,127,40,Low,Low,No,Yes,Medium
+E0389,Unknown Device,0,Yes,Saturday,Desktop,Yes,Yes,1,Social Media,Medium,Active,No,59,18,High,Medium,No,Yes,Medium
+E0390,Unknown Device,0,Yes,Saturday,Desktop,Yes,Yes,0,Cloud Storage,Medium,Inactive,Yes,349,36,High,High,No,Yes,Medium
+E0391,Unusual Access Request,19,No,Saturday,Mobile,No,Yes,0,Subscription,Low,Under Review,No,4,48,Low,Low,Yes,Yes,High
+E0392,Normal Activity,16,No,Sunday,Desktop,No,Yes,0,Shopping,Low,Active,Unknown,155,35,High,Low,No,No,Low
+E0393,Unknown Device,5,No,Monday,Mobile,Yes,No,2,Social Media,Low,Inactive,Yes,358,30,High,High,No,Yes,Medium
+E0394,Normal Activity,13,No,Monday,Desktop,No,Yes,0,Email,High,Active,Yes,159,19,High,Medium,No,No,Low
+E0395,Unknown Device,7,No,Tuesday,Desktop,Yes,No,0,Email,High,Inactive,No,304,36,High,Medium,No,Yes,Medium
+E0396,Unusual Access Request,6,No,Wednesday,Mobile,No,Yes,0,Cloud Storage,High,Active,Unknown,167,42,Medium,High,No,No,Low
+E0397,Unknown Device,7,No,Wednesday,Mobile,Yes,Yes,0,Email,High,Active,Unknown,161,24,High,Medium,No,Yes,Medium
+E0398,Repeated Failed Login,1,Yes,Saturday,Desktop,Yes,Yes,15,Email,High,Unmanaged,Yes,697,26,Medium,Medium,No,Yes,High
+E0399,Normal Activity,18,No,Sunday,Mobile,No,Yes,0,Email,High,Inactive,Yes,244,25,High,Low,No,No,Low
+E0400,Normal Activity,18,No,Sunday,Desktop,No,Yes,0,Email,High,Inactive,Yes,212,48,Low,Medium,No,No,Low
+E0401,Unusual Access Request,22,No,Sunday,Desktop,Yes,No,2,Social Media,High,Inactive,Yes,422,38,Medium,Medium,Yes,Yes,High
+E0402,Repeated Failed Login,16,No,Monday,Unknown,Yes,Yes,9,Social Media,High,Active,Unknown,33,34,High,High,No,Yes,High
+E0403,Unknown Device,19,No,Monday,Mobile,Yes,No,2,Financial Service,High,Inactive,Yes,450,29,High,High,No,Yes,Medium
+E0404,Repeated Failed Login,2,Yes,Tuesday,Mobile,Yes,No,5,Cloud Storage,High,Active,Unknown,18,24,High,Medium,No,Yes,High
+E0405,Unusual Access Request,15,No,Tuesday,Mobile,Yes,No,0,Email,High,Under Review,Yes,5,44,Medium,Low,Yes,Yes,High
+E0406,Unusual Access Request,12,No,Thursday,Mobile,No,Yes,0,Financial Service,High,Active,Yes,90,21,High,High,No,No,Low
+E0407,Unusual Access Request,10,No,Friday,Desktop,Yes,No,0,Email,High,Inactive,Unknown,678,51,Low,Medium,No,Yes,High
+E0408,Normal Activity,21,No,Friday,Unknown,No,Yes,0,Social Media,Medium,Unmanaged,Unknown,465,41,Medium,Low,No,No,Low
+E0409,Normal Activity,13,No,Saturday,Mobile,No,Yes,0,Email,High,Unmanaged,No,593,34,Low,Low,No,No,Low
+E0410,Repeated Failed Login,2,Yes,Sunday,Unknown,Yes,Yes,4,Social Media,High,Inactive,Yes,422,38,Medium,Medium,No,Yes,Medium
+E0411,Normal Activity,17,No,Sunday,Mobile,No,Yes,0,Cloud Storage,Medium,Active,No,100,51,Low,Medium,No,No,Low
+E0412,Normal Activity,18,No,Sunday,Mobile,No,Yes,1,Social Media,Medium,Active,No,157,39,Medium,Low,No,No,Low
+E0413,Normal Activity,15,No,Monday,Desktop,No,Yes,0,Social Media,High,Under Review,No,20,26,Medium,Medium,No,No,Low
+E0414,Normal Activity,18,No,Tuesday,Mobile,No,Yes,0,Subscription,Low,Under Review,No,4,48,Low,Low,No,No,Low
+E0415,Normal Activity,22,No,Tuesday,Mobile,No,Yes,1,Financial Service,High,Active,Yes,90,21,High,High,No,No,Low
+E0416,Repeated Failed Login,1,Yes,Wednesday,Mobile,No,No,14,Social Media,Low,Active,No,157,31,Medium,Medium,No,Yes,High
+E0417,Normal Activity,8,No,Friday,Mobile,No,Yes,0,Social Media,Medium,Inactive,Unknown,409,31,Medium,High,No,No,Low
+E0418,Normal Activity,18,No,Friday,Mobile,No,Yes,0,Cloud Storage,Medium,Under Review,Yes,10,44,Medium,Medium,No,No,Low
+E0419,Unknown Device,2,Yes,Saturday,Mobile,Yes,Yes,0,Social Media,Low,Inactive,Yes,358,30,High,High,No,Yes,Medium
+E0420,Normal Activity,18,No,Saturday,Mobile,No,Yes,0,Subscription,Medium,Unmanaged,No,372,50,Medium,Medium,No,No,Low

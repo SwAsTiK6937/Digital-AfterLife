@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Digital assets{% endblock %}
+{% block content %}
+<header class="page-head">
+  <div>
+    <h1>Digital assets</h1>
+    <p class="sub">Every account that's part of your digital identity. We record details only — never passwords or recovery codes.</p>
+  </div>
+</header>
+
+<section class="card" aria-labelledby="list-h">
+    <div class="card-head">
+      <h2 id="list-h">Your assets <span class="muted" style="font-weight:500">({{ total }})</span></h2>
+      <nav class="chips" aria-label="Filter by status">
+        <a href="/assets" class="chip {{ 'active' if status not in statuses }}" {% if status not in statuses %}aria-current="true"{% endif %}>All</a>
+        {% for s in statuses %}
+        <a href="/assets?status={{ s|urlencode }}" class="chip {{ 'active' if status == s }}" {% if status == s %}aria-current="true"{% endif %}>{{ s }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="table-wrap">
+      <table class="table" style="min-width:820px">
+        <thead><tr><th>Asset</th><th>Category</th><th>Importance</th><th>2-step / Status</th><th>Last reviewed</th><th><span class="muted">Actions</span></th></tr></thead>
+        <tbody>
+        {% for a in assets %}
+        {% set d = a.last_reviewed_on|days_since %}
+        <tr id="{{ a.asset_id }}">
+          <td><b>{{ a.asset_label }}</b><span class="sub">{{ a.platform_name }} · <span class="mono">{{ a.asset_id }}</span></span></td>
+          <td>{{ a.asset_category }}</td>
+          <td>{{ a.importance_level }}</td>
+          <td>
+            <form method="post" action="/assets/{{ a.asset_id }}/update" class="actions" aria-label="Update {{ a.asset_label }}">
+              <label class="small muted" for="mfa-{{ a.asset_id }}">2-step</label>
+              <select id="mfa-{{ a.asset_id }}" name="mfa_enabled" class="compact">
+                {% for m in mfa_options %}<option {{ 'selected' if m == a.mfa_enabled }}>{{ m }}</option>{% endfor %}
+              </select>
+              <label class="small muted" for="st-{{ a.asset_id }}">Status</label>
+              <select id="st-{{ a.asset_id }}" name="management_status" class="compact">
+                {% for s in statuses %}<option {{ 'selected' if s == a.management_status }}>{{ s }}</option>{% endfor %}
+              </select>
+              <button type="submit" class="btn btn-secondary btn-sm">Save</button>
+            </form>
+          </td>
+          <td class="{{ 't-bad' if d > 180 }}">{{ 'Today' if d == 0 else d ~ ' days ago' }}</td>
+          <td>
+            <div class="actions">
+              <form method="post" action="/assets/{{ a.asset_id }}/review" class="inline"><button type="submit" class="btn btn-secondary btn-sm">Mark reviewed</button></form>
+              <form method="post" action="/assets/{{ a.asset_id }}/delete" class="inline" onsubmit="return confirm('Remove {{ a.asset_label|e }} and its alerts and requests?')"><button type="submit" class="btn btn-ghost btn-sm" aria-label="Remove {{ a.asset_label }}">Remove</button></form>
+            </div>
+          </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6" class="muted">No assets with this status.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin:0">Assets not reviewed for 180+ days should be marked inactive. After 365 days without review they count as unmanaged.</p>
+</section>
+
+<section class="card" aria-labelledby="add-h" id="add">
+    <form method="post" action="/assets" class="form">
+      <h2 id="add-h">Register an asset</h2>
+      <div class="form-grid">
+      <div class="field"><label for="cat">Category</label>
+        <select id="cat" name="asset_category">{% for c in categories %}<option>{{ c }}</option>{% endfor %}</select></div>
+      <div class="field"><label for="plat">Platform type</label>
+        <input id="plat" name="platform_name" type="text" maxlength="60" placeholder="e.g. UPI Payment App" required></div>
+      <div class="field"><label for="lbl">Your label</label>
+        <input id="lbl" name="asset_label" type="text" maxlength="60" placeholder="e.g. Savings account portal" required></div>
+      <fieldset class="field"><legend>Importance</legend>
+        <div class="radios">{% for l in levels %}<label><input type="radio" name="importance_level" value="{{ l }}" {{ 'checked' if l == 'Medium' }}>{{ l }}</label>{% endfor %}</div>
+      </fieldset>
+        <div class="field"><label for="mfa">2-step verification</label>
+          <select id="mfa" name="mfa_enabled">{% for m in mfa_options %}<option>{{ m }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="sens">Holds sensitive data?</label>
+          <select id="sens" name="contains_sensitive_data">{% for m in mfa_options %}<option {{ 'selected' if m == 'Unknown' }}>{{ m }}</option>{% endfor %}</select></div>
+      </div>
+      <div class="notice warn">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:1px"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+        <span>Never enter a password, OTP, Aadhaar or PAN number here. Text that looks like one is rejected.</span>
+      </div>
+      <div class="actions"><button type="submit" class="btn btn-primary">Save asset</button></div>
+    </form>
+</section>
+{% endblock %}

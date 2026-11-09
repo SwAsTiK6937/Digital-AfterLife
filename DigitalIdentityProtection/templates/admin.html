@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}System overview{% endblock %}
+{% block content %}
+<header class="page-head">
+  <div>
+    <h1>System overview</h1>
+    <p class="sub">Read-only view of every user in the database. Admins see counts, not account details.</p>
+  </div>
+</header>
+
+<section class="stats" aria-label="Totals">
+  <div class="stat"><span class="label">Users</span><span class="num">{{ totals.users }}</span><span class="hint">{{ totals.contacts }} trusted contacts</span></div>
+  <div class="stat"><span class="label">Registered assets</span><span class="num">{{ totals.assets }}</span><span class="hint">{{ totals.unmanaged }} unmanaged · {{ totals.no_mfa }} without confirmed 2-step</span></div>
+  <div class="stat"><span class="label">Security events</span><span class="num">{{ totals.events }}</span><span class="hint">High {{ risk_counts.get('High', 0) }} · Medium {{ risk_counts.get('Medium', 0) }} · Low {{ risk_counts.get('Low', 0) }}</span></div>
+  <div class="stat"><span class="label">Pending requests</span><span class="num">{{ totals.pending_requests }}</span><span class="hint">Waiting on verification or owner</span></div>
+</section>
+
+<div class="row">
+  <section class="card col-2" aria-labelledby="users-h">
+    <div class="card-head">
+      <h2 id="users-h">Users <span class="muted" style="font-weight:500">({{ users|length }})</span></h2>
+      <form method="get" action="/admin" class="actions" role="search">
+        <label for="q" class="small muted">Search</label>
+        <input id="q" name="q" type="text" value="{{ q }}" placeholder="Name, city, state or ID" style="min-height:38px;border:1px solid #CBD5E1;border-radius:8px;padding:0 10px;font:inherit;font-size:14px">
+        <button class="btn btn-secondary btn-sm">Search</button>
+      </form>
+    </div>
+    <div class="table-wrap" style="max-height:640px;overflow-y:auto">
+      <table class="table">
+        <thead><tr><th>ID</th><th>Name</th><th>Location</th><th>Awareness</th><th>Assets</th><th>Contacts</th><th>Open alerts</th></tr></thead>
+        <tbody>
+        {% for u in users %}
+        <tr>
+          <td class="mono">{{ u.user_id }}</td>
+          <td><b>{{ u.full_name }}</b><span class="sub mono">{{ u.email }}</span></td>
+          <td>{{ u.city }}, {{ u.state }}</td>
+          <td>{{ u.account_security_awareness }}</td>
+          <td>{{ asset_n.get(u.user_id, 0) }}</td>
+          <td>{{ contact_n.get(u.user_id, 0) }}</td>
+          <td>{% if open_n.get(u.user_id) %}<span class="pill high">{{ open_n[u.user_id] }}</span>{% else %}<span class="muted">0</span>{% endif %}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="7" class="muted">No users match “{{ q }}”.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card col-1" aria-labelledby="hi-h">
+    <h2 id="hi-h">Latest high-risk events</h2>
+    {% for e in recent_high %}
+    <div style="display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line-soft);padding-top:10px">
+      <b style="font-size:14px">{{ e.event_type }}</b>
+      <span class="small muted">{{ names.get(e.user_id) }} · {{ e.location_region }}</span>
+      <span class="small mono muted">{{ e.event_time|fmt_dt }} · {{ e.recommended_action }}</span>
+    </div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

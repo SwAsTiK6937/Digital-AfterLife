@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<header class="page-head">
+  <div>
+    <h1>Welcome back, {{ user.full_name.split()[0] }}</h1>
+    <p class="sub">Your identity health as of {{ today|fmt_date }}.</p>
+  </div>
+  <div class="actions">
+    <a href="/alerts" class="btn btn-secondary">Review alerts</a>
+    <a href="/assets#add" class="btn btn-primary">+ Register asset</a>
+  </div>
+</header>
+
+<section class="stats" aria-label="Summary">
+  <div class="stat"><span class="label">Registered assets</span><span class="num">{{ assets|length }}</span><span class="hint">{{ cat_summary or 'None yet' }}</span></div>
+  <div class="stat"><span class="label">Need attention</span><span class="num {{ 'warn' if attention }}">{{ attention }}</span><span class="hint">{{ attention_summary }}</span></div>
+  <div class="stat"><span class="label">High-risk alerts</span><span class="num {{ 'warn' if high_count }}">{{ high_count }}</span><span class="hint">{% if latest_high %}Latest: {{ latest_high.event_time|fmt_date }}, {{ latest_high.event_type|lower }}{% else %}None recorded{% endif %}</span></div>
+  <div class="stat"><span class="label">Trusted contacts</span><span class="num">{{ contacts|length }}</span><span class="hint">{{ verified_count }} verified · {{ contacts|length - verified_count }} awaiting verification</span></div>
+</section>
+
+<div class="row">
+  <section class="card col-2" aria-labelledby="todo-h" style="gap:4px">
+    <div class="card-head" style="margin-bottom:12px"><h2 id="todo-h">Needs your attention</h2><span class="small muted">{{ todo|length }} item{{ 's' if todo|length != 1 }}</span></div>
+    {% for t in todo %}
+    <div class="todo-item">
+      <span class="pill {{ risk_class(t.level) }}">{{ t.level|upper }}</span>
+      <div class="body"><span class="title">{{ t.title }}</span><span class="small muted">{{ t.meta }}</span></div>
+      <a href="{{ t.link }}" class="btn {{ 'btn-primary' if t.primary else 'btn-secondary' }}">{{ t.button }}</a>
+    </div>
+    {% else %}
+    <p class="muted">Nothing needs your attention. Nice work.</p>
+    {% endfor %}
+  </section>
+
+  <section class="card col-1" aria-labelledby="health-h">
+    <h2 id="health-h">Asset health</h2>
+    {% for label, done, total in health %}
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <div class="kv"><span>{{ label }}</span><b>{{ done }} of {{ total }}</b></div>
+      <div class="bar" role="img" aria-label="{{ done }} of {{ total }}"><div style="width: {{ (100 * done / total)|round|int if total else 0 }}%"></div></div>
+    </div>
+    {% endfor %}
+    <div style="border-top:1px solid var(--line-soft);padding-top:16px;display:flex;flex-direction:column;gap:10px">
+      {% for a in assets %}
+      <div class="kv"><span>{{ a.asset_label }}</span>
+        <span class="{{ 't-ok' if a.management_status == 'Active' else ('t-bad' if a.management_status in ['Unmanaged','Under Review'] else 't-muted') }}">{{ a.management_status }}</span></div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<section class="card" aria-labelledby="recent-h">
+  <div class="card-head"><h2 id="recent-h">Recent activity</h2><a href="/alerts" style="font-size:14px;font-weight:600">View all alerts</a></div>
+  <div class="table-wrap">
+    <table class="table">
+      <thead><tr><th>When</th><th>Event</th><th>Asset</th><th>Location</th><th>Risk</th></tr></thead>
+      <tbody>
+      {% for e in events %}
+      <tr>
+        <td class="mono">{{ e.event_time|fmt_dt }}</td>
+        <td>{{ e.event_type }}{% if e.failed_attempt_count >= 3 %} ({{ e.failed_attempt_count }}){% endif %}</td>
+        <td>{{ e.asset.asset_label }}</td>
+        <td>{{ e.location_region }}</td>
+        <td><span class="pill {{ risk_class(e.risk_level) }}">{{ e.risk_level }}</span></td>
+      </tr>
+      {% else %}
+      <tr><td colspan="5" class="muted">No activity yet.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

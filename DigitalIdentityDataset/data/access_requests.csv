@@ -1,0 +1,81 @@
+request_id,user_id,asset_id,contact_id,requester_type,request_type,request_reason,request_date,verification_status,authorization_status,request_status
+R0001,U0092,A0308,C0099,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-05-29,Verified,Approved,Approved
+R0002,U0093,A0310,C0101,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-05-23,Verified,Denied,Closed
+R0003,U0012,A0034,,Unregistered Requester,View Asset Metadata,Says they are from customer support and need to verify the account,2026-04-25,Pending,Pending,Pending
+R0004,U0041,A0133,C0044,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-09-06,Verified,Denied,Denied
+R0005,U0021,A0064,C0026,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-05-10,Verified,Denied,Denied
+R0006,U0052,A0169,C0059,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-08-12,Verified,Pending,Pending
+R0007,U0024,A0075,C0027,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-09-11,Verified,Approved,Approved
+R0008,U0079,A0266,C0081,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-03-26,Verified,Approved,Approved
+R0009,U0060,A0193,C0065,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-09-20,Verified,Approved,Approved
+R0010,U0083,A0279,C0086,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-06-22,Verified,Denied,Denied
+R0011,U0030,A0096,C0032,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-04-27,Rejected,Denied,Denied
+R0012,U0047,A0155,C0053,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-08-28,Pending,Pending,Pending
+R0013,U0089,A0298,C0095,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-04-13,Verified,Denied,Closed
+R0014,U0006,A0017,C0010,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-10-05,Rejected,Denied,Closed
+R0015,U0035,A0116,C0038,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-07-06,Verified,Denied,Denied
+R0016,U0002,A0005,C0002,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-07-02,Rejected,Denied,Denied
+R0017,U0070,A0233,C0074,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-05-05,Verified,Approved,Approved
+R0018,U0028,A0092,C0030,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-09-16,Rejected,Denied,Denied
+R0019,U0022,A0067,,Unregistered Requester,Request Account Review,Claims the user asked them to manage the account but cannot verify identity,2026-10-18,Rejected,Denied,Closed
+R0020,U0039,A0129,C0041,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-01-24,Verified,Pending,Pending
+R0021,U0057,A0185,C0062,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-07-07,Verified,Pending,Pending
+R0022,U0008,A0024,C0012,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-08-16,Verified,Approved,Approved
+R0023,U0087,A0291,C0092,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-07-14,Verified,Approved,Closed
+R0024,U0089,A0298,C0095,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-10-12,Verified,Denied,Closed
+R0025,U0031,A0101,C0035,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-07-02,Verified,Approved,Approved
+R0026,U0093,A0309,C0101,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-03-27,Verified,Denied,Denied
+R0027,U0094,A0312,C0102,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-05-16,Rejected,Denied,Closed
+R0028,U0006,A0016,C0010,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-09-30,Pending,Pending,Pending
+R0029,U0088,A0294,C0093,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-10-23,Pending,Pending,Pending
+R0030,U0040,A0130,C0043,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-10-14,Verified,Approved,Approved
+R0031,U0021,A0064,C0025,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-10-22,Rejected,Denied,Denied
+R0032,U0048,A0160,,Unregistered Requester,View Asset Metadata,Says they are from customer support and need to verify the account,2026-05-25,Pending,Pending,Pending
+R0033,U0045,A0150,C0047,Trusted Contact,Request Account Review,Account appears inactive for a long time,2026-06-14,Pending,Pending,Pending
+R0034,U0086,A0287,C0088,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-08-29,Verified,Denied,Denied
+R0035,U0005,A0015,C0008,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-05-09,Verified,Approved,Closed
+R0036,U0059,A0190,C0064,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-01-08,Rejected,Denied,Denied
+R0037,U0086,A0289,C0090,Trusted Contact,Request Account Review,Account appears inactive for a long time,2026-08-19,Pending,Pending,Pending
+R0038,U0024,A0075,C0027,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-02-10,Verified,Denied,Denied
+R0039,U0050,A0164,C0056,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-10-14,Rejected,Denied,Denied
+R0040,U0007,A0022,C0011,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-04-30,Verified,Pending,Pending
+R0041,U0100,A0329,C0107,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-05-01,Verified,Approved,Approved
+R0042,U0038,A0127,C0040,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-04-08,Pending,Pending,Pending
+R0043,U0090,A0303,C0096,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-03-17,Pending,Pending,Pending
+R0044,U0093,A0310,C0101,Trusted Contact,Request Account Review,Account appears inactive for a long time,2026-09-29,Verified,Denied,Denied
+R0045,U0088,A0296,C0093,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-09-01,Pending,Pending,Pending
+R0046,U0072,A0241,,Unregistered Requester,Request Account Review,Claims to be a relative and wants account access,2026-02-20,Rejected,Denied,Denied
+R0047,U0020,A0060,,Unregistered Requester,Request Account Review,Requests login details to 'recover' the account,2026-05-29,Rejected,Denied,Denied
+R0048,U0028,A0089,C0030,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-05-15,Rejected,Denied,Denied
+R0049,U0006,A0017,,Unregistered Requester,Request Account Review,Urgent request to change the recovery email,2026-07-10,Rejected,Denied,Denied
+R0050,U0024,A0077,C0027,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-09-09,Verified,Denied,Denied
+R0051,U0080,A0268,C0083,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-06-07,Pending,Pending,Pending
+R0052,U0033,A0111,C0036,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-08-10,Verified,Approved,Approved
+R0053,U0038,A0124,C0040,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-04-17,Pending,Pending,Pending
+R0054,U0086,A0289,C0088,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-07-15,Pending,Pending,Pending
+R0055,U0098,A0323,C0106,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-07-22,Verified,Approved,Approved
+R0056,U0033,A0111,C0036,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-03-16,Verified,Pending,Pending
+R0057,U0021,A0063,C0025,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-06-02,Rejected,Denied,Closed
+R0058,U0061,A0197,C0067,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-02-07,Verified,Denied,Denied
+R0059,U0017,A0052,C0020,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-06-22,Rejected,Denied,Closed
+R0060,U0033,A0112,C0036,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-08-08,Verified,Approved,Approved
+R0061,U0062,A0200,,Unregistered Requester,Request Account Review,Claims the user asked them to manage the account but cannot verify identity,2026-08-25,Pending,Pending,Pending
+R0062,U0041,A0133,C0045,Trusted Contact,Flag Suspicious Activity,Got a payment request that looked suspicious,2026-03-08,Pending,Pending,Pending
+R0063,U0053,A0172,C0060,Trusted Contact,Flag Suspicious Activity,Noticed unusual posts on the user's profile,2026-08-30,Pending,Pending,Pending
+R0064,U0087,A0291,C0092,Trusted Contact,Request Account Review,Account appears inactive for a long time,2026-10-20,Verified,Pending,Pending
+R0065,U0001,A0003,,Unregistered Requester,View Asset Metadata,Claims to be a relative and wants account access,2026-07-09,Rejected,Denied,Denied
+R0066,U0092,A0307,C0100,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-09-27,Verified,Approved,Closed
+R0067,U0074,A0249,C0078,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-04-22,Pending,Pending,Pending
+R0068,U0002,A0004,,Unregistered Requester,View Asset Metadata,Requests login details to 'recover' the account,2026-10-20,Rejected,Denied,Closed
+R0069,U0079,A0267,,Unregistered Requester,View Asset Metadata,Says they are from customer support and need to verify the account,2026-10-10,Pending,Pending,Pending
+R0070,U0005,A0014,C0009,Trusted Contact,Flag Suspicious Activity,Received an odd message that appeared to come from this account,2026-10-05,Rejected,Denied,Denied
+R0071,U0094,A0312,C0102,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-08-07,Rejected,Denied,Denied
+R0072,U0009,A0025,,Unregistered Requester,View Asset Metadata,Urgent request to change the recovery email,2026-04-15,Pending,Pending,Pending
+R0073,U0003,A0008,C0004,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-08-10,Pending,Pending,Pending
+R0074,U0042,A0138,,Unregistered Requester,Request Account Review,Claims to be a relative and wants account access,2026-06-12,Rejected,Denied,Denied
+R0075,U0006,A0016,C0010,Trusted Contact,Request Account Review,Wants the account reviewed as per the user's preferences,2026-04-22,Rejected,Denied,Denied
+R0076,U0004,A0010,C0007,Trusted Contact,Request Account Review,User has been unreachable and the account looks unattended,2026-09-19,Verified,Approved,Approved
+R0077,U0004,A0011,C0007,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-08-16,Verified,Approved,Closed
+R0078,U0086,A0290,C0088,Trusted Contact,View Asset Metadata,Needs the list of registered accounts to help with an account review,2026-09-22,Pending,Pending,Pending
+R0079,U0024,A0076,C0027,Trusted Contact,View Asset Metadata,Helping the user organise their digital accounts,2026-01-26,Verified,Approved,Closed
+R0080,U0080,A0268,C0083,Trusted Contact,View Asset Metadata,Wants to confirm which services are registered,2026-06-30,Pending,Pending,Pending

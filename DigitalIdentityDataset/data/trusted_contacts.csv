@@ -1,0 +1,108 @@
+contact_id,user_id,contact_name,relationship_category,verification_status,authorization_level,contact_email,added_on
+C0001,U0001,Chaitra Shetty,Friend,Pending,No Authorization,contact0001@example.com,2026-06-17
+C0002,U0002,Rhea Contractor,Friend,Not Verified,No Authorization,contact0002@example.com,2025-05-08
+C0003,U0002,Tanvi Mehra,Friend,Not Verified,No Authorization,contact0003@example.com,2025-06-02
+C0004,U0003,Aarav Khanna,Friend,Not Verified,No Authorization,contact0004@example.com,2024-05-17
+C0005,U0004,Nisha Modi,Friend,Pending,No Authorization,contact0005@example.com,2025-12-26
+C0006,U0004,Foram Patel,Family,Not Verified,No Authorization,contact0006@example.com,2026-01-09
+C0007,U0004,Aman Patel,Family,Verified,Submit Request,contact0007@example.com,2026-06-28
+C0008,U0005,Neethu Jacob,Family,Verified,Submit Request,contact0008@example.com,2026-04-27
+C0009,U0005,Vishnu Nambiar,Friend,Not Verified,No Authorization,contact0009@example.com,2025-10-05
+C0010,U0006,Shreyas Shenoy,Family,Not Verified,No Authorization,contact0010@example.com,2025-02-05
+C0011,U0007,Prakash Balasubramanian,Colleague,Verified,Submit Request,contact0011@example.com,2025-12-25
+C0012,U0008,Spoorthi Rao,Friend,Verified,View Metadata,contact0012@example.com,2025-09-15
+C0013,U0010,Manash Hazarika,Other,Verified,View Metadata,contact0013@example.com,2026-04-27
+C0014,U0011,Neha Bhatia,Family,Pending,No Authorization,contact0014@example.com,2026-01-04
+C0015,U0013,Rohan Pandey,Family,Verified,View Metadata,contact0015@example.com,2026-06-23
+C0016,U0013,Vivaan Pandey,Family,Verified,Submit Request,contact0016@example.com,2026-04-24
+C0017,U0014,Debasish Nayak,Family,Verified,Submit Request,contact0017@example.com,2026-03-24
+C0018,U0014,Biswajit Nayak,Other,Pending,No Authorization,contact0018@example.com,2025-02-21
+C0019,U0014,Sonali Panda,Family,Not Verified,No Authorization,contact0019@example.com,2025-02-06
+C0020,U0017,Fatima Irani,Other,Not Verified,No Authorization,contact0020@example.com,2026-04-23
+C0021,U0018,Deepak Bisht,Friend,Pending,No Authorization,contact0021@example.com,2026-04-25
+C0022,U0018,Harpreet Bajwa,Friend,Verified,View Metadata,contact0022@example.com,2025-09-06
+C0023,U0018,Simran Chawla,Family,Verified,View Metadata,contact0023@example.com,2025-03-29
+C0024,U0019,Khushi Joshi,Family,Not Verified,No Authorization,contact0024@example.com,2025-12-20
+C0025,U0021,Neha Dubey,Other,Not Verified,No Authorization,contact0025@example.com,2026-04-16
+C0026,U0021,Vikas Mehra,Friend,Verified,View Metadata,contact0026@example.com,2026-03-29
+C0027,U0024,Zarine Pillai,Family,Verified,View Metadata,contact0027@example.com,2025-05-24
+C0028,U0027,Keerthana Sundaram,Friend,Verified,Submit Request,contact0028@example.com,2026-04-22
+C0029,U0027,Priyadharshini Kannan,Other,Verified,View Metadata,contact0029@example.com,2026-02-17
+C0030,U0028,Aditi Mehra,Other,Not Verified,No Authorization,contact0030@example.com,2026-01-15
+C0031,U0030,Anirban Mukherjee,Other,Pending,No Authorization,contact0031@example.com,2025-10-10
+C0032,U0030,Moumita Mukherjee,Family,Not Verified,No Authorization,contact0032@example.com,2024-08-23
+C0033,U0031,Kevin D'Costa,Friend,Verified,Submit Request,contact0033@example.com,2024-12-02
+C0034,U0031,Harpreet Chawla,Family,Pending,No Authorization,contact0034@example.com,2025-08-18
+C0035,U0031,Imran Mirza,Family,Verified,Submit Request,contact0035@example.com,2026-05-07
+C0036,U0033,Meera Tiwari,Family,Verified,Submit Request,contact0036@example.com,2024-05-05
+C0037,U0034,Dikshita Gogoi,Family,Pending,No Authorization,contact0037@example.com,2026-02-21
+C0038,U0035,Darshan Shenoy,Family,Verified,View Metadata,contact0038@example.com,2026-06-19
+C0039,U0035,Ashwin Pereira,Friend,Verified,Submit Request,contact0039@example.com,2026-03-10
+C0040,U0038,Chaitra Acharya,Family,Pending,No Authorization,contact0040@example.com,2026-02-28
+C0041,U0039,Glenda Lobo,Family,Verified,View Metadata,contact0041@example.com,2025-07-19
+C0042,U0040,Amandeep Bedi,Family,Verified,Submit Request,contact0042@example.com,2025-01-12
+C0043,U0040,Vikas Bedi,Family,Verified,Submit Request,contact0043@example.com,2025-01-23
+C0044,U0041,Rituparna Das,Other,Verified,View Metadata,contact0044@example.com,2026-06-16
+C0045,U0041,Arnab Saha,Family,Pending,No Authorization,contact0045@example.com,2025-08-28
+C0046,U0043,Adil Ansari,Friend,Verified,Submit Request,contact0046@example.com,2024-09-29
+C0047,U0045,Siddharth Apte,Friend,Pending,No Authorization,contact0047@example.com,2025-12-08
+C0048,U0045,Aman Siddiqui,Family,Pending,No Authorization,contact0048@example.com,2026-01-02
+C0049,U0046,Vivaan Gupta,Family,Verified,Submit Request,contact0049@example.com,2026-03-16
+C0050,U0046,Parminder Randhawa,Other,Pending,No Authorization,contact0050@example.com,2026-03-02
+C0051,U0046,Gaurav Khanna,Family,Not Verified,No Authorization,contact0051@example.com,2026-02-03
+C0052,U0047,Komal Joshi,Family,Pending,No Authorization,contact0052@example.com,2026-02-15
+C0053,U0047,Nidhi Khanna,Family,Verified,View Metadata,contact0053@example.com,2026-01-18
+C0054,U0048,Meera Parikh,Family,Verified,View Metadata,contact0054@example.com,2025-01-19
+C0055,U0048,Krupa Parikh,Family,Pending,No Authorization,contact0055@example.com,2025-11-29
+C0056,U0050,Rohan Dubey,Other,Not Verified,No Authorization,contact0056@example.com,2025-10-21
+C0057,U0052,Ishaan Chaturvedi,Family,Verified,View Metadata,contact0057@example.com,2026-05-19
+C0058,U0052,Manish Gupta,Friend,Verified,View Metadata,contact0058@example.com,2025-11-08
+C0059,U0052,Kevin Contractor,Friend,Verified,Submit Request,contact0059@example.com,2026-04-05
+C0060,U0053,Megha Dubey,Friend,Verified,View Metadata,contact0060@example.com,2026-01-03
+C0061,U0056,Kavya Qureshi,Friend,Pending,No Authorization,contact0061@example.com,2025-08-27
+C0062,U0057,Dhwani Mehta,Other,Verified,Submit Request,contact0062@example.com,2026-02-01
+C0063,U0059,Pallavi Dubey,Friend,Verified,View Metadata,contact0063@example.com,2026-04-23
+C0064,U0059,Aditya Khanna,Colleague,Not Verified,No Authorization,contact0064@example.com,2024-11-03
+C0065,U0060,Irfan Rawat,Family,Verified,Submit Request,contact0065@example.com,2025-05-28
+C0066,U0061,Janvi Wangchuk,Family,Pending,No Authorization,contact0066@example.com,2026-04-21
+C0067,U0061,Komal Dubey,Friend,Verified,View Metadata,contact0067@example.com,2026-01-11
+C0068,U0062,Farhan Mirza,Family,Pending,No Authorization,contact0068@example.com,2025-05-21
+C0069,U0063,Rohit Borkar,Friend,Verified,View Metadata,contact0069@example.com,2025-07-29
+C0070,U0063,Shreyas Bhat,Friend,Verified,View Metadata,contact0070@example.com,2024-12-28
+C0071,U0064,Komal Chaturvedi,Colleague,Verified,View Metadata,contact0071@example.com,2025-09-21
+C0072,U0065,Aman Rizvi,Friend,Verified,View Metadata,contact0072@example.com,2026-04-10
+C0073,U0066,Parth Modi,Family,Pending,No Authorization,contact0073@example.com,2026-05-28
+C0074,U0070,Sonali Patnaik,Colleague,Verified,View Metadata,contact0074@example.com,2026-03-31
+C0075,U0071,Aniket Rawat,Family,Verified,View Metadata,contact0075@example.com,2025-11-04
+C0076,U0071,Khushi Rawat,Family,Pending,No Authorization,contact0076@example.com,2025-08-06
+C0077,U0074,Mounika Varma,Colleague,Not Verified,No Authorization,contact0077@example.com,2026-04-09
+C0078,U0074,Venkat Goud,Colleague,Verified,View Metadata,contact0078@example.com,2026-02-11
+C0079,U0076,Rohan Malhotra,Family,Pending,No Authorization,contact0079@example.com,2026-06-25
+C0080,U0077,Naveen Prasad,Colleague,Verified,View Metadata,contact0080@example.com,2025-11-20
+C0081,U0079,Venkat Chowdary,Family,Verified,View Metadata,contact0081@example.com,2025-05-17
+C0082,U0079,Venkat Nalla,Family,Verified,View Metadata,contact0082@example.com,2025-06-28
+C0083,U0080,Parth Verma,Family,Verified,Submit Request,contact0083@example.com,2024-12-13
+C0084,U0082,Ananya More,Family,Verified,View Metadata,contact0084@example.com,2025-09-04
+C0085,U0083,Bhavin Soni,Family,Verified,View Metadata,contact0085@example.com,2024-11-26
+C0086,U0083,Jignesh Vyas,Family,Verified,View Metadata,contact0086@example.com,2024-10-08
+C0087,U0084,Nikhil Joshi,Family,Verified,View Metadata,contact0087@example.com,2025-04-13
+C0088,U0086,Jithin Panicker,Friend,Verified,View Metadata,contact0088@example.com,2026-02-08
+C0089,U0086,Jithin Mohan,Colleague,Verified,View Metadata,contact0089@example.com,2026-03-03
+C0090,U0086,Nithin Thomas,Other,Pending,No Authorization,contact0090@example.com,2026-03-13
+C0091,U0087,Priyadharshini Murugan,Family,Not Verified,No Authorization,contact0091@example.com,2026-03-20
+C0092,U0087,Balaji Krishnan,Friend,Verified,Submit Request,contact0092@example.com,2026-06-12
+C0093,U0088,Pavan Naidu,Family,Pending,No Authorization,contact0093@example.com,2026-05-23
+C0094,U0088,Sai Yerramsetti,Family,Verified,View Metadata,contact0094@example.com,2026-01-18
+C0095,U0089,Shreya Agarwal,Colleague,Verified,View Metadata,contact0095@example.com,2025-07-12
+C0096,U0090,Imran Singh,Family,Pending,No Authorization,contact0096@example.com,2026-02-14
+C0097,U0091,Pavan Reddy,Other,Verified,View Metadata,contact0097@example.com,2025-05-09
+C0098,U0091,Kiran Reddy,Family,Pending,No Authorization,contact0098@example.com,2026-02-05
+C0099,U0092,Ravi Rizvi,Other,Verified,Submit Request,contact0099@example.com,2026-05-18
+C0100,U0092,Ayesha Ali,Family,Verified,Submit Request,contact0100@example.com,2026-04-26
+C0101,U0093,Zoya Das,Family,Verified,View Metadata,contact0101@example.com,2025-04-07
+C0102,U0094,Grace Mirza,Friend,Not Verified,No Authorization,contact0102@example.com,2025-12-04
+C0103,U0095,Harika Varma,Family,Verified,Submit Request,contact0103@example.com,2024-10-22
+C0104,U0096,Rhea Ali,Family,Verified,Submit Request,contact0104@example.com,2026-03-28
+C0105,U0098,Biswajit Mohanty,Family,Not Verified,No Authorization,contact0105@example.com,2024-12-02
+C0106,U0098,Zaid Mascarenhas,Family,Verified,View Metadata,contact0106@example.com,2026-06-01
+C0107,U0100,Hetal Pandya,Family,Verified,Submit Request,contact0107@example.com,2025-09-29

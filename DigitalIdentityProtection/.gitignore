@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+identity.db
+identity.db.bak
+.secret_key

@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Security alerts{% endblock %}
+{% block content %}
+<header class="page-head">
+  <div>
+    <h1>Security alerts</h1>
+    <p class="sub">Activity on your registered assets, scored by risk. All events in this demo are simulated.</p>
+  </div>
+</header>
+
+{% if top %}
+<section class="card alert-hero {{ 'resolved' if top.resolution or top.is_suspicious == 'No' }}" aria-labelledby="top-h" style="gap:20px">
+  <div class="card-head" style="align-items:flex-start">
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <span class="pill {{ risk_class(top.risk_level) }}" style="align-self:flex-start">{{ top.risk_level|upper }} RISK{% if top.is_suspicious == 'Yes' and not top.resolution %} · NEEDS YOUR ANSWER{% endif %}</span>
+      <h2 id="top-h" style="font-size:22px;font-weight:700">
+        {% if top.event_type in ['Unusual Login', 'Unknown Device', 'Repeated Failed Login'] %}Was this you signing in to {{ top.asset.asset_label }}?
+        {% else %}{{ top.event_type }} on {{ top.asset.asset_label }}{% endif %}</h2>
+      <span class="small muted">{{ top.event_time|fmt_dt }} · {{ top.device_category }} · {{ top.location_region }}{% if top.failed_attempt_count %} · {{ top.failed_attempt_count }} failed attempt{{ 's' if top.failed_attempt_count != 1 }}{% endif %}</span>
+    </div>
+    <span class="mono muted">{{ top.event_id }}</span>
+  </div>
+  {% if reasons %}
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <b style="font-size:14px">Why we flagged it</b>
+    <div class="reasons">{% for t, d in reasons %}<div class="reason"><b>{{ t }}</b><span class="muted">{{ d }}</span></div>{% endfor %}</div>
+  </div>
+  {% endif %}
+  <div class="kv" style="justify-content:flex-start;gap:24px;flex-wrap:wrap">
+    <span>Recommended action: <b>{{ top.recommended_action }}</b></span>
+    <span class="muted">Source: {{ top.data_origin }}</span>
+  </div>
+  {% if top.resolution %}
+    <div class="flash ok">Resolved: {{ top.resolution }}.</div>
+  {% elif top.is_suspicious == 'Yes' %}
+  <div class="actions">
+    <form method="post" action="/alerts/{{ top.event_id }}/resolve" class="inline"><input type="hidden" name="answer" value="not_me"><button class="btn btn-danger">No — secure this account</button></form>
+    <form method="post" action="/alerts/{{ top.event_id }}/resolve" class="inline"><input type="hidden" name="answer" value="me"><button class="btn btn-secondary">Yes, it was me</button></form>
+  </div>
+  {% endif %}
+</section>
+{% else %}
+<div class="flash ok">No open alerts. Everything looks normal.</div>
+{% endif %}
+
+<section class="card" aria-labelledby="all-h">
+  <div class="card-head">
+    <h2 id="all-h">All activity</h2>
+    <nav class="chips" aria-label="Filter by risk">
+      {% for r in ['All', 'High', 'Medium', 'Low'] %}
+      <a href="/alerts?risk={{ r }}" class="chip {{ 'active' if risk == r or (r == 'All' and risk not in ['High','Medium','Low']) }}">{{ r }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  <ol style="list-style:none;margin:0;padding:0">
+    {% for e in events %}
+    <li class="event-row">
+      <span class="when mono">{{ e.event_time|fmt_dt }}</span>
+      <div class="body">
+        <a href="/alerts?focus={{ e.event_id }}" style="font-weight:600;color:var(--ink)">{{ e.event_type }} · {{ e.asset.asset_label }}</a>
+        <span class="small muted">{{ e.device_category }}{{ ' (new)' if e.is_new_device == 'Yes' }} · {{ e.location_region }}{% if e.failed_attempt_count %} · {{ e.failed_attempt_count }} failed{% endif %}{% if e.resolution %} · <b>{{ e.resolution }}</b>{% endif %}</span>
+      </div>
+      <span class="pill {{ risk_class(e.risk_level) }}">{{ e.risk_level }}</span>
+      <span class="act">{{ e.recommended_action }}</span>
+    </li>
+    {% else %}
+    <li class="muted">No activity at this risk level.</li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="card" aria-labelledby="sim-h">
+  <details class="sim">
+    <summary id="sim-h">Simulate a security event (demo)</summary>
+    <form method="post" action="/alerts/simulate" class="form" style="margin-top:14px">
+      <div class="two">
+        <div class="field"><label for="ev-asset">Asset</label>
+          <select id="ev-asset" name="asset_id">{% for a in assets %}<option value="{{ a.asset_id }}">{{ a.asset_label }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="ev-type">Event type</label>
+          <select id="ev-type" name="event_type">{% for t in event_types %}<option {{ 'selected' if t == 'Unusual Login' }}>{{ t }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="ev-loc">Location</label>
+          <select id="ev-loc" name="location_region">{% for c in cities %}<option {{ 'selected' if c == home }}>{{ c }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="ev-dev">Device</label>
+          <select id="ev-dev" name="device_category">{% for d in devices %}<option>{{ d }}</option>{% endfor %}</select></div>
+        <div class="field"><label for="ev-hour">Hour (0–23)</label><input id="ev-hour" name="hour" type="number" min="0" max="23" value="2"></div>
+        <div class="field"><label for="ev-fail">Failed attempts</label><input id="ev-fail" name="failed_attempt_count" type="number" min="0" max="50" value="0"></div>
+      </div>
+      <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" name="is_new_device" value="Yes" checked> New device</label>
+      <p class="small muted" style="margin:0">Your home location is {{ home }}. The rule engine scores the event and explains the result.</p>
+      <button type="submit" class="btn btn-primary">Run simulation</button>
+    </form>
+  </details>
+</section>
+{% endblock %}
